@@ -1,0 +1,17 @@
+# Sound Insulation Test Report Writer - Dependencies
+
+# PDF Processing
+PyPDF2>=3.0.0
+reportlab>=4.0.0
+
+# Microsoft Office Automation (Windows only)
+pywin32>=305
+
+# Document Processing
+python-docx>=1.0.0
+
+# API Integration
+requests>=2.31.0
+
+# Core dependencies
+# Note: Requires Windows OS for win32com functionality
