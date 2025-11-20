@@ -1,0 +1,9 @@
+# SvanPC-Pal - Dependencies
+
+# Windows UI Automation
+pywinauto>=0.6.8
+
+# Note: Requires Windows OS for pywinauto functionality
+# External software dependencies:
+#   - SvanPC++ (Svantek noise measurement software)
+#   - Microsoft Excel (for data export)
