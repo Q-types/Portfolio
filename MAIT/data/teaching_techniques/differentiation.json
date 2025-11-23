@@ -1,0 +1,20 @@
+{
+  "techniques": [
+      {
+          "name": "Varied Instructional Approaches",
+          "description": "Using different teaching methods to cater to various learning styles."
+      },
+      {
+          "name": "Multiple Means of Engagement",
+          "description": "Providing various ways for students to engage with the material."
+      },
+      {
+          "name": "Different Modes of Assessment",
+          "description": "Allowing students to demonstrate understanding in different ways (e.g., written, oral, project-based)."
+      },
+      {
+          "name": "Flexible Grouping",
+          "description": "Grouping students flexibly based on their learning needs and strengths."
+      }
+  ]
+}

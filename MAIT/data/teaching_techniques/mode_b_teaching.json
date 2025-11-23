@@ -1,0 +1,49 @@
+{
+  "techniques": [
+      {
+          "name": "Flipped Classroom",
+          "description": "A teaching model where students learn new content at home through videos or readings and engage in interactive activities in class to deepen understanding.",
+          "tasks": [
+              "Assign pre-class work for students to complete at home.",
+              "Design in-class activities that build on that knowledge.",
+              "Facilitate discussions, problem-solving, and hands-on practice."
+          ]
+      },
+      {
+          "name": "Project-Based Learning",
+          "description": "An instructional approach where students learn by actively engaging in real-world and personally meaningful projects. It promotes critical thinking, collaboration, and creativity.",
+          "tasks": [
+              "Develop projects that align with curriculum goals.",
+              "Provide students with clear guidelines and milestones.",
+              "Facilitate opportunities for reflection and presentation."
+          ]
+      },
+      {
+          "name": "Independent Study",
+          "description": "Allowing students to explore topics of interest independently, fostering autonomy and self-directed learning. It encourages responsibility and personal growth.",
+          "tasks": [
+              "Provide resources and guidance for independent study projects.",
+              "Set clear expectations and timelines.",
+              "Support students in setting and achieving their own learning goals."
+          ]
+      },
+      {
+          "name": "Peer Teaching",
+          "description": "A method where students teach each other, reinforcing their own understanding and building communication skills. It can involve tutoring, group work, or presentations.",
+          "tasks": [
+              "Organize activities where students explain concepts to their peers.",
+              "Facilitate group discussions.",
+              "Encourage collaborative learning experiences."
+          ]
+      },
+      {
+          "name": "Inquiry-Based Learning",
+          "description": "An approach where students learn by asking questions, investigating solutions, and constructing new understandings. It promotes curiosity and critical thinking.",
+          "tasks": [
+              "Design lessons around open-ended questions.",
+              "Provide opportunities for exploration and research.",
+              "Guide students in developing their own questions and investigations."
+          ]
+      }
+  ]
+}

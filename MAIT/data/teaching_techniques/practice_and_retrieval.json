@@ -1,0 +1,49 @@
+{
+  "techniques": [
+      {
+          "name": "Retrieval Practice",
+          "description": "The act of recalling information from memory to enhance and reinforce learning. It strengthens memory and improves long-term retention.",
+          "tasks": [
+              "Include regular quizzes and flashcards.",
+              "Encourage students to recall information rather than reviewing notes.",
+              "Use retrieval practice to reinforce learning."
+          ]
+      },
+      {
+          "name": "Spacing and Interleaving",
+          "description": "Spacing involves spreading out learning over time, while interleaving involves mixing different topics or skills within a single study session.",
+          "tasks": [
+              "Schedule lessons and review sessions to revisit topics over time.",
+              "Mix different types of problems or subjects within practice sessions.",
+              "Enhance learning by spacing and interleaving practice."
+          ]
+      },
+      {
+          "name": "Deliberate Practice",
+          "description": "Focused, goal-oriented practice aimed at improving specific aspects of performance. It involves setting clear goals, receiving feedback, and continuously refining skills.",
+          "tasks": [
+              "Design practice activities that target specific skills or knowledge areas.",
+              "Provide feedback to guide improvement.",
+              "Encourage students to reflect and adjust their approach."
+          ]
+      },
+      {
+          "name": "Quizzing and Testing",
+          "description": "Using quizzes and tests as learning tools, not just assessments. Regular testing helps reinforce memory and identify areas that need further study.",
+          "tasks": [
+              "Incorporate frequent, low-stakes quizzes to assess understanding.",
+              "Reinforce learning with regular quizzing and testing.",
+              "Use test results to inform future instruction."
+          ]
+      },
+      {
+          "name": "Distributed Practice",
+          "description": "Spreading out study sessions over time rather than cramming. It improves retention and helps students build stronger connections between concepts.",
+          "tasks": [
+              "Plan study sessions and review activities across multiple lessons.",
+              "Ensure students revisit and practice material at regular intervals.",
+              "Enhance retention with distributed practice."
+          ]
+      }
+  ]
+}

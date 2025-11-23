@@ -1,0 +1,49 @@
+{
+  "techniques": [
+      {
+          "name": "Backward Design",
+          "description": "A method of designing educational curriculum by setting goals before choosing instructional methods and forms of assessment. It starts with identifying the desired end results and then works backwards to develop instruction.",
+          "tasks": [
+              "Define clear learning objectives for the lesson.",
+              "Determine acceptable evidence of learning through assessments.",
+              "Plan instructional activities that will lead students to achieve those objectives."
+          ]
+      },
+      {
+          "name": "Curriculum Mapping",
+          "description": "A process for collecting and recording curriculum-related data that identifies core skills and content taught, processes employed, and assessments used for each subject area and grade level.",
+          "tasks": [
+              "Create a visual representation of the curriculum.",
+              "Ensure all necessary content is covered systematically.",
+              "Align lessons with educational standards and objectives."
+          ]
+      },
+      {
+          "name": "Interleaving and Spacing",
+          "description": "Interleaving involves mixing different topics or forms of practice, while spacing involves spreading out study sessions over time rather than cramming.",
+          "tasks": [
+              "Mix different types of problems or topics in practice sessions.",
+              "Schedule review sessions at increasing intervals.",
+              "Encourage students to revisit previous topics."
+          ]
+      },
+      {
+          "name": "Knowledge Organizers",
+          "description": "Summarized documents that outline the essential knowledge and vocabulary for a specific topic or unit. They provide a clear overview of what students need to know.",
+          "tasks": [
+              "Identify essential concepts and vocabulary.",
+              "Create a visual layout of the information.",
+              "Use the organizer for review and reinforcement."
+          ]
+      },
+      {
+          "name": "Sequencing Learning",
+          "description": "The process of organizing content and skills in a logical, progressive order to build upon prior knowledge and ensure coherent development of understanding.",
+          "tasks": [
+              "Break down complex topics into manageable steps.",
+              "Ensure foundational knowledge is taught first.",
+              "Progressively build on prior knowledge and skills."
+          ]
+      }
+  ]
+}

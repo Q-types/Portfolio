@@ -1,0 +1,172 @@
+{
+    "general_lesson_structure": [
+        {
+            "section": "Lesson Objectives",
+            "meaning_content": {
+                "definition": "Clear, concise statements that define what students are expected to learn and achieve by the end of the lesson.",
+                "content": "Specific knowledge, skills, or attitudes students should acquire. Objectives should be measurable and achievable.",
+                "importance": "Provides a clear focus for both teaching and learning, guiding the structure and flow of the lesson. Helps students understand the purpose of the lesson and what is expected of them."
+            }
+        },
+        {
+            "section": "Recall/Starter",
+            "meaning_content": {
+                "definition": "Activities or questions designed to engage students at the beginning of the lesson by connecting to prior knowledge or experiences.",
+                "content": "Quick reviews, brainteasers, discussion prompts, or short quizzes related to previous lessons.",
+                "importance": "Activates prior knowledge, prepares students for new content, and engages their interest. Sets a positive tone for the lesson and helps to focus students’ attention."
+            }
+        },
+        {
+            "section": "New Knowledge",
+            "meaning_content": {
+                "definition": "The main instructional content of the lesson where new information or skills are introduced.",
+                "content": "Explanations, demonstrations, lectures, readings, multimedia presentations, and interactive discussions.",
+                "importance": "Central to the lesson, this section provides the core material that students need to learn. Effective delivery of new knowledge is crucial for understanding and retention."
+            },
+            "scaffolding_differentiation": {
+                "LA": "Simplified explanations with visual aids.",
+                "MA": "Standard explanations with some interactive elements.",
+                "HA": "Detailed explanations with complex examples.",
+                "SEN": "Highly structured explanations with step-by-step guides.",
+                "EAL": "Use of simplified language, visual aids, and pre-teaching key vocabulary."
+            },
+            "hinge_point_questions": [
+                {
+                    "question": "What is the main idea of the new topic introduced?",
+                    "answer": "The primary concept of the new topic."
+                },
+                {
+                    "question": "Can you explain this concept in your own words?",
+                    "answer": "A paraphrased explanation of the concept."
+                },
+                {
+                    "question": "How does this new information connect to what you already know?",
+                    "answer": "Explanation of the connection between new and prior knowledge."
+                }
+            ]
+        },
+        {
+            "section": "Connection to Real World",
+            "meaning_content": {
+                "definition": "Linking lesson content to real-world applications and contexts.",
+                "content": "Examples, case studies, practical applications, and discussions on how the new knowledge applies outside the classroom.",
+                "importance": "Helps students see the relevance and value of what they are learning, increasing motivation and engagement. Makes learning more meaningful and memorable."
+            },
+            "scaffolding_differentiation": {
+                "LA": "Simplified examples with clear visuals.",
+                "MA": "Moderate examples with guided discussions.",
+                "HA": "Complex real-world applications and problem-solving.",
+                "SEN": "Highly supported examples with visual aids.",
+                "EAL": "Real-world examples using familiar contexts and visual supports."
+            },
+            "hinge_point_questions": [
+                {
+                    "question": "How does this knowledge apply to everyday life?",
+                    "answer": "Explanation of practical applications."
+                },
+                {
+                    "question": "Can you think of a situation where this knowledge would be useful?",
+                    "answer": "Discussion of potential real-life scenarios."
+                },
+                {
+                    "question": "Why is it important to understand this concept in the real world?",
+                    "answer": "Reflection on the significance of the concept."
+                }
+            ]
+        },
+        {
+            "section": "Apply to Demonstrate",
+            "meaning_content": {
+                "definition": "Activities where students apply what they have learned to demonstrate understanding and proficiency.",
+                "content": "Practice problems, hands-on activities, group work, projects, and presentations.",
+                "importance": "Reinforces learning through application, allowing students to practice and solidify their understanding. Provides opportunities for assessment and feedback."
+            },
+            "scaffolding_differentiation": {
+                "LA": "Guided practice with step-by-step instructions.",
+                "MA": "Standard practice activities with some guidance.",
+                "HA": "Challenging tasks that require independent problem-solving.",
+                "SEN": "Highly supported practice with visual and tactile aids.",
+                "EAL": "Activities with visual aids, sentence starters, and collaborative work with peers."
+            },
+            "hinge_point_questions": [
+                {
+                    "question": "Can you apply this concept to solve a problem?",
+                    "answer": "The solution to the problem using the concept."
+                },
+                {
+                    "question": "What steps did you take to solve this problem?",
+                    "answer": "A detailed explanation of the steps taken."
+                },
+                {
+                    "question": "Can you think of another way to approach this problem?",
+                    "answer": "An alternative method for solving the problem."
+                }
+            ]
+        },
+        {
+            "section": "Lesson Summary",
+            "meaning_content": {
+                "definition": "A brief review of the key points covered in the lesson.",
+                "content": "Summarization activities, student reflections, discussion of main ideas, and highlighting the lesson’s objectives.",
+                "importance": "Reinforces key concepts, helps students consolidate their learning, and provides closure to the lesson. Ensures students leave with a clear understanding of what they have learned."
+            },
+            "scaffolding_differentiation": {
+                "LA": "Simplified summary with visual aids.",
+                "MA": "Standard summary activities with some interaction.",
+                "HA": "Detailed summary with opportunities for advanced reflection.",
+                "SEN": "Highly supported summary with visual and auditory aids.",
+                "EAL": "Summaries using visual supports and simplified language."
+            },
+            "hinge_point_questions": [
+                {
+                    "question": "What are the main points you learned today?",
+                    "answer": "A summary of the key points covered."
+                },
+                {
+                    "question": "How will you use this knowledge in the future?",
+                    "answer": "Practical applications of the knowledge."
+                },
+                {
+                    "question": "What questions do you still have about this topic?",
+                    "answer": "Encourages students to express any uncertainties."
+                }
+            ]
+        },
+        {
+            "section": "Past Exam Questions",
+            "meaning_content": {
+                "definition": "Using past exam questions to assess understanding and prepare students for future assessments.",
+                "content": "A selection of relevant questions from previous exams, practice tests, or quiz questions.",
+                "importance": "Helps students apply their knowledge in a test-like environment, identifies areas that need further review, and builds test-taking skills. Provides a benchmark for both students and teachers to gauge understanding and readiness."
+            }
+        },
+        {
+            "section": "Questions and Answers",
+            "meaning_content": {
+                "definition": "Five questions with answers based on the lesson objectives to be used within the lesson.",
+                "questions_and_answers": [
+                    {
+                        "question": "Question 1 based on the lesson objectives.",
+                        "answer": "Answer to question 1."
+                    },
+                    {
+                        "question": "Question 2 based on the lesson objectives.",
+                        "answer": "Answer to question 2."
+                    },
+                    {
+                        "question": "Question 3 based on the lesson objectives.",
+                        "answer": "Answer to question 3."
+                    },
+                    {
+                        "question": "Question 4 based on the lesson objectives.",
+                        "answer": "Answer to question 4."
+                    },
+                    {
+                        "question": "Question 5 based on the lesson objectives.",
+                        "answer": "Answer to question 5."
+                    }
+                ]
+            }
+        }
+    ]
+  }

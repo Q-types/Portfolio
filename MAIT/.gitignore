@@ -1,0 +1,48 @@
+# Environment Variables - NEVER COMMIT THESE!
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Generated Lesson Plans (can be large, optionally ignore)
+generated_lesson_plans/*.json
+generated_lesson_plans/*.pdf
+
+# Keep the directory structure
+!generated_lesson_plans/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# Test coverage
+htmlcov/
+.coverage
+.coverage.*
+.pytest_cache/

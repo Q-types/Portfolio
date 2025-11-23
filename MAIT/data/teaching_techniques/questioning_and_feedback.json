@@ -1,0 +1,49 @@
+{
+  "techniques": [
+      {
+          "name": "Cold Calling",
+          "description": "A strategy where the teacher calls on students to answer questions regardless of whether they have raised their hands. It keeps all students engaged and accountable.",
+          "tasks": [
+              "Plan questions to ask throughout the lesson.",
+              "Ensure you call on different students to promote active participation.",
+              "Use cold calling to check for understanding."
+          ]
+      },
+      {
+          "name": "Socratic Questioning",
+          "description": "A method of questioning that encourages critical thinking and deep understanding. It involves asking a series of thought-provoking questions that lead students to examine their assumptions and reasoning.",
+          "tasks": [
+              "Foster discussion with thought-provoking questions.",
+              "Encourage students to think critically about the material.",
+              "Guide students to deeper understanding through inquiry."
+          ]
+      },
+      {
+          "name": "Think-Pair-Share",
+          "description": "A collaborative learning strategy where students think about a question individually, then discuss their thoughts with a partner, and finally share their ideas with the larger group.",
+          "tasks": [
+              "Incorporate think-pair-share activities to encourage peer interaction.",
+              "Allow students to articulate their thinking.",
+              "Facilitate class discussions based on pair-sharing."
+          ]
+      },
+      {
+          "name": "Effective Questioning Techniques",
+          "description": "Using a variety of questioning techniques to promote engagement, assess understanding, and stimulate higher-order thinking. This includes open-ended questions, probing questions, and wait time.",
+          "tasks": [
+              "Plan a mix of question types to use throughout the lesson.",
+              "Give students time to think before answering.",
+              "Use follow-up questions to deepen understanding."
+          ]
+      },
+      {
+          "name": "Feedback Loops",
+          "description": "The process of providing students with timely, specific feedback on their performance and using that information to guide future learning. It involves cycles of feedback and response.",
+          "tasks": [
+              "Provide regular, constructive feedback on student work.",
+              "Encourage self-assessment and peer feedback.",
+              "Use feedback to adjust instruction and support learning."
+          ]
+      }
+  ]
+}

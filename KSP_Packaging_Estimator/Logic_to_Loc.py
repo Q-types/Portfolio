@@ -1,0 +1,193 @@
+import pandas as pd
+
+
+
+new_equations =[
+'df.loc["QUANTITY INCLUDING OVERS (number)","TOTAL (£)"]/df.loc["QUANTITY INCLUDING OVERS (number)","Multiplier"]',
+'df.loc["MECHANISM (number)": ,"TOTAL (£)"].sum()',
+'df.loc["MECHANISM (number)": ,"TOTAL (£)"].sum()',
+'df.loc["MECHANISM (number)", "Multiplier"]*df.loc["MECHANISM (number)","COST/RATE (£)"]',
+'df.loc["UNIT WEIGHT FOR CARRIAGE (kg)","TOTAL (£)"]',
+'df.loc["THICKNESS OF DUTCH GREY BOARD (mm)","TOTAL (£)"]',
+'df.loc["FLAT SIZE Length (mm)","Multiplier"]*0',
+'df.loc["FLAT SIZE Width (mm)","Multiplier"]*0',
+'df.loc["FLAT SIZE Area (m^2)","Multiplier"]*0',
+'df.loc["OUTER WRAP SIZE Length (mm)","TOTAL (£)"]',
+'df.loc["OUTER WRAP SIZE Width (mm)","TOTAL (£)"]',
+'df.loc["OUTER WRAP SIZE Area (m^2)","TOTAL (£)"]',
+'df.loc["LINER SIZE Length (mm)","TOTAL (£)"]',
+'df.loc["LINER SIZE Width (mm)","TOTAL (£)"]',
+'df.loc["LINER SIZE Area (m^2)","TOTAL (£)"]',
+'df.loc["TOTAL AREA FOR GLUE (m^2)","TOTAL (£)"]',
+'df.loc["Area of Dutch Grey Board (m^2)","TOTAL (£)"]',
+'df.loc["YIELD PER SHEET OF DUTCH GREY BOARD (number)","TOTAL (£)"]',
+'df.loc["DRILL MAX THICKNESS (mm)","TOTAL (£)"]',
+'df.loc["DRILL UP AND DOWN CYCLES PER HOUR (number)","TOTAL (£)"]',
+'df.loc["DRILL UP AND DOWN TOTOAL CYCLES (number)","TOTAL (£)"]',
+'df.loc["DRILL BOARD (number)","TOTAL (£)"]',
+'df.loc["TOTAL DRILLING THICKNESS (mm)","TOTAL (£)"]',
+'df.loc["GREY BOARD SHEETS (number)","TOTAL (£)"]',
+'df.loc["THICKNESS OF LINER PAPER (mm)","TOTAL (£)"]',
+'df.loc["Liner Total Pile depth (mm)","TOTAL (£)"]',
+'df.loc["Dutch Grey Total Pile depth (mm)","TOTAL (£)"]',
+'df.loc["YIELD PER SHEET FROM LINER PAPER (number)","TOTAL (£)"]',
+'df.loc["GUILLOTINE PILE DEPTH GREY BOARD (mm)","TOTAL (£)"]',
+'df.loc["GUILLOTINE PILE DEPTH INNER LINER & OUTER SUPPLIED SHEETS (mm)","TOTAL (£)"]',
+'df.loc["Pallet Length (mm)","TOTAL (£)"]',
+'df.loc["Pallet Width (mm)","TOTAL (£)"]',
+'df.loc["Pallet Area (m^2)","TOTAL (£)"]',
+'df.loc["FOLDERS PER PALLET AREA (number)","TOTAL (£)"]',
+'df.loc["FOLDERS PER PALLET HEIGHT (number)","TOTAL (£)"]',
+'df.loc["FOLDERS PER PALLET VOLUME (number)","TOTAL (£)"]',
+'df.loc["NUMBER OF PALLETS (number)","Multiplier"]*df.loc["NUMBER OF PALLETS (number)","COST/RATE (£)"]',
+'df.loc["GUILLOTINE CUT TIME DUTCH BOARD (hours)","TOTAL (£)"]',
+'df.loc["GUILLOTINE CUT TIME LINER (hours)","TOTAL (£)"]',
+'df.loc["CREASING SPEED 4 PAGE (per hour)","TOTAL (£)"]',
+'df.loc["CREASING SPEED 6 PAGE (per hour)","TOTAL (£)"]',
+'df.loc["CREASING SPEED 8 PAGE (number per hours)","TOTAL (£)"]',
+'df.loc["ADMIN (number)","Multiplier"]*df.loc["ADMIN (number)","COST/RATE (£)"]',
+'df.loc["MAC TIME (hours)","COST/RATE (£)"]/60*df.loc["MAC TIME (hours)","Multiplier"]',
+'df.loc["PROGRAMME GUILLOTINE (job)","Multiplier"]*df.loc["PROGRAMME GUILLOTINE (job)","COST/RATE (£)"]',
+'df.loc["QUANTITY INCLUDING OVERS (number)","Multiplier"]/df.loc["YIELD PER SHEET OF DUTCH GREY BOARD (number)","Multiplier"]*df.loc["THICKNESS OF DUTCH GREY BOARD (mm)","Multiplier"]/df.loc["GUILLOTINE PILE DEPTH GREY BOARD (mm)","Multiplier"]*df.loc["GUILLOTINE CUT TIME DUTCH BOARD (hours)","Multiplier"]/60*df.loc["GUILLOTINE DUTCH GREY BOARD 40mm (hours)","COST/RATE (£)"]',
+'df.loc["Liner Total Pile depth (mm)","Multiplier"]/df.loc["GUILLOTINE PILE DEPTH INNER LINER & OUTER SUPPLIED SHEETS (mm)","Multiplier"]*df.loc["TRIM 4 EDGES OF OUTER SHEET 40mm (hours)","COST/RATE (£)"]',
+'df.loc["Liner Total Pile depth (mm)","Multiplier"]/df.loc["GUILLOTINE PILE DEPTH INNER LINER & OUTER SUPPLIED SHEETS (mm)","Multiplier"]*df.loc["MITRE CORNERS OF OUTER SHEET 40mm (hours)","COST/RATE (£)"]',
+'df.loc["Liner Total Pile depth (mm)","Multiplier"]/df.loc["GUILLOTINE PILE DEPTH INNER LINER & OUTER SUPPLIED SHEETS (mm)","Multiplier"]*df.loc["GUILLOTINE LINER PAPER 40mm (hours)","COST/RATE (£)"]',
+'df.loc["SET UP DRILLING MACHINE TO DRILL BOARD FOR MAGNETS (hours)","COST/RATE (£)"]/60*df.loc["SET UP DRILLING MACHINE TO DRILL BOARD FOR MAGNETS (hours)","Multiplier"]',
+'df.loc["SHEET STOCK FROM ROLL (hours)","COST/RATE (£)"]/60*df.loc["SHEET STOCK FROM ROLL (hours)","Multiplier"]',
+'df.loc["PRECISION TRIM PANELS FROM ROLL (hours)","COST/RATE (£)"]/60*df.loc["PRECISION TRIM PANELS FROM ROLL (hours)","Multiplier"]',
+'df.loc["SET UP POB MACHINE (hours)","COST/RATE (£)"]*df.loc["SET UP POB MACHINE (hours)","Multiplier"]',
+'df.loc["QUANTITY INCLUDING OVERS (number)","Multiplier"]/df.loc["WRAP OUTER SHEETS TO GREY BOARD (per hour)","Multiplier"]*df.loc["WRAP OUTER SHEETS TO GREY BOARD (per hour)","COST/RATE (£)"]',
+'df.loc["CLEAN UP POB MACHINE (hours)","COST/RATE (£)"]*df.loc["CLEAN UP POB MACHINE (hours)","Multiplier"]',
+'df.loc["SET UP POB MACHINE (hours).1","COST/RATE (£)"]*df.loc["SET UP POB MACHINE (hours).1","Multiplier"]',
+'df.loc["QUANTITY INCLUDING OVERS (number)","Multiplier"]/df.loc["GLUE LINER PAPERS (per hour)","Multiplier"]*df.loc["GLUE LINER PAPERS (per hour)","COST/RATE (£)"]',
+'df.loc["CLEAN UP PAPER OVER BOARD MACHINE (hours)","COST/RATE (£)"]*df.loc["CLEAN UP PAPER OVER BOARD MACHINE (hours)","Multiplier"]',
+'df.loc["SET UP CREASER (hours)","COST/RATE (£)"]/60*df.loc["SET UP CREASER (hours)","Multiplier"]',
+'df.loc["QUANTITY INCLUDING OVERS (number)","Multiplier"]/df.loc["CREASE (per hour)","Multiplier"]*df.loc["CREASE (per hour)","COST/RATE (£)"]',
+'df.loc["MAKE READY PLATTEN (hours)","COST/RATE (£)"]/60*df.loc["MAKE READY PLATTEN (hours)","Multiplier"]',
+'df.loc["QUANTITY INCLUDING OVERS (number)","Multiplier"]/df.loc["PLATTEN SPEED IN (per hour)","Multiplier"]*df.loc["PLATTEN SPEED IN (per hour)","COST/RATE (£)"]',
+'df.loc["SET RIVETING MACHINE (hours)","COST/RATE (£)"]/60*df.loc["SET RIVETING MACHINE (hours)","Multiplier"]',
+'df.loc["QUANTITY REQUIRED BY CUSTOMER (number)","Multiplier"]/df.loc["FIT 2 X CORNERS (hours)","Multiplier"]*df.loc["FIT 2 X CORNERS (hours)","COST/RATE (£)"]',
+'df.loc["STACK - WRAP - STRAP PER PALLET (hours)","COST/RATE (£)"]*df.loc["STACK - WRAP - STRAP PER PALLET (hours)","Multiplier"]',
+'df.loc["QUANTITY INCLUDING OVERS (number)","Multiplier"]/df.loc["YIELD PER SHEET OF DUTCH GREY BOARD (number)","Multiplier"]*df.loc["COST PER SHEET OF DUTCH GREY BOARD (number)","Multiplier"]',
+'df.loc["QUANTITY INCLUDING OVERS (number)","Multiplier"]/df.loc["YIELD PER SHEET FROM LINER PAPER (number)","Multiplier"]*df.loc["COST PER SHEET OF LINER PAPER (number)","Multiplier"]',
+'df.loc["PRINTED AND LAMINATED OUTER SHEETS (number)","Multiplier"]*df.loc["PRINTED AND LAMINATED OUTER SHEETS (number)","COST/RATE (£)"]',
+'df.loc["PRINTED AND LAMINATED INNER SHEETS (number)","Multiplier"]*df.loc["QUANTITY INCLUDING OVERS (number)","Multiplier"]',
+'df.loc["MECHANISM (number).1","Multiplier"]*df.loc["QUANTITY REQUIRED BY CUSTOMER (number)","Multiplier"]',
+'df.loc["QUANTITY INCLUDING OVERS (number)","Multiplier"]*df.loc["POCKETS (number)","Multiplier"]',
+'df.loc["DIGITAL/FOIL/SCREENPRINTING (number)","Multiplier"]*df.loc["DIGITAL/FOIL/SCREENPRINTING (number)","COST/RATE (£)"]',
+'df.loc["ANY BREAKAGE CHARGES (number)","Multiplier"]*df.loc["ANY BREAKAGE CHARGES (number)","COST/RATE (£)"]',
+'df.loc["MINIMUM ORDER / CARRIAGE CHARGES (number)","Multiplier"]*df.loc["MINIMUM ORDER / CARRIAGE CHARGES (number)","COST/RATE (£)"]',
+'df.loc["QUANTITY INCLUDING OVERS (number)","Multiplier"]*df.loc["TOTAL AREA FOR GLUE (m^2)","Multiplier"]*df.loc["GLUE COST PER BINDER (number)","COST/RATE (£)"]',
+'df.loc["QUANTITY INCLUDING OVERS (number)","Multiplier"]*df.loc["SINGLE MAGNET COST £0.10 PENCE EACH (number)","Multiplier"]*df.loc["SINGLE MAGNET COST £0.10 PENCE EACH (number)","COST/RATE (£)"]',
+'df.loc["QUANTITY INCLUDING OVERS (number)","Multiplier"]*df.loc["NUMBER OF RIVETS PER BINDER (number)","COST/RATE (£)"]*df.loc["NUMBER OF RIVETS PER BINDER (number)","Multiplier"]',
+'df.loc["CUTTING FORME COST IF REQUIRED (number)","Multiplier"]*df.loc["CUTTING FORME COST IF REQUIRED (number)","COST/RATE (£)"]',
+'df.loc["PACKING MATERIALS PER PALLETE (number)","Multiplier"]*df.loc["PACKING MATERIALS PER PALLETE (number)","COST/RATE (£)"]'
+]
+
+
+new_mult_equations = [
+'df.loc["ONE ITEM (number)","Multiplier"]',
+'df.loc["QUANTITY REQUIRED BY CUSTOMER (number)","Multiplier"]',
+'df.loc["QUANTITY REQUIRED BY CUSTOMER (number)","Multiplier"]*1.05+50',
+'df.loc["MECHANISM (number)","Multiplier"]',
+'df.loc["UNIT WEIGHT FOR CARRIAGE (kg)","Multiplier"]',
+'df.loc["THICKNESS OF DUTCH GREY BOARD (mm)","Multiplier"]',
+'df.loc["FLAT SIZE Length (mm)","Multiplier"]',
+'df.loc["FLAT SIZE Width (mm)","Multiplier"]',
+'df.loc["FLAT SIZE Length (mm)","Multiplier"]*df.loc["FLAT SIZE Width (mm)","Multiplier"]/1000000',
+'df.loc["FLAT SIZE Length (mm)","Multiplier"]+40',
+'df.loc["FLAT SIZE Width (mm)","Multiplier"]+40',
+'df.loc["OUTER WRAP SIZE Length (mm)","Multiplier"]*df.loc["OUTER WRAP SIZE Width (mm)","Multiplier"]/1000000',
+'df.loc["FLAT SIZE Length (mm)","Multiplier"]-5',
+'df.loc["FLAT SIZE Width (mm)","Multiplier"]-5',
+'df.loc["LINER SIZE Length (mm)","Multiplier"]*df.loc["LINER SIZE Width (mm)","Multiplier"]/1000000',
+'df.loc["OUTER WRAP SIZE Area (m^2)","Multiplier"]+df.loc["LINER SIZE Area (m^2)","Multiplier"]',
+'df.loc["Area of Dutch Grey Board (m^2)","Multiplier"]',
+'df.loc["Area of Dutch Grey Board (m^2)","Multiplier"]/df.loc["FLAT SIZE Area (m^2)","Multiplier"]',
+'df.loc["DRILL MAX THICKNESS (mm)","Multiplier"]',
+'df.loc["DRILL UP AND DOWN CYCLES PER HOUR (number)","Multiplier"]',
+'df.loc["TOTAL DRILLING THICKNESS (mm)","Multiplier"]/df.loc["DRILL MAX THICKNESS (mm)","Multiplier"]',
+'df.loc["DRILL BOARD (number)","Multiplier"]',
+'df.loc["QUANTITY INCLUDING OVERS (number)","Multiplier"]*df.loc["THICKNESS OF DUTCH GREY BOARD (mm)","Multiplier"]*df.loc["DRILL BOARD (number)","Multiplier"]',
+'np.ceil(df.loc["QUANTITY INCLUDING OVERS (number)","Multiplier"]/df.loc["YIELD PER SHEET OF DUTCH GREY BOARD (number)","Multiplier"])',
+'df.loc["THICKNESS OF LINER PAPER (mm)","Multiplier"]',
+'df.loc["QUANTITY INCLUDING OVERS (number)","Multiplier"]*df.loc["THICKNESS OF LINER PAPER (mm)","Multiplier"]',
+'df.loc["QUANTITY INCLUDING OVERS (number)","Multiplier"]/df.loc["YIELD PER SHEET OF DUTCH GREY BOARD (number)","Multiplier"]*df.loc["THICKNESS OF DUTCH GREY BOARD (mm)","Multiplier"]',
+'df.loc["YIELD PER SHEET FROM LINER PAPER (number)","Multiplier"]',
+'df.loc["GUILLOTINE PILE DEPTH GREY BOARD (mm)","Multiplier"]',
+'df.loc["GUILLOTINE PILE DEPTH INNER LINER & OUTER SUPPLIED SHEETS (mm)","Multiplier"]',
+'df.loc["Pallet Length (mm)","Multiplier"]',
+'df.loc["Pallet Width (mm)","Multiplier"]',
+'df.loc["Pallet Length (mm)","Multiplier"]*df.loc["Pallet Width (mm)","Multiplier"]/1000000',
+'df.loc["YIELD PER SHEET OF DUTCH GREY BOARD (number)","Multiplier"]',
+'df.loc["FOLDERS PER PALLET HEIGHT (number)","Multiplier"]',
+'df.loc["FOLDERS PER PALLET AREA (number)","Multiplier"]*df.loc["FOLDERS PER PALLET HEIGHT (number)","Multiplier"]',
+'np.round(df.loc["QUANTITY REQUIRED BY CUSTOMER (number)","Multiplier"]/df.loc["FOLDERS PER PALLET VOLUME (number)","Multiplier"])',
+'1/60*3',
+'1/60*3',
+'df.loc["CREASING SPEED 4 PAGE (per hour)","Multiplier"]',
+'df.loc["CREASING SPEED 6 PAGE (per hour)","Multiplier"]',
+'df.loc["CREASING SPEED 8 PAGE (number per hours)","Multiplier"]',
+'df.loc["ADMIN (number)","Multiplier"]',
+'df.loc["MAC TIME (hours)","Multiplier"]',
+'df.loc["PROGRAMME GUILLOTINE (job)","Multiplier"]',
+'1/60*5',
+'1/60*2',
+'df.loc["MITRE CORNERS OF OUTER SHEET 40mm (hours)","Multiplier"]',
+'1/60*2',
+'df.loc["SET UP DRILLING MACHINE TO DRILL BOARD FOR MAGNETS (hours)","Multiplier"]',
+'df.loc["SHEET STOCK FROM ROLL (hours)","Multiplier"]',
+'df.loc["PRECISION TRIM PANELS FROM ROLL (hours)","Multiplier"]',
+'df.loc["SET UP POB MACHINE (hours)","Multiplier"]',
+'df.loc["WRAP OUTER SHEETS TO GREY BOARD (per hour)","Multiplier"]',
+'df.loc["CLEAN UP POB MACHINE (hours)","Multiplier"]',
+'df.loc["SET UP POB MACHINE (hours).1","Multiplier"]',
+'df.loc["GLUE LINER PAPERS (per hour)","Multiplier"]',
+'df.loc["CLEAN UP PAPER OVER BOARD MACHINE (hours)","Multiplier"]',
+'df.loc["SET UP CREASER (hours)","Multiplier"]',
+'df.loc["CREASING SPEED 8 PAGE (number per hours)","Multiplier"]',
+'df.loc["MAKE READY PLATTEN (hours)","Multiplier"]',
+'df.loc["PLATTEN SPEED IN (per hour)","Multiplier"]',
+'df.loc["SET RIVETING MACHINE (hours)","Multiplier"]',
+'df.loc["FIT 2 X CORNERS (hours)","Multiplier"]',
+'df.loc["QUANTITY REQUIRED BY CUSTOMER (number)","Multiplier"]/1000*0.33333',
+'df.loc["COST PER SHEET OF DUTCH GREY BOARD (number)","Multiplier"]',
+'df.loc["COST PER SHEET OF LINER PAPER (number)","Multiplier"]',
+'df.loc["PRINTED AND LAMINATED OUTER SHEETS (number)","Multiplier"]',
+'df.loc["PRINTED AND LAMINATED INNER SHEETS (number)","Multiplier"]',
+'df.loc["MECHANISM (number).1","Multiplier"]',
+'df.loc["POCKETS (number)","Multiplier"]',
+'df.loc["DIGITAL/FOIL/SCREENPRINTING (number)","Multiplier"]',
+'df.loc["ANY BREAKAGE CHARGES (number)","Multiplier"]',
+'df.loc["MINIMUM ORDER / CARRIAGE CHARGES (number)","Multiplier"]',
+'df.loc["GLUE COST PER BINDER (number)","Multiplier"]',
+'df.loc["SINGLE MAGNET COST £0.10 PENCE EACH (number)","Multiplier"]',
+'df.loc["NUMBER OF RIVETS PER BINDER (number)","Multiplier"]',
+'df.loc["CUTTING FORME COST IF REQUIRED (number)","Multiplier"]',
+'df.loc["PACKING MATERIALS PER PALLETE (number)","Multiplier"]'
+]
+
+
+file_path = '/Users/q/Desktop/Variables_GPT.csv'
+df = pd.read_csv(file_path)
+
+# Set the first column as index
+df.set_index(df.columns[0], inplace=True)
+
+# Set Index and column names
+df.columns.name = 'Variable Name'
+df.index.name = 'Feature'
+
+#df.head()
+
+for n in range(len(new_equations)):
+    df.iloc[n, 8] = new_equations[n]
+    df.iloc[n, 1] = new_mult_equations[n]
+
+print(df)
+
+output_file_path = '/Users/q/Desktop/Variables_EQ_GPT.csv'
+df.to_csv(output_file_path)
+
+
+

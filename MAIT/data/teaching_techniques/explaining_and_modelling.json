@@ -1,0 +1,49 @@
+{
+  "techniques": [
+      {
+          "name": "Dual Coding",
+          "description": "The use of both verbal and visual information to enhance learning. Combining words and visuals helps students understand and retain information better.",
+          "tasks": [
+              "Use diagrams, illustrations, and graphic organizers alongside verbal explanations.",
+              "Reinforce concepts with visual aids.",
+              "Encourage students to create their own visual representations."
+          ]
+      },
+      {
+          "name": "Worked Examples",
+          "description": "Step-by-step demonstrations of how to perform a task or solve a problem. They help students understand the process and reduce cognitive load.",
+          "tasks": [
+              "Provide worked examples for complex problems.",
+              "Gradually fade support as students gain confidence and competence.",
+              "Encourage students to explain the steps in their own words."
+          ]
+      },
+      {
+          "name": "I-We-You Method",
+          "description": "A gradual release of responsibility framework where the teacher models the task ('I'), practices it with students ('We'), and then students practice independently ('You').",
+          "tasks": [
+              "Start with a teacher-led demonstration.",
+              "Move to guided practice with the class.",
+              "Have students practice independently to reinforce learning."
+          ]
+      },
+      {
+          "name": "Cognitive Load Management",
+          "description": "Strategies to reduce unnecessary cognitive load and optimize working memory during learning tasks. It involves breaking information into smaller chunks and reducing extraneous load.",
+          "tasks": [
+              "Simplify complex information.",
+              "Use clear and concise instructions.",
+              "Provide scaffolding to support student understanding."
+          ]
+      },
+      {
+          "name": "Conceptual Modelling",
+          "description": "Creating abstract representations of complex ideas to help students understand and organize information. This can include diagrams, flowcharts, and other visual tools.",
+          "tasks": [
+              "Use conceptual models to explain abstract concepts.",
+              "Show relationships between different components.",
+              "Make complex information more accessible."
+          ]
+      }
+  ]
+}

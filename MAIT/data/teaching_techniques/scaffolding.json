@@ -1,0 +1,20 @@
+{
+  "techniques": [
+      {
+          "name": "Breaking Down Tasks",
+          "description": "Dividing complex tasks into smaller, more manageable parts."
+      },
+      {
+          "name": "Providing Hints",
+          "description": "Offering clues or suggestions to help students find the answer."
+      },
+      {
+          "name": "Visual Aids",
+          "description": "Using charts, diagrams, and other visual tools to enhance understanding."
+      },
+      {
+          "name": "Feedback and Encouragement",
+          "description": "Giving constructive feedback and motivating students throughout the learning process."
+      }
+  ]
+}

@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TensorFlow / Model files
+*.h5
+*.hdf5
+*.pb
+*.ckpt
+*.index
+*.meta
+saved_models/
+checkpoints/
+logs/
+
+# Data files (if large datasets added later)
+*.pkl
+*.pickle

@@ -1,0 +1,104 @@
+{
+    "general_lesson_structure": [
+        {
+            "section": "Lesson Objectives",
+            "meaning_content": {
+                "definition": "Clear, concise statements that define what students are expected to learn and achieve by the end of the lesson.",
+                "content": "Specific knowledge, skills, or attitudes students should acquire. Objectives should be measurable and achievable.",
+                "importance": "Provides a clear focus for both teaching and learning, guiding the structure and flow of the lesson. Helps students understand the purpose of the lesson and what is expected of them."
+            }
+        },
+        {
+            "section": "Recall/Starter",
+            "meaning_content": {
+                "definition": "Activities or questions designed to engage students at the beginning of the lesson by connecting to prior knowledge or experiences.",
+                "content": "Quick reviews, brainteasers, discussion prompts, or short quizzes related to previous lessons.",
+                "importance": "Activates prior knowledge, prepares students for new content, and engages their interest. Sets a positive tone for the lesson and helps to focus students’ attention."
+            }
+        },
+        {
+            "section": "New Knowledge",
+            "meaning_content": {
+                "definition": "The main instructional content of the lesson where new information or skills are introduced.",
+                "content": "Explanations, demonstrations, lectures, readings, multimedia presentations, and interactive discussions.",
+                "importance": "Central to the lesson, this section provides the core material that students need to learn. Effective delivery of new knowledge is crucial for understanding and retention."
+            },
+            "hinge_point_question": {
+                "question": "A critical question to assess understanding before moving on.",
+                "answer": "The correct response to the hinge point question."
+            }
+        },
+        {
+            "section": "Connection to Real World",
+            "meaning_content": {
+                "definition": "Linking lesson content to real-world applications and contexts.",
+                "content": "Examples, case studies, practical applications, and discussions on how the new knowledge applies outside the classroom.",
+                "importance": "Helps students see the relevance and value of what they are learning, increasing motivation and engagement. Makes learning more meaningful and memorable."
+            },
+            "hinge_point_question": {
+                "question": "A critical question to assess understanding before moving on.",
+                "answer": "The correct response to the hinge point question."
+            }
+        },
+        {
+            "section": "Apply to Demonstrate",
+            "meaning_content": {
+                "definition": "Activities where students apply what they have learned to demonstrate understanding and proficiency.",
+                "content": "Practice problems, hands-on activities, group work, projects, and presentations.",
+                "importance": "Reinforces learning through application, allowing students to practice and solidify their understanding. Provides opportunities for assessment and feedback."
+            },
+            "hinge_point_question": {
+                "question": "A critical question to assess understanding before moving on.",
+                "answer": "The correct response to the hinge point question."
+            }
+        },
+        {
+            "section": "Lesson Summary",
+            "meaning_content": {
+                "definition": "A brief review of the key points covered in the lesson.",
+                "content": "Summarization activities, student reflections, discussion of main ideas, and highlighting the lesson’s objectives.",
+                "importance": "Reinforces key concepts, helps students consolidate their learning, and provides closure to the lesson. Ensures students leave with a clear understanding of what they have learned."
+            },
+            "hinge_point_question": {
+                "question": "A critical question to assess understanding before moving on.",
+                "answer": "The correct response to the hinge point question."
+            }
+        },
+        {
+            "section": "Past Exam Questions",
+            "meaning_content": {
+                "definition": "Using past exam questions to assess understanding and prepare students for future assessments.",
+                "content": "A selection of relevant questions from previous exams, practice tests, or quiz questions.",
+                "importance": "Helps students apply their knowledge in a test-like environment, identifies areas that need further review, and builds test-taking skills. Provides a benchmark for both students and teachers to gauge understanding and readiness."
+            }
+        },
+        {
+            "section": "Questions and Answers",
+            "meaning_content": {
+                "definition": "Five questions with answers based on the lesson objectives to be used within the lesson.",
+                "questions_and_answers": [
+                    {
+                        "question": "Question 1 based on the lesson objectives.",
+                        "answer": "Answer to question 1."
+                    },
+                    {
+                        "question": "Question 2 based on the lesson objectives.",
+                        "answer": "Answer to question 2."
+                    },
+                    {
+                        "question": "Question 3 based on the lesson objectives.",
+                        "answer": "Answer to question 3."
+                    },
+                    {
+                        "question": "Question 4 based on the lesson objectives.",
+                        "answer": "Answer to question 4."
+                    },
+                    {
+                        "question": "Question 5 based on the lesson objectives.",
+                        "answer": "Answer to question 5."
+                    }
+                ]
+            }
+        }
+    ]
+}
