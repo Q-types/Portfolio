@@ -1,5 +1,7 @@
 # Anomaly Detection on Ship Engine Sensor Data
 
+- ![Preview](./preview.png)
+
 - **Problem**: Detect anomalous engine states to reduce downtime and safety risk across a shipping fleet.
 - **Data**: 19,535 records, 6 continuous sensors: `engine_rpm`, `oil_pressure`, `fuel_pressure`, `coolant_pressure`, `oil_temp`, `coolant_temp`.
 - **Deliverables**: Jupyter notebook with analysis and figures, PDF report.

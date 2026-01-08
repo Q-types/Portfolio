@@ -48,3 +48,12 @@ Feature-set comparisons are visualized using:
 
 ## Outputs
 The notebook includes plots for distribution inspection, outlier analysis, and embedding-based visualization of anomaly labels and decision scores.
+
+## Projects
+- **Anomaly Detection on Ship Engine Sensor Data**  
+  [Open project folder](projects/Anomaly_Ships_Engine/)  
+  <img src="projects/Anomaly_Ships_Engine/preview.png" alt="Anomaly Detection Preview" width="340"/>
+
+- **Customer Segmentation with Clustering**  
+  [Open project folder](projects/Customer_Segmentation_Clustering/)  
+  <img src="projects/Customer_Segmentation_Clustering/preview.png" alt="Customer Segmentation Preview" width="340"/>

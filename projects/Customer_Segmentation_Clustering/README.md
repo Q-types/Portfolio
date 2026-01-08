@@ -1,5 +1,7 @@
 # Customer Segmentation with Clustering
 
+- ![Preview](./preview.png)
+
 - **Problem**: Segment customers of a multinational e-commerce company to inform targeted marketing and retention strategies.
 - **Data**: 951k+ order rows across 47 countries (2012–2016). Final modelling uses customer-level features: frequency, recency, CLV, average unit cost, and age.
 - **Deliverables**: Jupyter notebook with full workflow and visuals, PDF report with findings and recommendations.
