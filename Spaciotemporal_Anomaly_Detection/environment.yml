@@ -1,0 +1,21 @@
+name: sst-anom
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - xarray
+  - netcdf4
+  - dask
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - rasterio
+  - pyproj
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - pyyaml
+  - pip
+  - pip:
+      - pyresample

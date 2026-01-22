@@ -1,0 +1,16 @@
+# Project defaults
+# I define the recommended region/time and a data path glob for OISST
+# Base directory is "https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/"
+# Each file is one day named like: oisst-avhrr-v02r01.YYYYMMDD.nc
+data:
+  path_glob: "/path/to/oisst/*.nc"  # TODO: update to your local OISST files
+
+region:
+  lon_min: -80
+  lon_max: 10
+  lat_min: 0
+  lat_max: 70
+
+time:
+  start: "2016-01-01"
+  end: "2024-12-31"
