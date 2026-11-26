@@ -1,0 +1,7 @@
+stock_id,orientation,stock_width_mm,stock_height_mm,blank_width_mm,blank_height_mm,usable_width_mm,usable_height_mm,price_per_sheet_minor,feasible,reason,columns,rows,span_width_mm,span_height_mm,blanks_per_sheet,sheets_required,unused_blank_capacity,utilisation_numerator,utilisation_denominator,waste_area_per_sheet_mm2,trim_cuts_per_sheet,row_cuts_per_sheet,blank_cuts_per_sheet,cuts_per_sheet,total_cuts,material_minor,cutting_minor,total_minor
+SYN-large,normal,145,80,40,30,135,70,155,True,fits,3,2,130,65,6,2,0,7200,11600,4400,4,2,8,14,28,310,280,590
+SYN-large,rotated,145,80,30,40,135,70,155,True,fits,4,1,135,40,4,3,0,4800,11600,6800,4,0,6,10,30,465,300,765
+SYN-narrow,normal,25,80,40,30,15,70,50,False,blank does not fit inside margins in this orientation,,,,,,,,,,,,,,,,,,
+SYN-narrow,rotated,25,80,30,40,15,70,50,False,blank does not fit inside margins in this orientation,,,,,,,,,,,,,,,,,,
+SYN-small,normal,100,80,40,30,90,70,100,True,fits,2,2,85,65,4,3,0,4800,8000,3200,4,2,4,10,30,300,300,600
+SYN-small,rotated,100,80,30,40,90,70,100,True,fits,2,1,65,40,2,6,0,2400,8000,5600,4,0,2,6,36,600,360,960

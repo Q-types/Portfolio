@@ -1,6 +1,6 @@
 # KSP manufacturing management information system
 
-**Role:** designer and implementer through QSol Analytics. **Status, 26 November 2026:** current private Python/FastAPI/PostgreSQL implementation; public architecture overview. Source implementation, historical verification and deployed operation are separate evidence levels.
+**Role:** designer and implementer through QSol Analytics. **Status, 26 November 2026:** current private Python/FastAPI/PostgreSQL implementation; public architecture overview and a separately authored synthetic runnable example. Source implementation, historical verification and deployed operation are separate evidence levels.
 
 ## Problem and contribution
 
@@ -26,13 +26,15 @@ flowchart TD
 
 This is a conceptual view of the implemented responsibilities. It omits client configuration and deployment details.
 
-## Illustrative decision
+## Runnable synthetic decision
 
-Consider an invented job whose specification and quantity stay fixed while a material price changes. The important questions are: which price version did the estimate use, does a recalculation use a different version, and does the issued quotation retain its original input identity? Keeping those relationships explicit allows the two estimates to be explained without treating the latest price as if it had always applied.
+The [packaging layout and quote-provenance example](../../examples/packaging_optimisation/README.md) makes a bounded version of this decision inspectable. It is newly authored portfolio code using wholly synthetic inputs, independently of the private implementation. Run it offline with the Python standard library; its README supplies commands, precise assumptions, tests and hashed results.
 
-Likewise, a candidate layout that fails a dimension constraint should be excluded before comparing costs. A feasible low-material-cost layout may still require more cutting. The decision needs a common cost basis and recorded assumptions. This example explains the design; it is not an executed quotation, client record or measured optimisation result.
+For an invented order of 12 blanks, the lowest-priced feasible sheet gives a job cost of 600 synthetic minor units. Comparing material plus explicitly simplified cutting costs selects a larger sheet at 590. The [complete candidate table](../../examples/packaging_optimisation/results/initial_candidates.csv) shows both allowed orientations and rejected geometry. This is best among enumerated maximal uniform grids, not unrestricted packing optimality or a factory guillotine model.
 
-## Verification evidence and findings
+A second price version changes the new estimate to 600 while the [issued snapshot](../../examples/packaging_optimisation/results/issued.json) retains the original inputs and 590 result. Canonical input hashes and replay make that difference explainable. The [manifest](../../examples/packaging_optimisation/results/manifest.json) binds these synthetic results to source and fixture hashes. Builder tests and reproducibility checks concern only this example; they are not independent acceptance, private MIS validation, a commercial benchmark or original Cambridge results.
+
+## Private implementation evidence and limits
 
 The inspected implementation has focused tests for material-price provenance, atomic quote issuance and structural payload identity. It also defines offline release-qualification checks using synthetic receipts. These provide concrete inspection points for input lineage and transaction boundaries, rather than evidence of universal calculation accuracy.
 
@@ -44,6 +46,6 @@ The delivered engineering contribution is a connected estimating workflow with e
 
 The [legacy desktop estimator](../../KSP_Packaging_Estimator/README.md) is an earlier Tkinter/SQLite implementation preserved in this repository. It is useful historical source evidence, but it does not contain the current FastAPI/PostgreSQL MIS. Its setup and calculation paths need maintenance before it is offered as a fresh-checkout demonstration. Historical outcome statements in that folder are not adopted as evidence for this case, and its conflicting permission/licence statements require separate resolution before code reuse.
 
-This overview is the public route for the current system. Private code, client inputs, historical screenshots and release records are not included. A separately reviewed synthetic executable example and version-bound validation summary would extend the evidence beyond this narrative.
+This overview describes the current private system; the separate synthetic example provides executable evidence of selected principles. Private code, client inputs, historical screenshots and release records are not included. Version-bound qualification of the private system and measured commercial outcomes remain separate work.
 
 [Project index](../../docs/project-index.md) · [Provenance](../../docs/provenance.csv) · [Portfolio](../../README.md)

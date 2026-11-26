@@ -6,7 +6,7 @@ Updated 26 November 2026. **Completion of the original work and readiness of a p
 
 | Project | Original work / implementation status | Available public route | Public revision and limitations |
 | --- | --- | --- | --- |
-| KSP manufacturing MIS | Current private implementation | [Architecture and contribution](../projects/ksp-mis/README.md) | Overview available; synthetic executable example and version-bound validation pending. Deployment, ROI and universal accuracy not established. |
+| KSP manufacturing MIS | Current private implementation | [Architecture and contribution](../projects/ksp-mis/README.md) | [Runnable synthetic example](../examples/packaging_optimisation/README.md) with builder tests and hashed results; separate from private MIS qualification. Deployment, ROI and universal accuracy not established. |
 | Bank of England NLP | Completed Cambridge / Bank of England live employer project | [Personal case and attributed team notebooks](../projects/bank-of-england-nlp/README.md) | Overview and saved public evidence available; complete reproduction package pending. Personal RAG is future work. |
 | Book-sales forecasting | Completed Cambridge assignment | [Two-title forecasting study](../projects/book-sales-forecasting/README.md) | Overview available; corrected ensemble/interval evaluation, baselines and data-access route pending. |
 | Student dropout | Completed Cambridge assignment | [Intervention timing and methods](../projects/student-dropout/README.md) | Overview available; split/threshold correction and permitted input route pending. Performance numbers withheld. |
@@ -32,6 +32,6 @@ These existing paths remain in place. A link offers source inspection, not a gua
 | [Open-water concept](../Spaciotemporal_Anomaly_Detection/Open_Water/README.md) | Concept documentation only | No standalone implementation or demonstrated environment in that folder. |
 | [US births](../Time_Series/US_births/) | Dataset/exercise asset | No forecasting analysis in this folder; distinct from the completed book-sales study. |
 
-The [public claim register](claims.csv) and [provenance register](provenance.csv) cover the new summaries. Historical notebooks and application files have not been rewritten or rerun by this documentation update. There is no single root runtime environment; use the inspection routes above and each case’s stated reproduction limits.
+The [public claim register](claims.csv) and [provenance register](provenance.csv) cover the new summaries. Historical notebooks and application files have not been rewritten or rerun; new executed evidence is confined to the separately authored synthetic packaging example. There is no single root runtime environment; use the inspection routes above and each case’s stated reproduction limits.
 
 [Portfolio](../README.md)

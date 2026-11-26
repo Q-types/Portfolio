@@ -1,0 +1,37 @@
+{
+  "acceptance": "Builder execution only; independent review required",
+  "fixture_files_sha256": {
+    "fixtures/initial.json": "bce5267e6c7af1fa5b9938f16ad31c8f1a0fe3bae0e35217a70fb15c97f4f732",
+    "fixtures/repriced.json": "76357bf4e63c11a3194ecf4aebc7d00fca783cea3cb01d4f2f61c7c784a094e0"
+  },
+  "hash_scope": "manifest excludes itself; input digest excludes result and is canonical input bytes without newline",
+  "limits": "Best among maximal uniform grids only; simplified unstacked cuts; no production validation or commercial benchmark",
+  "measured": "Candidate counts, geometry, sheet and cut counts, exact costs, input digests and issued byte preservation from this demo",
+  "model_version": "synthetic-grid-v1",
+  "not_measured": "Runtime speedups, commercial impact, manufacturing accuracy, private MIS behaviour or Cambridge outcomes",
+  "origin": "Independently authored portfolio code and wholly synthetic inputs; not private MIS or Cambridge results",
+  "output_files_sha256": {
+    "initial_candidates.csv": "01d8fae5abe0193123c1b7afbcdbeb5b917d0f356d35244dfc297369295de122",
+    "initial_estimate.json": "b43e0ed3a9cd51fa8a51f9c31e2fe35ed9b9f873dc872ef8837e0dfde6433cbc",
+    "initial_inputs.json": "f43bbd550b6db3d38c98ce719adc3e3edf86a69d69a3ad0e01ad7d2db88891b8",
+    "issued.json": "1e3f320b872f079156433fdb9c82e507bb9b1a57da457fa66d816c43fef9014d",
+    "repriced_candidates.csv": "6c29835f20a6ab4060332905f4e6202b8949e2ef03f4505a34b29a83c4027268",
+    "repriced_estimate.json": "52bcf8f9a3379de583fc7a9cba69ce2ba24f71c3325a0a74d69934090b23e434",
+    "repriced_inputs.json": "b7dea3d40223266c99aec095284461282c93ccd51b2f47db769d6a4064557bc3",
+    "summary.json": "92d6e39206078e0da09e9329bc1e1b81ccd9119fe32d35ae454492b2525450d5"
+  },
+  "python_contract": "Python 3.10+ standard library; builder ran 3.14.0",
+  "source_bundle_sha256": "eb780540b7c2fe192e4934b365a3dbbd95db0c194a4aa9590216ef4345935329",
+  "source_files_sha256": {
+    "__init__.py": "63c2e52f9bc8ff49b5ddd9150f7b0aea215a577d1cd20e0d2085dd10d6772b7c",
+    "__main__.py": "aeb5d7741e1bebf13d5306b6bff20692856b5850b20dd77f89987d712c9133a8",
+    "model.py": "b2b7c3ca28411c6bb03de1b4bd3860355b698eb02264a573f08f695fc06a6f36",
+    "test_model.py": "f9ccda09abcafb8c6c9fac77c9ee31c514571520478ccf86c2b590532dc63c9a"
+  },
+  "source_identity_rule": "SHA-256 of canonical path-to-hash map for package root *.py, including tests; no final Git commit asserted",
+  "units": {
+    "area": "integer mm^2",
+    "geometry": "integer mm",
+    "money": "integer SYN minor; 100 = 1 major"
+  }
+}
