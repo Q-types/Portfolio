@@ -12,7 +12,7 @@ I completed the University of Cambridge PACE Career Accelerator in Data Science 
 | [Bank of England financial-text NLP](projects/bank-of-england-nlp/README.md) | Study how analyst attention and management disclosures vary across banks and time. I built the corpus preparation and topic-attention analysis for a Cambridge / Bank of England live employer project. | Personal contribution, saved analytical findings and pinned, attributed team notebooks. |
 | [Book-sales forecasting](projects/book-sales-forecasting/README.md) | Compare forecasting approaches for operational demand planning. I prepared the sales series and compared statistical, tree, neural and residual-hybrid models for two titles. | Completed study, separate weekly/monthly experiments and explicit evaluation limitations. |
 
-## Further work
+## More projects
 
 [Student dropout](projects/student-dropout/README.md) · [Customer-feedback NLP](projects/customer-feedback-nlp/README.md) · [Customer segmentation](projects/customer-segmentation/README.md) · [Ship-engine anomalies](projects/ship-engine-anomalies/README.md) · [QSol solution finder](projects/qsol-solution-finder/README.md) · [Engineering workflow](projects/engineering-workflow/README.md)
 

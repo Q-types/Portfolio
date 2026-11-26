@@ -15,7 +15,7 @@ The inputs are operational specifications and reference data, rather than a labe
 Deterministic optimisation fits this problem because feasibility and cost depend on explicit physical and business rules. A low nominal sheet price alone does not identify the cheapest feasible production plan. Candidate layouts must satisfy dimensional constraints and be assessed alongside cutting costs. The implementation contains separate services for mixed-layout optimisation, material-price provenance and quote issuance, with structural payload checks around the quotation boundary.
 
 ```mermaid
-flowchart LR
+flowchart TD
     A[Specification and quantity] --> C[Validate inputs]
     B[Versioned materials and production rules] --> C
     C --> D[Evaluate feasible layouts and cutting costs]
