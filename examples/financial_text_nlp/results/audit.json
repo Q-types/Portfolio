@@ -1,0 +1,11 @@
+{
+  "assigned_questions": 6,
+  "denominator_questions": 7,
+  "eligible_questions": 6,
+  "missing_question_assignments": 1,
+  "missing_sentiment_rows": 4,
+  "missing_sentiment_values": 1,
+  "missing_window_assignments": 1,
+  "retained_questions": 3,
+  "windows": 11
+}

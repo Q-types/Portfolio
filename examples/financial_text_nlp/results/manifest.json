@@ -1,0 +1,50 @@
+{
+  "assignment_version": "manual_proxy_v1",
+  "evidence": "synthetic mechanics only",
+  "files": {
+    "audit.json": {
+      "bytes": 267,
+      "sha256": "4ad19bd46bbbbef3a045d15a598c7bccdb669b06fdc54e98f79aab27c0a1cfd7"
+    },
+    "bank_quarter.csv": {
+      "bytes": 1391,
+      "sha256": "0bbb9eeaa5f338efcd29066158926bfd4b57a820988c2b658f79bf6c10945bd2"
+    },
+    "input.json": {
+      "bytes": 15591,
+      "sha256": "c37882448223508cf542f29f9107dd6a79d60e386dc86a2d1790aa3fa998cea9"
+    },
+    "questions.csv": {
+      "bytes": 1140,
+      "sha256": "ebcc5686dcd997fbd2af3ef64be30176fde0e35509a828329012cfcd17293e2f"
+    },
+    "windows.csv": {
+      "bytes": 2442,
+      "sha256": "744cf45f56176addaa17885f154ec9ce2e6f6a8e144572c4dcd0a78899b5434e"
+    }
+  },
+  "input": {
+    "bytes": 15591,
+    "sha256": "c37882448223508cf542f29f9107dd6a79d60e386dc86a2d1790aa3fa998cea9"
+  },
+  "release_id": "invented_v1",
+  "runtime": {
+    "implementation": "cpython",
+    "python": "3.14.0"
+  },
+  "schema_version": "synthetic_result_v1",
+  "source": {
+    "__init__.py": {
+      "bytes": 77,
+      "sha256": "e190ad49eaba14f8e971cc97b304b4699d24423651d715578103c1d122902f31"
+    },
+    "__main__.py": {
+      "bytes": 3386,
+      "sha256": "dd99b0064fb4210ff5c87b52a352631dacb662fccf8002a8513da508eb7da5f2"
+    },
+    "measurement.py": {
+      "bytes": 12123,
+      "sha256": "956bda69e79b598b292b9fae7a43c4a53dbbe7f5b57b881274255215b75d1478"
+    }
+  }
+}
