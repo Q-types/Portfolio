@@ -77,6 +77,66 @@ def check_financial_text_artifacts(errors):
         errors.append(f"Financial-text artifacts: {exc}")
 
 
+def check_dropout_artifacts(errors):
+    """Bind the invented fixture, frozen state, full row contract and result bytes."""
+    base = ROOT / "examples/student_dropout"
+    result_names = {"input.json", "config.json", "splits.json", "frozen.json", "scores.csv", "predictions.csv"}
+    source_names = {"__init__.py", "__main__.py", "contract.py", "metrics.py", "models.py",
+                    "protocol.py", "adapters.py", "fixture.py", "test_protocol.py"}
+    try:
+        for path in base.rglob("*"):
+            if path.is_symlink() or path.name == "__pycache__" or path.suffix == ".pyc":
+                raise ValueError("symlink/cache in dropout example")
+        manifest = json.loads((base / "results/manifest.json").read_bytes())
+        if (manifest["evidence"] != "synthetic mechanics only"
+                or manifest["scope"] != "public_invented" or manifest["permission_receipt"] is not None):
+            raise ValueError("public results must be invented")
+        if set(manifest["files"]) != result_names or set(manifest["source"]) != source_names:
+            raise ValueError("unexpected manifest file set")
+        if {p.name for p in (base / "results").iterdir()} != result_names | {"manifest.json"}:
+            raise ValueError("unexpected result file")
+        for group, directory in [("files", base / "results"), ("source", base)]:
+            for name, expected in manifest[group].items():
+                raw = (directory / name).read_bytes()
+                if expected != {"bytes": len(raw), "sha256": hashlib.sha256(raw).hexdigest()}:
+                    raise ValueError(f"artifact identity mismatch: {name}")
+        for original, retained, field in [("fixtures/cohort.json", "input.json", "input"),
+                                           ("protocol.json", "config.json", "config")]:
+            raw = (base / original).read_bytes()
+            if raw != (base / "results" / retained).read_bytes():
+                raise ValueError("result differs from fixture/config")
+            if manifest[field] != {"bytes": len(raw), "sha256": hashlib.sha256(raw).hexdigest()}:
+                raise ValueError("fixture/config identity mismatch")
+        if manifest["frozen_before_evaluation"] != manifest["files"]["frozen.json"]:
+            raise ValueError("frozen-state identity mismatch")
+        data = json.loads((base / "fixtures/cohort.json").read_bytes())
+        config = json.loads((base / "protocol.json").read_bytes())
+        expected = {phase: sorted(r["id"] for r in data["records"] if r["cohort"] in cohorts)
+                    for phase, cohorts in config["cohorts"].items()}
+        splits = json.loads((base / "results/splits.json").read_bytes())
+        if splits != expected or len({key for ids in splits.values() for key in ids}) != len(data["records"]):
+            raise ValueError("split identity mismatch")
+        combos = {(s, m) for s in ("enrolment", "engagement", "academic_progress")
+                  for m in ("prevalence", "logistic")}
+        with (base / "results/predictions.csv").open(newline="") as stream:
+            predictions = list(csv.DictReader(stream))
+        with (base / "results/scores.csv").open(newline="") as stream:
+            scores = list(csv.DictReader(stream))
+        if len(scores) != 6 or {(r["stage"], r["method"]) for r in scores} != combos:
+            raise ValueError("missing stage/method comparison")
+        labels = {r["id"]: r["label"] for r in data["records"]}
+        if len(predictions) != 6 * len(expected["evaluation"]):
+            raise ValueError("prediction count mismatch")
+        for stage, method in combos:
+            rows = [r for r in predictions if (r["stage"], r["method"]) == (stage, method)]
+            if [r["id"] for r in rows] != expected["evaluation"]:
+                raise ValueError("evaluation rows missing, duplicate or reordered")
+            if any(int(r["label"]) != labels[r["id"]] for r in rows):
+                raise ValueError("evaluation label mismatch")
+    except (OSError, ValueError, KeyError, TypeError) as exc:
+        errors.append(f"Dropout artifacts: {exc}")
+
+
 def main():
     errors = []
     pages = [ROOT / "README.md", ROOT / "docs/project-index.md"]
@@ -84,6 +144,7 @@ def main():
     pages.append(ROOT / "examples/packaging_optimisation/README.md")
     pages.append(ROOT / "examples/book_sales_forecasting/README.md")
     pages.append(ROOT / "examples/financial_text_nlp/README.md")
+    pages.append(ROOT / "examples/student_dropout/README.md")
     link_count = 0
     for page in pages:
         if not page.is_file():
@@ -108,7 +169,10 @@ def main():
         errors.append("Project index missing synthetic forecasting example")
     if "../examples/financial_text_nlp/README.md" not in index_text:
         errors.append("Project index missing synthetic financial-text example")
+    if "../examples/student_dropout/README.md" not in index_text:
+        errors.append("Project index missing synthetic dropout example")
     check_financial_text_artifacts(errors)
+    check_dropout_artifacts(errors)
     row_counts = {}
     for filename, schema in SCHEMAS.items():
         path = ROOT / "docs" / filename
