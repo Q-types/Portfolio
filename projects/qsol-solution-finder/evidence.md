@@ -1,6 +1,6 @@
 # Executed offline evidence
 
-On **27 November 2026**, the committed evaluation scripts and all eight test entry files from local website commit **`423399849406d1c78d68a162aadc6fd684082547`** ran successfully in a private, exact-byte export. The original dirty checkout was preserved. Source, fixture, dependency and command receipts and per-case results remain private; only aggregates are reproduced here. These are builder measurements, pending independent review.
+On **27 November 2026**, the committed evaluation scripts and all eight test entry files from local website commit **`423399849406d1c78d68a162aadc6fd684082547`** ran successfully in a private, exact-byte export. The original dirty checkout was preserved. Source, fixture, dependency and command receipts and per-case results remain private; only aggregates are reproduced here. The retained measurements received bounded review, including an independent restricted aggregate/challenge replay. This does not establish deployed operation or live-answer quality.
 
 ## Execution qualification
 

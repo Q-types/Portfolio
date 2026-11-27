@@ -19,6 +19,6 @@ The private-source runtime was CPython 3.11.5 with pytest 8.4.2. The public exam
 
 The [scenario summary](../../examples/engineering_workflow/results/summary.json) and [manifest](../../examples/engineering_workflow/results/manifest.json) contain only invented inputs and aggregate local outcomes. Hashes detect changes relative to the retained manifest; they do not authenticate the publisher or establish review quality. All source and tests of this example are public. Private source code, repository identity, task content, operational topology and real logs are withheld.
 
-Historical acceptance recorded in the method is dated source evidence. This assessment makes no new source-acceptance, installation, daemon, canary, actual model-work or accepted-delivery claim. Independent review of this portfolio candidate is pending.
+Historical acceptance recorded in the method is dated source evidence. This assessment makes no new source-acceptance, installation, daemon, canary, actual model-work or accepted-delivery claim. Bounded review checked the retained private test receipts and independently replayed the public example; it did not rerun the private-source tests or validate installed operation.
 
 [Case](README.md) · [Architecture](architecture.md) · [Run the example](../../examples/engineering_workflow/README.md)

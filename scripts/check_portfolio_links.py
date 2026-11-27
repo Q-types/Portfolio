@@ -236,7 +236,8 @@ def check_engineering_artifacts(errors):
 
 def main():
     errors = []
-    pages = [ROOT / "README.md", ROOT / "docs/project-index.md"]
+    pages = [ROOT / "README.md", ROOT / "docs/project-index.md",
+             ROOT / "docs/reproduce.md", ROOT / "docs/evidence-guide.md"]
     pages.extend(ROOT / "projects" / case / "README.md" for case in CASES)
     pages.extend(ROOT / "projects/qsol-solution-finder" / name for name in
                  ["evidence.md", "architecture.md", "illustrative-contract.md"])
