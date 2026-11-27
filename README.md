@@ -18,6 +18,8 @@ I completed the University of Cambridge PACE Career Accelerator in Data Science 
 
 The completed student-dropout study now has a [runnable staged classification example](examples/student_dropout/README.md): invented data, train-only preprocessing, development-selected thresholds and a retained comparison across three decision times. Its synthetic results are separate from the original study.
 
+Customer segmentation now has a [corrected offline pipeline](examples/customer_segmentation/README.md) for signed money, distinct orders, reconciliation and held-out cluster stability. Its measured results use invented purchases; the historical notebook/report remain preserved and original-data revalidation is still pending.
+
 The [complete project and status index](docs/project-index.md) also covers historical acoustics tools, teaching software, learning exercises and exploratory research. Each entry separates the original work’s completion from the readiness of a public revision. These overviews can be read without installing software; they do not certify that the older notebooks or applications run from a fresh checkout.
 
 ## Skills in context

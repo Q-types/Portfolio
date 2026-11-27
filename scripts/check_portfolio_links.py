@@ -137,6 +137,70 @@ def check_dropout_artifacts(errors):
         errors.append(f"Dropout artifacts: {exc}")
 
 
+
+def check_segmentation_artifacts(errors):
+    """Check synthetic origin, exact run bytes, common cohorts and retained profiles."""
+    base = ROOT / "examples/customer_segmentation"
+    result_names = {"input.csv", "config.json", "customers.json", "ledger.json", "frozen.json", "evaluation.json"}
+    source_names = {"__init__.py", "__main__.py", "features.py", "fixture.py", "clustering.py",
+                    "metrics.py", "protocol.py", "test_pipeline.py"}
+    try:
+        for path in base.rglob("*"):
+            if path.is_symlink() or path.name == "__pycache__" or path.suffix == ".pyc":
+                raise ValueError("symlink/cache in segmentation example")
+        manifest = json.loads((base / "results/manifest.json").read_bytes())
+        if (manifest["schema"] != "segmentation_run_v1" or manifest["evidence"] != "synthetic mechanics only"
+                or manifest["scope"] != "public_invented" or manifest["permission_receipt"] is not None):
+            raise ValueError("public result scope must be invented")
+        if set(manifest["files"]) != result_names or set(manifest["source"]) != source_names:
+            raise ValueError("unexpected manifest file set")
+        if {p.name for p in (base / "results").iterdir()} != result_names | {"manifest.json"}:
+            raise ValueError("unexpected result file")
+        if {p.name for p in base.glob("*.py")} != source_names:
+            raise ValueError("unexpected source file")
+        for group, directory in [("files", base / "results"), ("source", base)]:
+            for name, expected in manifest[group].items():
+                raw = (directory / name).read_bytes()
+                if expected != {"bytes": len(raw), "sha256": hashlib.sha256(raw).hexdigest()}:
+                    raise ValueError(f"artifact identity mismatch: {name}")
+        # Import only the bounded local example, without writing bytecode caches.
+        sys.dont_write_bytecode = True
+        if str(ROOT) not in sys.path:
+            sys.path.insert(0, str(ROOT))
+        from examples.customer_segmentation.fixture import fixture_bytes
+        from examples.customer_segmentation.features import aggregate
+        from examples.customer_segmentation.protocol import split, evaluate
+        from examples.customer_segmentation.__main__ import encoded, identity
+        raw = (base / "fixtures/synthetic.csv").read_bytes()
+        config_raw = (base / "protocol.json").read_bytes()
+        if raw != fixture_bytes() or raw != (base / "results/input.csv").read_bytes():
+            raise ValueError("public input differs from independently invented fixture")
+        if config_raw != (base / "results/config.json").read_bytes():
+            raise ValueError("retained config differs from protocol")
+        if manifest["input"] != identity(raw) or manifest["config"] != identity(config_raw):
+            raise ValueError("input/config identity mismatch")
+        if manifest["frozen_before_evaluation"] != manifest["files"]["frozen.json"]:
+            raise ValueError("frozen state identity mismatch")
+        config = json.loads(config_raw)
+        customers, ledger = aggregate(raw, config)
+        for name, value in [("customers.json", customers), ("ledger.json", ledger)]:
+            if (base / "results" / name).read_bytes() != encoded(value):
+                raise ValueError(f"feature/ledger mismatch: {name}")
+        fit, evaluation = split(customers, config)
+        frozen = json.loads((base / "results/frozen.json").read_bytes())
+        result = json.loads((base / "results/evaluation.json").read_bytes())
+        run_id = identity(encoded({"input": manifest["input"], "config": manifest["config"],
+                                   "source": manifest["source"]}))["sha256"]
+        if result["run_id"] != run_id or manifest["run_id"] != run_id:
+            raise ValueError("run identity mismatch")
+        if result["comparisons"] != evaluate(frozen, fit, evaluation, config):
+            raise ValueError("retained profiles/metrics do not match fitted states and cohort")
+        if [c["baseline"]["k"] for c in frozen] != [2, 3]:
+            raise ValueError("missing k comparison")
+    except (OSError, ValueError, KeyError, TypeError, ImportError) as exc:
+        errors.append(f"Segmentation artifacts: {exc}")
+
+
 def main():
     errors = []
     pages = [ROOT / "README.md", ROOT / "docs/project-index.md"]
@@ -145,6 +209,9 @@ def main():
     pages.append(ROOT / "examples/book_sales_forecasting/README.md")
     pages.append(ROOT / "examples/financial_text_nlp/README.md")
     pages.append(ROOT / "examples/student_dropout/README.md")
+    pages.extend(ROOT / "examples/customer_segmentation" / name for name in
+                 ["README.md", "source_notes.md", "private_input.md"])
+    pages.append(ROOT / "MachineLearning_AI/Customer_Segmentation_Clustering/README.md")
     link_count = 0
     for page in pages:
         if not page.is_file():
@@ -173,6 +240,9 @@ def main():
         errors.append("Project index missing synthetic dropout example")
     check_financial_text_artifacts(errors)
     check_dropout_artifacts(errors)
+    if "../examples/customer_segmentation/README.md" not in index_text:
+        errors.append("Project index missing corrected segmentation example")
+    check_segmentation_artifacts(errors)
     row_counts = {}
     for filename, schema in SCHEMAS.items():
         path = ROOT / "docs" / filename
