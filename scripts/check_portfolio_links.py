@@ -223,6 +223,17 @@ def check_feedback_artifacts(errors):
         errors.append(f"Feedback artifacts: {exc}")
 
 
+def check_engineering_artifacts(errors):
+    sys.dont_write_bytecode = True
+    if str(ROOT) not in sys.path:
+        sys.path.insert(0, str(ROOT))
+    try:
+        from examples.engineering_workflow.verify import verify
+        verify(ROOT / "examples/engineering_workflow")
+    except (OSError, ValueError, KeyError, TypeError, ImportError) as exc:
+        errors.append(f"Engineering artifacts: {exc}")
+
+
 def main():
     errors = []
     pages = [ROOT / "README.md", ROOT / "docs/project-index.md"]
@@ -241,6 +252,8 @@ def main():
     pages.append(ROOT / "MachineLearning_AI/Anomaly_Ships_Engine/README.md")
     pages.extend(ROOT / "projects/customer-feedback-nlp" / name for name in ["evidence.md", "methods.md"])
     pages.append(ROOT / "examples/customer_feedback_nlp/README.md")
+    pages.extend(ROOT / "projects/engineering-workflow" / name for name in ["architecture.md", "evidence.md"])
+    pages.append(ROOT / "examples/engineering_workflow/README.md")
     link_count = 0
     for page in pages:
         if not page.is_file():
@@ -278,6 +291,9 @@ def main():
     if "../examples/customer_feedback_nlp/README.md" not in index_text:
         errors.append("Project index missing customer-feedback evaluation")
     check_feedback_artifacts(errors)
+    if "../examples/engineering_workflow/README.md" not in index_text:
+        errors.append("Project index missing engineering workflow example")
+    check_engineering_artifacts(errors)
     row_counts = {}
     for filename, schema in SCHEMAS.items():
         path = ROOT / "docs" / filename

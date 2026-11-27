@@ -1,0 +1,21 @@
+{
+  "epoch": 7,
+  "intake": [
+    "c7364cc3924ca9b0bd177ec9cbcc4f7e217c0d625387f543511dd765693ba87a",
+    "3038cf4fdc04184cdc7251c25a36c5f46e2f5a011d7cbf3f0a84b4a7c2fd58c2",
+    "88807999e0f5438883798299f942a3244ad17cb27f42ac5877461386faa8eea9",
+    "138a8cda764061800604faf783d2e8a23b76270fc50698336b3bdb8c98547806"
+  ],
+  "owner": "invented-owner",
+  "publishers": [
+    "invented-publisher"
+  ],
+  "reviewers": [
+    "invented-reviewer",
+    "invented-maker"
+  ],
+  "scopes": [
+    "invented-project-a",
+    "invented-project-b"
+  ]
+}

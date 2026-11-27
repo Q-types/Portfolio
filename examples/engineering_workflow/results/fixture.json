@@ -1,0 +1,41 @@
+{
+  "origin": "entirely invented",
+  "requests": [
+    {
+      "base": "invented-base-000",
+      "branch": "invented/amber",
+      "implementer": "invented-maker",
+      "key": "invented-task-amber",
+      "objective": "demonstrate durable handoff",
+      "scope": "invented-project-a",
+      "source_sha256": "67401edf89150e8c0c80d0d6953a6cc11e858aa00f895852f6d53a8dae5cd91c"
+    },
+    {
+      "base": "invented-base-000",
+      "branch": "invented/rival",
+      "implementer": "invented-maker",
+      "key": "invented-task-rival",
+      "objective": "demonstrate durable handoff",
+      "scope": "invented-project-a",
+      "source_sha256": "67401edf89150e8c0c80d0d6953a6cc11e858aa00f895852f6d53a8dae5cd91c"
+    },
+    {
+      "base": "invented-base-000",
+      "branch": "invented/blue",
+      "implementer": "invented-maker",
+      "key": "invented-task-blue",
+      "objective": "demonstrate durable handoff",
+      "scope": "invented-project-b",
+      "source_sha256": "67401edf89150e8c0c80d0d6953a6cc11e858aa00f895852f6d53a8dae5cd91c"
+    },
+    {
+      "base": "invented-base-000",
+      "branch": "invented/amber",
+      "implementer": "invented-maker",
+      "key": "invented-task-amber",
+      "objective": "conflicting invented request",
+      "scope": "invented-project-a",
+      "source_sha256": "67401edf89150e8c0c80d0d6953a6cc11e858aa00f895852f6d53a8dae5cd91c"
+    }
+  ]
+}
