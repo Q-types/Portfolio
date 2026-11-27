@@ -1,0 +1,20 @@
+{
+  "distinct_orders": 91,
+  "duplicate_replays": 1,
+  "eligible_cost": "4820.40",
+  "eligible_customers": 30,
+  "eligible_lines": 134,
+  "eligible_profit": "653.40",
+  "eligible_revenue": "5473.80",
+  "excluded": [
+    {
+      "customer_id": "SYN-INELIGIBLE",
+      "reasons": [
+        "missing_money"
+      ]
+    }
+  ],
+  "input_customers": 31,
+  "raw_lines": 136,
+  "retained_lines": 135
+}

@@ -1,0 +1,1372 @@
+{
+  "comparisons": [
+    {
+      "ari_ranges": {
+        "feature_drop": [
+          1.0,
+          1.0
+        ],
+        "resample": [
+          1.0,
+          1.0
+        ],
+        "seed": [
+          1.0,
+          1.0
+        ]
+      },
+      "evaluation_assignments": {
+        "SYN-004": 1,
+        "SYN-005": 1,
+        "SYN-009": 1,
+        "SYN-010": 1,
+        "SYN-014": 0,
+        "SYN-015": 0,
+        "SYN-019": 1,
+        "SYN-020": 0,
+        "SYN-024": 0,
+        "SYN-025": 0,
+        "SYN-029": 0,
+        "SYN-030": 0
+      },
+      "evaluation_profiles": [
+        {
+          "cluster": 0,
+          "means": {
+            "distinct_orders": 4.0,
+            "line_count": 5.857142857142857,
+            "observed_profit": 36.31428571428571,
+            "purchased_units": 12.571428571428571,
+            "recency_days": 116.85714285714286,
+            "revenue": 276.31428571428575,
+            "unit_weighted_cost": 19.28915429808287
+          },
+          "n": 7
+        },
+        {
+          "cluster": 1,
+          "means": {
+            "distinct_orders": 2.2,
+            "line_count": 3.2,
+            "observed_profit": 8.459999999999999,
+            "purchased_units": 6.4,
+            "recency_days": 52.0,
+            "revenue": 100.25999999999999,
+            "unit_weighted_cost": 14.392857142857142
+          },
+          "n": 5
+        }
+      ],
+      "evaluation_silhouette": {
+        "ids": [
+          "SYN-004",
+          "SYN-005",
+          "SYN-009",
+          "SYN-010",
+          "SYN-014",
+          "SYN-015",
+          "SYN-019",
+          "SYN-020",
+          "SYN-024",
+          "SYN-025",
+          "SYN-029",
+          "SYN-030"
+        ],
+        "method": "exact on full cohort",
+        "n": 12,
+        "reason": null,
+        "score": 0.3678057451757075
+      },
+      "fit_inertia": 36.54739032455097,
+      "fit_profiles": [
+        {
+          "cluster": 0,
+          "means": {
+            "distinct_orders": 3.5555555555555554,
+            "line_count": 5.444444444444445,
+            "observed_profit": 30.71111111111111,
+            "purchased_units": 11.555555555555555,
+            "recency_days": 111.0,
+            "revenue": 252.15555555555557,
+            "unit_weighted_cost": 19.356685906685907
+          },
+          "n": 9
+        },
+        {
+          "cluster": 1,
+          "means": {
+            "distinct_orders": 2.111111111111111,
+            "line_count": 3.111111111111111,
+            "observed_profit": 8.944444444444445,
+            "purchased_units": 6.444444444444445,
+            "recency_days": 65.0,
+            "revenue": 85.43333333333334,
+            "unit_weighted_cost": 12.895168350168351
+          },
+          "n": 9
+        }
+      ],
+      "fit_silhouette": {
+        "ids": [
+          "SYN-001",
+          "SYN-002",
+          "SYN-003",
+          "SYN-006",
+          "SYN-007",
+          "SYN-008",
+          "SYN-011",
+          "SYN-012",
+          "SYN-013",
+          "SYN-016",
+          "SYN-017",
+          "SYN-018",
+          "SYN-021",
+          "SYN-022",
+          "SYN-023",
+          "SYN-026",
+          "SYN-027",
+          "SYN-028"
+        ],
+        "method": "exact on full cohort",
+        "n": 18,
+        "reason": null,
+        "score": 0.39523103259469017
+      },
+      "k": 2,
+      "stability": [
+        {
+          "ari": 1.0,
+          "evaluation_labels": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "evaluation_profiles": [
+            {
+              "cluster": 0,
+              "means": {
+                "distinct_orders": 4.0,
+                "line_count": 5.857142857142857,
+                "observed_profit": 36.31428571428571,
+                "purchased_units": 12.571428571428571,
+                "recency_days": 116.85714285714286,
+                "revenue": 276.31428571428575,
+                "unit_weighted_cost": 19.28915429808287
+              },
+              "n": 7
+            },
+            {
+              "cluster": 1,
+              "means": {
+                "distinct_orders": 2.2,
+                "line_count": 3.2,
+                "observed_profit": 8.459999999999999,
+                "purchased_units": 6.4,
+                "recency_days": 52.0,
+                "revenue": 100.25999999999999,
+                "unit_weighted_cost": 14.392857142857142
+              },
+              "n": 5
+            }
+          ],
+          "evaluation_sizes": [
+            7,
+            5
+          ],
+          "fit_ids": [
+            "SYN-001",
+            "SYN-002",
+            "SYN-003",
+            "SYN-006",
+            "SYN-007",
+            "SYN-008",
+            "SYN-011",
+            "SYN-012",
+            "SYN-013",
+            "SYN-016",
+            "SYN-017",
+            "SYN-018",
+            "SYN-021",
+            "SYN-022",
+            "SYN-023",
+            "SYN-026",
+            "SYN-027",
+            "SYN-028"
+          ],
+          "kind": "seed",
+          "seed": 41
+        },
+        {
+          "ari": 1.0,
+          "evaluation_labels": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "evaluation_profiles": [
+            {
+              "cluster": 0,
+              "means": {
+                "distinct_orders": 4.0,
+                "line_count": 5.857142857142857,
+                "observed_profit": 36.31428571428571,
+                "purchased_units": 12.571428571428571,
+                "recency_days": 116.85714285714286,
+                "revenue": 276.31428571428575,
+                "unit_weighted_cost": 19.28915429808287
+              },
+              "n": 7
+            },
+            {
+              "cluster": 1,
+              "means": {
+                "distinct_orders": 2.2,
+                "line_count": 3.2,
+                "observed_profit": 8.459999999999999,
+                "purchased_units": 6.4,
+                "recency_days": 52.0,
+                "revenue": 100.25999999999999,
+                "unit_weighted_cost": 14.392857142857142
+              },
+              "n": 5
+            }
+          ],
+          "evaluation_sizes": [
+            7,
+            5
+          ],
+          "fit_ids": [
+            "SYN-003",
+            "SYN-007",
+            "SYN-008",
+            "SYN-011",
+            "SYN-012",
+            "SYN-013",
+            "SYN-016",
+            "SYN-017",
+            "SYN-018",
+            "SYN-021",
+            "SYN-022",
+            "SYN-026",
+            "SYN-027",
+            "SYN-028"
+          ],
+          "kind": "resample",
+          "seed": 41
+        },
+        {
+          "ari": 1.0,
+          "evaluation_labels": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "evaluation_profiles": [
+            {
+              "cluster": 0,
+              "means": {
+                "distinct_orders": 2.2,
+                "line_count": 3.2,
+                "observed_profit": 8.459999999999999,
+                "purchased_units": 6.4,
+                "recency_days": 52.0,
+                "revenue": 100.25999999999999,
+                "unit_weighted_cost": 14.392857142857142
+              },
+              "n": 5
+            },
+            {
+              "cluster": 1,
+              "means": {
+                "distinct_orders": 4.0,
+                "line_count": 5.857142857142857,
+                "observed_profit": 36.31428571428571,
+                "purchased_units": 12.571428571428571,
+                "recency_days": 116.85714285714286,
+                "revenue": 276.31428571428575,
+                "unit_weighted_cost": 19.28915429808287
+              },
+              "n": 7
+            }
+          ],
+          "evaluation_sizes": [
+            5,
+            7
+          ],
+          "fit_ids": [
+            "SYN-001",
+            "SYN-002",
+            "SYN-003",
+            "SYN-006",
+            "SYN-007",
+            "SYN-008",
+            "SYN-011",
+            "SYN-012",
+            "SYN-013",
+            "SYN-016",
+            "SYN-017",
+            "SYN-018",
+            "SYN-021",
+            "SYN-022",
+            "SYN-023",
+            "SYN-026",
+            "SYN-027",
+            "SYN-028"
+          ],
+          "kind": "seed",
+          "seed": 73
+        },
+        {
+          "ari": 1.0,
+          "evaluation_labels": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "evaluation_profiles": [
+            {
+              "cluster": 0,
+              "means": {
+                "distinct_orders": 4.0,
+                "line_count": 5.857142857142857,
+                "observed_profit": 36.31428571428571,
+                "purchased_units": 12.571428571428571,
+                "recency_days": 116.85714285714286,
+                "revenue": 276.31428571428575,
+                "unit_weighted_cost": 19.28915429808287
+              },
+              "n": 7
+            },
+            {
+              "cluster": 1,
+              "means": {
+                "distinct_orders": 2.2,
+                "line_count": 3.2,
+                "observed_profit": 8.459999999999999,
+                "purchased_units": 6.4,
+                "recency_days": 52.0,
+                "revenue": 100.25999999999999,
+                "unit_weighted_cost": 14.392857142857142
+              },
+              "n": 5
+            }
+          ],
+          "evaluation_sizes": [
+            7,
+            5
+          ],
+          "fit_ids": [
+            "SYN-002",
+            "SYN-003",
+            "SYN-006",
+            "SYN-007",
+            "SYN-011",
+            "SYN-012",
+            "SYN-013",
+            "SYN-016",
+            "SYN-017",
+            "SYN-018",
+            "SYN-021",
+            "SYN-023",
+            "SYN-026",
+            "SYN-028"
+          ],
+          "kind": "resample",
+          "seed": 73
+        },
+        {
+          "ari": 1.0,
+          "evaluation_labels": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "evaluation_profiles": [
+            {
+              "cluster": 0,
+              "means": {
+                "distinct_orders": 4.0,
+                "line_count": 5.857142857142857,
+                "observed_profit": 36.31428571428571,
+                "purchased_units": 12.571428571428571,
+                "recency_days": 116.85714285714286,
+                "revenue": 276.31428571428575,
+                "unit_weighted_cost": 19.28915429808287
+              },
+              "n": 7
+            },
+            {
+              "cluster": 1,
+              "means": {
+                "distinct_orders": 2.2,
+                "line_count": 3.2,
+                "observed_profit": 8.459999999999999,
+                "purchased_units": 6.4,
+                "recency_days": 52.0,
+                "revenue": 100.25999999999999,
+                "unit_weighted_cost": 14.392857142857142
+              },
+              "n": 5
+            }
+          ],
+          "evaluation_sizes": [
+            7,
+            5
+          ],
+          "fit_ids": [
+            "SYN-001",
+            "SYN-002",
+            "SYN-003",
+            "SYN-006",
+            "SYN-007",
+            "SYN-008",
+            "SYN-011",
+            "SYN-012",
+            "SYN-013",
+            "SYN-016",
+            "SYN-017",
+            "SYN-018",
+            "SYN-021",
+            "SYN-022",
+            "SYN-023",
+            "SYN-026",
+            "SYN-027",
+            "SYN-028"
+          ],
+          "kind": "seed",
+          "seed": 109
+        },
+        {
+          "ari": 1.0,
+          "evaluation_labels": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "evaluation_profiles": [
+            {
+              "cluster": 0,
+              "means": {
+                "distinct_orders": 2.2,
+                "line_count": 3.2,
+                "observed_profit": 8.459999999999999,
+                "purchased_units": 6.4,
+                "recency_days": 52.0,
+                "revenue": 100.25999999999999,
+                "unit_weighted_cost": 14.392857142857142
+              },
+              "n": 5
+            },
+            {
+              "cluster": 1,
+              "means": {
+                "distinct_orders": 4.0,
+                "line_count": 5.857142857142857,
+                "observed_profit": 36.31428571428571,
+                "purchased_units": 12.571428571428571,
+                "recency_days": 116.85714285714286,
+                "revenue": 276.31428571428575,
+                "unit_weighted_cost": 19.28915429808287
+              },
+              "n": 7
+            }
+          ],
+          "evaluation_sizes": [
+            5,
+            7
+          ],
+          "fit_ids": [
+            "SYN-001",
+            "SYN-002",
+            "SYN-006",
+            "SYN-007",
+            "SYN-011",
+            "SYN-012",
+            "SYN-013",
+            "SYN-016",
+            "SYN-021",
+            "SYN-022",
+            "SYN-023",
+            "SYN-026",
+            "SYN-027",
+            "SYN-028"
+          ],
+          "kind": "resample",
+          "seed": 109
+        },
+        {
+          "ari": 1.0,
+          "evaluation_labels": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "evaluation_profiles": [
+            {
+              "cluster": 0,
+              "means": {
+                "distinct_orders": 2.2,
+                "line_count": 3.2,
+                "observed_profit": 8.459999999999999,
+                "purchased_units": 6.4,
+                "recency_days": 52.0,
+                "revenue": 100.25999999999999,
+                "unit_weighted_cost": 14.392857142857142
+              },
+              "n": 5
+            },
+            {
+              "cluster": 1,
+              "means": {
+                "distinct_orders": 4.0,
+                "line_count": 5.857142857142857,
+                "observed_profit": 36.31428571428571,
+                "purchased_units": 12.571428571428571,
+                "recency_days": 116.85714285714286,
+                "revenue": 276.31428571428575,
+                "unit_weighted_cost": 19.28915429808287
+              },
+              "n": 7
+            }
+          ],
+          "evaluation_sizes": [
+            5,
+            7
+          ],
+          "fit_ids": [
+            "SYN-001",
+            "SYN-002",
+            "SYN-003",
+            "SYN-006",
+            "SYN-007",
+            "SYN-008",
+            "SYN-011",
+            "SYN-012",
+            "SYN-013",
+            "SYN-016",
+            "SYN-017",
+            "SYN-018",
+            "SYN-021",
+            "SYN-022",
+            "SYN-023",
+            "SYN-026",
+            "SYN-027",
+            "SYN-028"
+          ],
+          "kind": "feature_drop",
+          "seed": 1729
+        }
+      ]
+    },
+    {
+      "ari_ranges": {
+        "feature_drop": [
+          0.811965811965812,
+          0.811965811965812
+        ],
+        "resample": [
+          0.811965811965812,
+          0.8731988472622478
+        ],
+        "seed": [
+          0.811965811965812,
+          1.0
+        ]
+      },
+      "evaluation_assignments": {
+        "SYN-004": 1,
+        "SYN-005": 1,
+        "SYN-009": 1,
+        "SYN-010": 1,
+        "SYN-014": 2,
+        "SYN-015": 2,
+        "SYN-019": 0,
+        "SYN-020": 2,
+        "SYN-024": 2,
+        "SYN-025": 2,
+        "SYN-029": 2,
+        "SYN-030": 2
+      },
+      "evaluation_profiles": [
+        {
+          "cluster": 0,
+          "means": {
+            "distinct_orders": 2.0,
+            "line_count": 3.0,
+            "observed_profit": 6.2,
+            "purchased_units": 7.0,
+            "recency_days": 124.0,
+            "revenue": 135.2,
+            "unit_weighted_cost": 18.428571428571427
+          },
+          "n": 1
+        },
+        {
+          "cluster": 1,
+          "means": {
+            "distinct_orders": 2.25,
+            "line_count": 3.25,
+            "observed_profit": 9.025,
+            "purchased_units": 6.25,
+            "recency_days": 34.0,
+            "revenue": 91.525,
+            "unit_weighted_cost": 13.383928571428571
+          },
+          "n": 4
+        },
+        {
+          "cluster": 2,
+          "means": {
+            "distinct_orders": 4.0,
+            "line_count": 5.857142857142857,
+            "observed_profit": 36.31428571428571,
+            "purchased_units": 12.571428571428571,
+            "recency_days": 116.85714285714286,
+            "revenue": 276.31428571428575,
+            "unit_weighted_cost": 19.28915429808287
+          },
+          "n": 7
+        }
+      ],
+      "evaluation_silhouette": {
+        "ids": [
+          "SYN-004",
+          "SYN-005",
+          "SYN-009",
+          "SYN-010",
+          "SYN-014",
+          "SYN-015",
+          "SYN-019",
+          "SYN-020",
+          "SYN-024",
+          "SYN-025",
+          "SYN-029",
+          "SYN-030"
+        ],
+        "method": "exact on full cohort",
+        "n": 12,
+        "reason": null,
+        "score": 0.24411383882321017
+      },
+      "fit_inertia": 26.8137277540963,
+      "fit_profiles": [
+        {
+          "cluster": 0,
+          "means": {
+            "distinct_orders": 1.6666666666666667,
+            "line_count": 2.3333333333333335,
+            "observed_profit": 5.066666666666666,
+            "purchased_units": 4.333333333333333,
+            "recency_days": 78.66666666666667,
+            "revenue": 81.73333333333333,
+            "unit_weighted_cost": 18.333333333333332
+          },
+          "n": 3
+        },
+        {
+          "cluster": 1,
+          "means": {
+            "distinct_orders": 2.3333333333333335,
+            "line_count": 3.5,
+            "observed_profit": 10.883333333333333,
+            "purchased_units": 7.5,
+            "recency_days": 58.166666666666664,
+            "revenue": 87.28333333333335,
+            "unit_weighted_cost": 10.176085858585859
+          },
+          "n": 6
+        },
+        {
+          "cluster": 2,
+          "means": {
+            "distinct_orders": 3.5555555555555554,
+            "line_count": 5.444444444444445,
+            "observed_profit": 30.71111111111111,
+            "purchased_units": 11.555555555555555,
+            "recency_days": 111.0,
+            "revenue": 252.15555555555557,
+            "unit_weighted_cost": 19.356685906685907
+          },
+          "n": 9
+        }
+      ],
+      "fit_silhouette": {
+        "ids": [
+          "SYN-001",
+          "SYN-002",
+          "SYN-003",
+          "SYN-006",
+          "SYN-007",
+          "SYN-008",
+          "SYN-011",
+          "SYN-012",
+          "SYN-013",
+          "SYN-016",
+          "SYN-017",
+          "SYN-018",
+          "SYN-021",
+          "SYN-022",
+          "SYN-023",
+          "SYN-026",
+          "SYN-027",
+          "SYN-028"
+        ],
+        "method": "exact on full cohort",
+        "n": 18,
+        "reason": null,
+        "score": 0.36278153652522516
+      },
+      "k": 3,
+      "stability": [
+        {
+          "ari": 0.811965811965812,
+          "evaluation_labels": [
+            1,
+            1,
+            1,
+            2,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "evaluation_profiles": [
+            {
+              "cluster": 0,
+              "means": {
+                "distinct_orders": 4.0,
+                "line_count": 5.857142857142857,
+                "observed_profit": 36.31428571428571,
+                "purchased_units": 12.571428571428571,
+                "recency_days": 116.85714285714286,
+                "revenue": 276.31428571428575,
+                "unit_weighted_cost": 19.28915429808287
+              },
+              "n": 7
+            },
+            {
+              "cluster": 1,
+              "means": {
+                "distinct_orders": 2.0,
+                "line_count": 3.0,
+                "observed_profit": 10.8,
+                "purchased_units": 6.25,
+                "recency_days": 60.5,
+                "revenue": 98.8,
+                "unit_weighted_cost": 14.169642857142858
+              },
+              "n": 4
+            },
+            {
+              "cluster": 2,
+              "means": {
+                "distinct_orders": 3.0,
+                "line_count": 4.0,
+                "observed_profit": -0.9,
+                "purchased_units": 7.0,
+                "recency_days": 18.0,
+                "revenue": 106.1,
+                "unit_weighted_cost": 15.285714285714286
+              },
+              "n": 1
+            }
+          ],
+          "evaluation_sizes": [
+            7,
+            4,
+            1
+          ],
+          "fit_ids": [
+            "SYN-001",
+            "SYN-002",
+            "SYN-003",
+            "SYN-006",
+            "SYN-007",
+            "SYN-008",
+            "SYN-011",
+            "SYN-012",
+            "SYN-013",
+            "SYN-016",
+            "SYN-017",
+            "SYN-018",
+            "SYN-021",
+            "SYN-022",
+            "SYN-023",
+            "SYN-026",
+            "SYN-027",
+            "SYN-028"
+          ],
+          "kind": "seed",
+          "seed": 41
+        },
+        {
+          "ari": 0.811965811965812,
+          "evaluation_labels": [
+            1,
+            1,
+            1,
+            2,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "evaluation_profiles": [
+            {
+              "cluster": 0,
+              "means": {
+                "distinct_orders": 4.0,
+                "line_count": 5.857142857142857,
+                "observed_profit": 36.31428571428571,
+                "purchased_units": 12.571428571428571,
+                "recency_days": 116.85714285714286,
+                "revenue": 276.31428571428575,
+                "unit_weighted_cost": 19.28915429808287
+              },
+              "n": 7
+            },
+            {
+              "cluster": 1,
+              "means": {
+                "distinct_orders": 2.0,
+                "line_count": 3.0,
+                "observed_profit": 10.8,
+                "purchased_units": 6.25,
+                "recency_days": 60.5,
+                "revenue": 98.8,
+                "unit_weighted_cost": 14.169642857142858
+              },
+              "n": 4
+            },
+            {
+              "cluster": 2,
+              "means": {
+                "distinct_orders": 3.0,
+                "line_count": 4.0,
+                "observed_profit": -0.9,
+                "purchased_units": 7.0,
+                "recency_days": 18.0,
+                "revenue": 106.1,
+                "unit_weighted_cost": 15.285714285714286
+              },
+              "n": 1
+            }
+          ],
+          "evaluation_sizes": [
+            7,
+            4,
+            1
+          ],
+          "fit_ids": [
+            "SYN-003",
+            "SYN-007",
+            "SYN-008",
+            "SYN-011",
+            "SYN-012",
+            "SYN-013",
+            "SYN-016",
+            "SYN-017",
+            "SYN-018",
+            "SYN-021",
+            "SYN-022",
+            "SYN-026",
+            "SYN-027",
+            "SYN-028"
+          ],
+          "kind": "resample",
+          "seed": 41
+        },
+        {
+          "ari": 1.0,
+          "evaluation_labels": [
+            2,
+            2,
+            2,
+            2,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "evaluation_profiles": [
+            {
+              "cluster": 0,
+              "means": {
+                "distinct_orders": 4.0,
+                "line_count": 5.857142857142857,
+                "observed_profit": 36.31428571428571,
+                "purchased_units": 12.571428571428571,
+                "recency_days": 116.85714285714286,
+                "revenue": 276.31428571428575,
+                "unit_weighted_cost": 19.28915429808287
+              },
+              "n": 7
+            },
+            {
+              "cluster": 1,
+              "means": {
+                "distinct_orders": 2.0,
+                "line_count": 3.0,
+                "observed_profit": 6.2,
+                "purchased_units": 7.0,
+                "recency_days": 124.0,
+                "revenue": 135.2,
+                "unit_weighted_cost": 18.428571428571427
+              },
+              "n": 1
+            },
+            {
+              "cluster": 2,
+              "means": {
+                "distinct_orders": 2.25,
+                "line_count": 3.25,
+                "observed_profit": 9.025,
+                "purchased_units": 6.25,
+                "recency_days": 34.0,
+                "revenue": 91.525,
+                "unit_weighted_cost": 13.383928571428571
+              },
+              "n": 4
+            }
+          ],
+          "evaluation_sizes": [
+            7,
+            1,
+            4
+          ],
+          "fit_ids": [
+            "SYN-001",
+            "SYN-002",
+            "SYN-003",
+            "SYN-006",
+            "SYN-007",
+            "SYN-008",
+            "SYN-011",
+            "SYN-012",
+            "SYN-013",
+            "SYN-016",
+            "SYN-017",
+            "SYN-018",
+            "SYN-021",
+            "SYN-022",
+            "SYN-023",
+            "SYN-026",
+            "SYN-027",
+            "SYN-028"
+          ],
+          "kind": "seed",
+          "seed": 73
+        },
+        {
+          "ari": 0.811965811965812,
+          "evaluation_labels": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            2,
+            0,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "evaluation_profiles": [
+            {
+              "cluster": 0,
+              "means": {
+                "distinct_orders": 2.0,
+                "line_count": 3.0,
+                "observed_profit": 10.8,
+                "purchased_units": 6.25,
+                "recency_days": 60.5,
+                "revenue": 98.8,
+                "unit_weighted_cost": 14.169642857142858
+              },
+              "n": 4
+            },
+            {
+              "cluster": 1,
+              "means": {
+                "distinct_orders": 3.0,
+                "line_count": 4.0,
+                "observed_profit": -0.9,
+                "purchased_units": 7.0,
+                "recency_days": 18.0,
+                "revenue": 106.1,
+                "unit_weighted_cost": 15.285714285714286
+              },
+              "n": 1
+            },
+            {
+              "cluster": 2,
+              "means": {
+                "distinct_orders": 4.0,
+                "line_count": 5.857142857142857,
+                "observed_profit": 36.31428571428571,
+                "purchased_units": 12.571428571428571,
+                "recency_days": 116.85714285714286,
+                "revenue": 276.31428571428575,
+                "unit_weighted_cost": 19.28915429808287
+              },
+              "n": 7
+            }
+          ],
+          "evaluation_sizes": [
+            4,
+            1,
+            7
+          ],
+          "fit_ids": [
+            "SYN-002",
+            "SYN-003",
+            "SYN-006",
+            "SYN-007",
+            "SYN-011",
+            "SYN-012",
+            "SYN-013",
+            "SYN-016",
+            "SYN-017",
+            "SYN-018",
+            "SYN-021",
+            "SYN-023",
+            "SYN-026",
+            "SYN-028"
+          ],
+          "kind": "resample",
+          "seed": 73
+        },
+        {
+          "ari": 1.0,
+          "evaluation_labels": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "evaluation_profiles": [
+            {
+              "cluster": 0,
+              "means": {
+                "distinct_orders": 4.0,
+                "line_count": 5.857142857142857,
+                "observed_profit": 36.31428571428571,
+                "purchased_units": 12.571428571428571,
+                "recency_days": 116.85714285714286,
+                "revenue": 276.31428571428575,
+                "unit_weighted_cost": 19.28915429808287
+              },
+              "n": 7
+            },
+            {
+              "cluster": 1,
+              "means": {
+                "distinct_orders": 2.25,
+                "line_count": 3.25,
+                "observed_profit": 9.025,
+                "purchased_units": 6.25,
+                "recency_days": 34.0,
+                "revenue": 91.525,
+                "unit_weighted_cost": 13.383928571428571
+              },
+              "n": 4
+            },
+            {
+              "cluster": 2,
+              "means": {
+                "distinct_orders": 2.0,
+                "line_count": 3.0,
+                "observed_profit": 6.2,
+                "purchased_units": 7.0,
+                "recency_days": 124.0,
+                "revenue": 135.2,
+                "unit_weighted_cost": 18.428571428571427
+              },
+              "n": 1
+            }
+          ],
+          "evaluation_sizes": [
+            7,
+            4,
+            1
+          ],
+          "fit_ids": [
+            "SYN-001",
+            "SYN-002",
+            "SYN-003",
+            "SYN-006",
+            "SYN-007",
+            "SYN-008",
+            "SYN-011",
+            "SYN-012",
+            "SYN-013",
+            "SYN-016",
+            "SYN-017",
+            "SYN-018",
+            "SYN-021",
+            "SYN-022",
+            "SYN-023",
+            "SYN-026",
+            "SYN-027",
+            "SYN-028"
+          ],
+          "kind": "seed",
+          "seed": 109
+        },
+        {
+          "ari": 0.8731988472622478,
+          "evaluation_labels": [
+            1,
+            2,
+            1,
+            1,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "evaluation_profiles": [
+            {
+              "cluster": 0,
+              "means": {
+                "distinct_orders": 4.0,
+                "line_count": 5.857142857142857,
+                "observed_profit": 36.31428571428571,
+                "purchased_units": 12.571428571428571,
+                "recency_days": 116.85714285714286,
+                "revenue": 276.31428571428575,
+                "unit_weighted_cost": 19.28915429808287
+              },
+              "n": 7
+            },
+            {
+              "cluster": 1,
+              "means": {
+                "distinct_orders": 2.6666666666666665,
+                "line_count": 3.6666666666666665,
+                "observed_profit": 7.333333333333333,
+                "purchased_units": 7.0,
+                "recency_days": 38.0,
+                "revenue": 100.0,
+                "unit_weighted_cost": 13.511904761904761
+              },
+              "n": 3
+            },
+            {
+              "cluster": 2,
+              "means": {
+                "distinct_orders": 1.5,
+                "line_count": 2.5,
+                "observed_profit": 10.15,
+                "purchased_units": 5.5,
+                "recency_days": 73.0,
+                "revenue": 100.64999999999999,
+                "unit_weighted_cost": 15.714285714285714
+              },
+              "n": 2
+            }
+          ],
+          "evaluation_sizes": [
+            7,
+            3,
+            2
+          ],
+          "fit_ids": [
+            "SYN-001",
+            "SYN-002",
+            "SYN-006",
+            "SYN-007",
+            "SYN-011",
+            "SYN-012",
+            "SYN-013",
+            "SYN-016",
+            "SYN-021",
+            "SYN-022",
+            "SYN-023",
+            "SYN-026",
+            "SYN-027",
+            "SYN-028"
+          ],
+          "kind": "resample",
+          "seed": 109
+        },
+        {
+          "ari": 0.811965811965812,
+          "evaluation_labels": [
+            0,
+            0,
+            0,
+            2,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "evaluation_profiles": [
+            {
+              "cluster": 0,
+              "means": {
+                "distinct_orders": 2.0,
+                "line_count": 3.0,
+                "observed_profit": 10.8,
+                "purchased_units": 6.25,
+                "recency_days": 60.5,
+                "revenue": 98.8,
+                "unit_weighted_cost": 14.169642857142858
+              },
+              "n": 4
+            },
+            {
+              "cluster": 1,
+              "means": {
+                "distinct_orders": 4.0,
+                "line_count": 5.857142857142857,
+                "observed_profit": 36.31428571428571,
+                "purchased_units": 12.571428571428571,
+                "recency_days": 116.85714285714286,
+                "revenue": 276.31428571428575,
+                "unit_weighted_cost": 19.28915429808287
+              },
+              "n": 7
+            },
+            {
+              "cluster": 2,
+              "means": {
+                "distinct_orders": 3.0,
+                "line_count": 4.0,
+                "observed_profit": -0.9,
+                "purchased_units": 7.0,
+                "recency_days": 18.0,
+                "revenue": 106.1,
+                "unit_weighted_cost": 15.285714285714286
+              },
+              "n": 1
+            }
+          ],
+          "evaluation_sizes": [
+            4,
+            7,
+            1
+          ],
+          "fit_ids": [
+            "SYN-001",
+            "SYN-002",
+            "SYN-003",
+            "SYN-006",
+            "SYN-007",
+            "SYN-008",
+            "SYN-011",
+            "SYN-012",
+            "SYN-013",
+            "SYN-016",
+            "SYN-017",
+            "SYN-018",
+            "SYN-021",
+            "SYN-022",
+            "SYN-023",
+            "SYN-026",
+            "SYN-027",
+            "SYN-028"
+          ],
+          "kind": "feature_drop",
+          "seed": 1729
+        }
+      ]
+    }
+  ],
+  "interpretation": "Synthetic mechanics only; no business utility established",
+  "run_id": "beddc10c56dc3ec7a146b2f2fcccd1d012036a3323f511fd635310c16f23100e"
+}

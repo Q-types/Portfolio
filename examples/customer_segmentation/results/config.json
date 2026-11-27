@@ -1,0 +1,71 @@
+{
+  "version": "segmentation-v1",
+  "reference_date": "2025-01-01",
+  "window_start": "2024-01-01",
+  "currency": "USD",
+  "reconciliation_tolerance": "0.01",
+  "reconciliation_policy": "fail",
+  "features": [
+    "recency_days",
+    "distinct_orders",
+    "observed_profit",
+    "unit_weighted_cost"
+  ],
+  "asinh_scales": [
+    30,
+    1,
+    20,
+    10
+  ],
+  "fit_ids": [
+    "SYN-001",
+    "SYN-002",
+    "SYN-003",
+    "SYN-006",
+    "SYN-007",
+    "SYN-008",
+    "SYN-011",
+    "SYN-012",
+    "SYN-013",
+    "SYN-016",
+    "SYN-017",
+    "SYN-018",
+    "SYN-021",
+    "SYN-022",
+    "SYN-023",
+    "SYN-026",
+    "SYN-027",
+    "SYN-028"
+  ],
+  "evaluation_ids": [
+    "SYN-004",
+    "SYN-005",
+    "SYN-009",
+    "SYN-010",
+    "SYN-014",
+    "SYN-015",
+    "SYN-019",
+    "SYN-020",
+    "SYN-024",
+    "SYN-025",
+    "SYN-029",
+    "SYN-030"
+  ],
+  "ks": [
+    2,
+    3
+  ],
+  "seed": 1729,
+  "restarts": 5,
+  "max_iterations": 60,
+  "stability_seeds": [
+    41,
+    73,
+    109
+  ],
+  "resample_fraction": 0.8,
+  "silhouette_limit": 100,
+  "sensitivity_drop": "unit_weighted_cost",
+  "max_customers": 300,
+  "max_lines": 5000
+}

@@ -1,5 +1,7 @@
 # Customer Segmentation with Clustering
 
+> **Historical workflow — feature corrections required.** The original notebook and PDF below are preserved unchanged. Use the [corrected revision](../../examples/customer_segmentation/README.md) for tested sign handling, distinct-order counts, reconciliation and held-out cluster diagnostics on invented data. No corrected real-data rerun has been completed. The original text below describes the historical analysis: stripping parentheses lost negative signs; “frequency” counts lines; “CLV” is observed-period profit; average unit cost does not measure price sensitivity. Three clusters were chosen for interpretation despite stronger silhouette for two, and Ward linkage used only ten customers. Historical personas and campaign proposals are not validated outcomes.
+
 - ![Preview](./preview.png)
 
 - **Problem**: Segment customers of a multinational e-commerce company to inform targeted marketing and retention strategies.
@@ -28,6 +30,8 @@
 - **Cluster profiles**: Distinct segments by spend (CLV), purchase cadence (frequency/recency), price sensitivity (avg. unit cost), and age bands. Actionable personas identified for targeted campaigns and retention strategies.
 
 ## How to Reproduce
+**Historical instructions only:** the notebook fetches remote data and may run expensive full-cohort diagnostics. Do not treat the following as the supported offline route or as permission to reuse/redistribute the source dataset.
+
 1. Open `McCann_David_CAM_C101_Week_6_Mini_project.ipynb`.
 2. Ensure dependencies are installed:
    - pandas, numpy, scikit-learn, matplotlib, seaborn, scipy

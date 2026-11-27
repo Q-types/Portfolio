@@ -1,0 +1,25 @@
+# Historical source evidence and correction boundary
+
+The original completed assignment is preserved. The historical public notebook SHA-256 is `f649facf98881f520d199ccc3c8eb3cb7d7aed2ce1c4001cac5adee4f41a82a5`; its 89 cells include one extra instruction Markdown cell compared with the 88-cell working notebook (`7726e1d547bda993b77aa366070f0ffe8d69720ede3fa84826706d9330d7870a`). Their code cells are equal. The submitted report DOCX has SHA-256 `085ebcb24d8053eb58668622aa56fd81c20eadb9d969434bb18806d059cd6f5c`; submitted, working and public PDF bytes share `e1200a6b812435313ee532db5c5e1674a2f2c645988f2600f9c18147306b1ac9`. No separately submitted segmentation notebook was present in the inspected assignment directory. Private evidence retains exact paths and preservation hashes.
+
+Cell indices below are zero-based, including Markdown cells, in the [historical public notebook](../../MachineLearning_AI/Customer_Segmentation_Clustering/McCann_David_CAM_C101_Week_6_Mini_project.ipynb). Working-code indices are one lower. These are saved-source observations, not a new execution of the original analysis.
+
+| Evidence | Finding and corrected treatment |
+| --- | --- |
+| Cells 5, 13, 16 | Accounting parentheses are stripped without a minus sign. The saved −0.40 example becomes +0.4. Decimal parsing now preserves the sign and checks revenue minus quantity × cost. |
+| Cell 13 | Lone `.` becomes zero and invalid formats are coerced to missing. The new contract distinguishes missing from zero and rejects ambiguous formats. |
+| Cells 7, 18, 20 | Saved raw/converted summaries show 951,669 rows and 20 columns. |
+| Cells 4, 28, 30 | Cell 4, near ingestion, instead shows `(951648, 25)`; cell 28 reports 21 duplicate rows and cell 30 drops full-row duplicates. 951,669 − 21 = 951,648, but this arithmetic does not establish why saved state appears earlier or why there are 25 columns. |
+| Final report, dataset section | States 951,668 rows, 25 features and removal of 21 duplicates. The one-row raw-count discrepancy remains unresolved; a header explanation is not established. |
+| Cells 12, 26, 32–35 | Saved missing counts: City 135, Postal_Code 3,716, State_Province 117,192; filled with `unknown`. Monetary/date fields are reported nonmissing after coercion, which does not validate their semantics. The new analytical contract does not use geographic fields. |
+| Cell 39 | `Frequency=('Order ID','count')` counts lines, while order IDs repeat across lines. `CLV=('Profit','sum')` is observed-period profit, `AUC=('Unit Cost','mean')` is an unweighted line mean. Recency uses observed max order date; age uses first birthdate and integer days/365. New definitions are explicit and age is omitted. The report's frequency equation says `sum(Order ID)`, another narrative/code mismatch. |
+| Cells 49–50 | `log1p` is applied to frequency, profit proxy, cost and recency. It is invalid for arbitrary restored losses. The correction uses fixed-scale asinh and fit-only standardization. |
+| Cells 54–67, 69, 71 | Historical K-means/diagnostics use customer data in-sample; saved customer count is 68,300. k=2 has the stronger silhouette, but k=3 was chosen for interpretation. Ward linkage samples only ten customers; it is an illustration, not population corroboration. New fits compare k=2/3 and held-out agreement without promoting old profiles. |
+
+The actual saved raw schema has 20 fields: Quantity, City, Continent, Postal_Code, State_Province, Order_Date, Delivery_Date, Total Revenue, Unit Cost, Discount, OrderTypeLabel, CustomerCountryLabel, Customer_BirthDate, Customer_Group, Customer_Type, Order ID, Profit, Days to Delivery, Loyalty Num and Customer ID. It has **no independent product or line identifier**. Therefore the original full-row duplicate rule cannot by itself distinguish replayed records from identical legitimate lines. The new adapter requires an established line-identity basis; it never silently maps row number or a content hash to business line identity.
+
+The notebook reads a remote `CUSTOMERS_CLEAN.zip` from the FourthRev course-data repository; it does not specify a local cache. The supplied prior metadata reports a 31,516,612-byte archive and Git blob `88cd70613fd61b3f305e26cfef9992cdb6efca08`. That is historical availability metadata, not a current retrieval or a SHA-256 of consumed input. No matching original cache or express continuing local-processing grant was found in the bounded local inspection. Neither public hosting nor previous access supplies that grant. Redistribution is separately unapproved. No original dataset was downloaded or processed here.
+
+This revision validates corrections on independently invented records. It does not establish the magnitude of changes to original clusters, resolve original line identity/counts or supersede the submitted notebook/report. All original customer records, identifiers and derived profiles stay out of new public artifacts.
+
+[Runnable revision](README.md) · [Preserved report](../../MachineLearning_AI/Customer_Segmentation_Clustering/McCann_David_CAM_C101_W6_Mini-project.pdf)

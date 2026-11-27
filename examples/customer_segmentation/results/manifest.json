@@ -1,0 +1,80 @@
+{
+  "config": {
+    "bytes": 1138,
+    "sha256": "b53059c30c861356930ea0afc3e0106c2f6d4e8ee91d3ab2db5aec9084b6705c"
+  },
+  "evidence": "synthetic mechanics only",
+  "files": {
+    "config.json": {
+      "bytes": 1138,
+      "sha256": "b53059c30c861356930ea0afc3e0106c2f6d4e8ee91d3ab2db5aec9084b6705c"
+    },
+    "customers.json": {
+      "bytes": 11743,
+      "sha256": "1e48a4e9579382f0f8d5a5409e007aeb24394321b139a12064fb786b67bd96ff"
+    },
+    "evaluation.json": {
+      "bytes": 35115,
+      "sha256": "e929fdd0bcd7932a5b4033393341afa327aaabac3ab8e4c4fa9fa1ea8678777d"
+    },
+    "frozen.json": {
+      "bytes": 29832,
+      "sha256": "d7db14fb323edf4972853e33fc3d57bc0aae77561ef7841ef4c080bbcad654a8"
+    },
+    "input.csv": {
+      "bytes": 8141,
+      "sha256": "622e0914a051f9f380d95a93db71edd20d14e8c1e619e91a2959d8efba9b7e31"
+    },
+    "ledger.json": {
+      "bytes": 394,
+      "sha256": "0cc8f1bcff6ecf59d19a13b2ce90fa1c31fe7d80db5c581dee7ec8f0c59ce280"
+    }
+  },
+  "frozen_before_evaluation": {
+    "bytes": 29832,
+    "sha256": "d7db14fb323edf4972853e33fc3d57bc0aae77561ef7841ef4c080bbcad654a8"
+  },
+  "input": {
+    "bytes": 8141,
+    "sha256": "622e0914a051f9f380d95a93db71edd20d14e8c1e619e91a2959d8efba9b7e31"
+  },
+  "permission_receipt": null,
+  "python": "3.14.0",
+  "run_id": "beddc10c56dc3ec7a146b2f2fcccd1d012036a3323f511fd635310c16f23100e",
+  "schema": "segmentation_run_v1",
+  "scope": "public_invented",
+  "source": {
+    "__init__.py": {
+      "bytes": 77,
+      "sha256": "04d06647e8ef6fced3537e57dbea6cbf05b8dfecf7afa742509f4ec312d3d044"
+    },
+    "__main__.py": {
+      "bytes": 6039,
+      "sha256": "5b0f60adf7514936f9839fe03835d7ebfada38e35c5702e970db5131071d86a8"
+    },
+    "clustering.py": {
+      "bytes": 3742,
+      "sha256": "7b82ad9014ea3a001c130310df1062c51c6713ed02b2bd562142739cbc8f9e81"
+    },
+    "features.py": {
+      "bytes": 6599,
+      "sha256": "bd475125c2491dc19ca0112a618e8febe51ad435c497b90fb9d32a0607893ffa"
+    },
+    "fixture.py": {
+      "bytes": 1708,
+      "sha256": "366f7da8976133c811c2f7b4d9a86a4ebe14c92e89146e90915a92b1a5afe7a1"
+    },
+    "metrics.py": {
+      "bytes": 2376,
+      "sha256": "69bf3189a9eb2a9b4371a4063fcb031240cc9baf032ae7a9914cf84f8064d91d"
+    },
+    "protocol.py": {
+      "bytes": 7475,
+      "sha256": "df873ce52bab770583c6f6af429fa60eaee551d547fdec66f6dcae9cc2e0b864"
+    },
+    "test_pipeline.py": {
+      "bytes": 16265,
+      "sha256": "d6f8e09675f11390ea433c0255b24d72177aa1f3660fcba52dd8f88459cf5dcb"
+    }
+  }
+}
