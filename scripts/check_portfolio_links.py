@@ -49,6 +49,7 @@ def main():
     errors = []
     pages = [ROOT / "README.md", ROOT / "docs/project-index.md"]
     pages.extend(ROOT / "projects" / case / "README.md" for case in CASES)
+    pages.append(ROOT / "examples/packaging_optimisation/README.md")
     link_count = 0
     for page in pages:
         if not page.is_file():
@@ -67,6 +68,8 @@ def main():
     for case in CASES:
         if f"../projects/{case}/README.md" not in index_text:
             errors.append(f"Project index missing case: {case}")
+    if "../examples/packaging_optimisation/README.md" not in index_text:
+        errors.append("Project index missing synthetic packaging example")
     row_counts = {}
     for filename, schema in SCHEMAS.items():
         path = ROOT / "docs" / filename
@@ -92,7 +95,7 @@ def main():
             seen.add(key)
             projects.add(row["project_id"])
             check_destination(path, row["source_route"], errors)
-        for case in CASES:
+        for case in (*CASES, "packaging-optimisation"):
             if case not in projects:
                 errors.append(f"{filename}: missing case {case}")
 

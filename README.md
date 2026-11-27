@@ -8,7 +8,7 @@ I completed the University of Cambridge PACE Career Accelerator in Data Science 
 
 | Case | Problem and personal contribution | What you can inspect |
 | --- | --- | --- |
-| [KSP manufacturing MIS](projects/ksp-mis/README.md) | Connect packaging specifications, material prices and production rules to estimates, quotations and orders. I designed and implemented the data model, calculation workflow and traceability controls. | Current private implementation explained through architecture and an illustrative decision flow; separate legacy public code. |
+| [KSP manufacturing MIS](projects/ksp-mis/README.md) | Connect packaging specifications, material prices and production rules to estimates, quotations and orders. I designed and implemented the data model, calculation workflow and traceability controls. | Current private architecture plus a [runnable synthetic optimisation/provenance example](examples/packaging_optimisation/README.md); separate legacy public code. |
 | [Bank of England financial-text NLP](projects/bank-of-england-nlp/README.md) | Study how analyst attention and management disclosures vary across banks and time. I built the corpus preparation and topic-attention analysis for a Cambridge / Bank of England live employer project. | Personal contribution, saved analytical findings and pinned, attributed team notebooks. |
 | [Book-sales forecasting](projects/book-sales-forecasting/README.md) | Compare forecasting approaches for operational demand planning. I prepared the sales series and compared statistical, tree, neural and residual-hybrid models for two titles. | Completed study, separate weekly/monthly experiments and explicit evaluation limitations. |
 
