@@ -1,0 +1,382 @@
+{
+  "duplicated_prediction_ids": [
+    "P02"
+  ],
+  "judgments": [
+    {
+      "prediction_id": "P01",
+      "prediction_sha256": "30b1c9802239e2c106bfd97d3e4aa56fcff6cdbccd82fe7e1406756342ead819",
+      "reason": "Retains delay duration.",
+      "reference_ids": [
+        "F01"
+      ],
+      "specific": true,
+      "support": "supported"
+    },
+    {
+      "prediction_id": "P02",
+      "prediction_sha256": "4688cbc410dff9bc4f31d84bdef125e93f16e0a754a912fbddea9900bb300465",
+      "reason": "Repeated issue; no second credit.",
+      "reference_ids": [
+        "F01"
+      ],
+      "specific": true,
+      "support": "supported"
+    },
+    {
+      "prediction_id": "P03",
+      "prediction_sha256": "8d480353e3a26bc29f526811cb7d48b4f5e8f807887c1675964d7ccc98410bfe",
+      "reason": "Issue supported; category intentionally wrong.",
+      "reference_ids": [
+        "F03"
+      ],
+      "specific": true,
+      "support": "supported"
+    },
+    {
+      "prediction_id": "P04",
+      "prediction_sha256": "2af6806c7b0c5a94d028211c2a5972bf3ceb78320889868a2384541e73014ac0",
+      "reason": "Access failure does not establish payment theft.",
+      "reference_ids": [],
+      "specific": false,
+      "support": "unsupported"
+    },
+    {
+      "prediction_id": "P05",
+      "prediction_sha256": "5051050009f2f6ff2ef08f46d84e9769341d887a354d965da8a1d52e1245a69f",
+      "reason": "Explicit no-issue control; no refund evidence.",
+      "reference_ids": [],
+      "specific": false,
+      "support": "unsupported"
+    },
+    {
+      "prediction_id": "P06",
+      "prediction_sha256": "c335814a35527bcdbc79f8743cba596102e2158769375806c7812244e8dbd956",
+      "reason": "Cause is uncertain; definite attribution overreaches.",
+      "reference_ids": [],
+      "specific": false,
+      "support": "ambiguous"
+    },
+    {
+      "prediction_id": "P07",
+      "prediction_sha256": "f4195a58b6d17c7a1b2a01aeaa35de60d1249c49e49c502ed75f246190da6c7e",
+      "reason": "Omits email and duration; weak actionable specificity.",
+      "reference_ids": [
+        "F06"
+      ],
+      "specific": false,
+      "support": "supported"
+    },
+    {
+      "prediction_id": "P08",
+      "prediction_sha256": "aca90490fc156da6c7943b803cb4b7b0ded370b35a236cc51836a9047000e840",
+      "reason": "Matches stated issue.",
+      "reference_ids": [
+        "F08"
+      ],
+      "specific": true,
+      "support": "supported"
+    },
+    {
+      "prediction_id": "P09",
+      "prediction_sha256": "f4cec3e94ecdb790a2b98847bc919df059381ca1aec75fdce0ea8335059546b2",
+      "reason": "Preserves first-delivery qualifier.",
+      "reference_ids": [
+        "F09"
+      ],
+      "specific": true,
+      "support": "supported"
+    },
+    {
+      "prediction_id": "P10",
+      "prediction_sha256": "577d142b513184916fbf5ca07cd9a7581e2ee5216a9ead03460119113031242b",
+      "reason": "Contradicts replacement arriving on time.",
+      "reference_ids": [],
+      "specific": false,
+      "support": "unsupported"
+    },
+    {
+      "prediction_id": "P11",
+      "prediction_sha256": "155ef9904faee6f54fd5e5a7af960f203ca0395b7347e9ef7fe2e790d255a480",
+      "reason": "Separate review identity despite same text.",
+      "reference_ids": [
+        "F10"
+      ],
+      "specific": true,
+      "support": "supported"
+    }
+  ],
+  "ledger": {
+    "duplicate_ids": [
+      "I02"
+    ],
+    "eligible_ids": [
+      "I01",
+      "I02",
+      "I03",
+      "I04",
+      "I05",
+      "I06",
+      "I07",
+      "I08",
+      "I09",
+      "I13"
+    ],
+    "eligible_reviews": 10,
+    "excluded": [
+      {
+        "reasons": [
+          "empty_text"
+        ],
+        "review_id": "I10"
+      },
+      {
+        "reasons": [
+          "language"
+        ],
+        "review_id": "I11"
+      },
+      {
+        "reasons": [
+          "not_negative"
+        ],
+        "review_id": "I12"
+      }
+    ],
+    "input_rows": 14,
+    "source_location": [
+      {
+        "eligible_reviews": 3,
+        "input_rows": 3,
+        "location": "north",
+        "source": "board",
+        "unique_reviews": 3
+      },
+      {
+        "eligible_reviews": 3,
+        "input_rows": 4,
+        "location": "south",
+        "source": "board",
+        "unique_reviews": 4
+      },
+      {
+        "eligible_reviews": 2,
+        "input_rows": 3,
+        "location": "north",
+        "source": "form",
+        "unique_reviews": 3
+      },
+      {
+        "eligible_reviews": 2,
+        "input_rows": 4,
+        "location": "south",
+        "source": "form",
+        "unique_reviews": 3
+      }
+    ],
+    "unique_reviews": 13
+  },
+  "matched": {
+    "P01": "F01",
+    "P03": "F03",
+    "P07": "F06",
+    "P08": "F08",
+    "P09": "F09",
+    "P11": "F10"
+  },
+  "measures": {
+    "ambiguous_claim_fraction": {
+      "denominator": 11,
+      "numerator": 1,
+      "value": 0.09090909090909091
+    },
+    "category_correct_given_unique_match": {
+      "denominator": 6,
+      "numerator": 5,
+      "value": 0.8333333333333334
+    },
+    "definite_issue_recall": {
+      "denominator": 9,
+      "numerator": 6,
+      "value": 0.6666666666666666
+    },
+    "duplicate_fraction_of_supported_claims": {
+      "denominator": 7,
+      "numerator": 1,
+      "value": 0.14285714285714285
+    },
+    "no_issue_reviews_without_claims": {
+      "denominator": 1,
+      "numerator": 0,
+      "value": 0.0
+    },
+    "omission_fraction": {
+      "denominator": 9,
+      "numerator": 3,
+      "value": 0.3333333333333333
+    },
+    "specific_given_unique_match": {
+      "denominator": 6,
+      "numerator": 5,
+      "value": 0.8333333333333334
+    },
+    "supported_claim_fraction": {
+      "denominator": 11,
+      "numerator": 7,
+      "value": 0.6363636363636364
+    },
+    "unsupported_claim_fraction": {
+      "denominator": 11,
+      "numerator": 3,
+      "value": 0.2727272727272727
+    }
+  },
+  "omitted_reference_ids": [
+    "F02",
+    "F04",
+    "F07"
+  ],
+  "reviews": [
+    {
+      "ambiguous_reference_ids": [],
+      "location": "north",
+      "matched": {
+        "P01": "F01"
+      },
+      "no_issue": false,
+      "omitted_reference_ids": [
+        "F02"
+      ],
+      "prediction_ids": [
+        "P01",
+        "P02"
+      ],
+      "review_id": "I01",
+      "source": "board"
+    },
+    {
+      "ambiguous_reference_ids": [],
+      "location": "south",
+      "matched": {
+        "P03": "F03"
+      },
+      "no_issue": false,
+      "omitted_reference_ids": [],
+      "prediction_ids": [
+        "P03"
+      ],
+      "review_id": "I02",
+      "source": "form"
+    },
+    {
+      "ambiguous_reference_ids": [],
+      "location": "south",
+      "matched": {},
+      "no_issue": false,
+      "omitted_reference_ids": [
+        "F04"
+      ],
+      "prediction_ids": [
+        "P04"
+      ],
+      "review_id": "I03",
+      "source": "board"
+    },
+    {
+      "ambiguous_reference_ids": [],
+      "location": "north",
+      "matched": {},
+      "no_issue": true,
+      "omitted_reference_ids": [],
+      "prediction_ids": [
+        "P05"
+      ],
+      "review_id": "I04",
+      "source": "form"
+    },
+    {
+      "ambiguous_reference_ids": [
+        "F05"
+      ],
+      "location": "north",
+      "matched": {},
+      "no_issue": false,
+      "omitted_reference_ids": [],
+      "prediction_ids": [
+        "P06"
+      ],
+      "review_id": "I05",
+      "source": "board"
+    },
+    {
+      "ambiguous_reference_ids": [],
+      "location": "south",
+      "matched": {
+        "P07": "F06"
+      },
+      "no_issue": false,
+      "omitted_reference_ids": [],
+      "prediction_ids": [
+        "P07"
+      ],
+      "review_id": "I06",
+      "source": "form"
+    },
+    {
+      "ambiguous_reference_ids": [],
+      "location": "south",
+      "matched": {},
+      "no_issue": false,
+      "omitted_reference_ids": [
+        "F07"
+      ],
+      "prediction_ids": [],
+      "review_id": "I07",
+      "source": "board"
+    },
+    {
+      "ambiguous_reference_ids": [],
+      "location": "north",
+      "matched": {
+        "P08": "F08"
+      },
+      "no_issue": false,
+      "omitted_reference_ids": [],
+      "prediction_ids": [
+        "P08"
+      ],
+      "review_id": "I08",
+      "source": "form"
+    },
+    {
+      "ambiguous_reference_ids": [],
+      "location": "north",
+      "matched": {
+        "P09": "F09"
+      },
+      "no_issue": false,
+      "omitted_reference_ids": [],
+      "prediction_ids": [
+        "P09",
+        "P10"
+      ],
+      "review_id": "I09",
+      "source": "board"
+    },
+    {
+      "ambiguous_reference_ids": [],
+      "location": "south",
+      "matched": {
+        "P11": "F10"
+      },
+      "no_issue": false,
+      "omitted_reference_ids": [],
+      "prediction_ids": [
+        "P11"
+      ],
+      "review_id": "I13",
+      "source": "board"
+    }
+  ],
+  "scope": "invented authored-annotation accounting; not semantic model accuracy"
+}

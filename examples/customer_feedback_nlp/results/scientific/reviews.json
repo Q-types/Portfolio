@@ -1,0 +1,117 @@
+{
+  "reviews": [
+    {
+      "id": "I01",
+      "language": "en",
+      "location": "north",
+      "rating": 1,
+      "source": "board",
+      "text": "The parcel was three days late and the mug was broken."
+    },
+    {
+      "id": "I02",
+      "language": "en",
+      "location": "south",
+      "rating": 2,
+      "source": "form",
+      "text": "I was charged twice for one order."
+    },
+    {
+      "id": "I03",
+      "language": "en",
+      "location": "south",
+      "rating": 1,
+      "source": "board",
+      "text": "The access code did not open the collection locker."
+    },
+    {
+      "id": "I04",
+      "language": "en",
+      "location": "north",
+      "rating": 1,
+      "source": "form",
+      "text": "I chose one star by mistake; everything worked."
+    },
+    {
+      "id": "I05",
+      "language": "en",
+      "location": "north",
+      "rating": 2,
+      "source": "board",
+      "text": "Checkout froze once, though it may have been my connection."
+    },
+    {
+      "id": "I06",
+      "language": "en",
+      "location": "south",
+      "rating": 1,
+      "source": "form",
+      "text": "Support did not answer my email for six days."
+    },
+    {
+      "id": "I07",
+      "language": "en",
+      "location": "south",
+      "rating": 2,
+      "source": "board",
+      "text": "The return label was missing from the box."
+    },
+    {
+      "id": "I08",
+      "language": "en",
+      "location": "north",
+      "rating": 2,
+      "source": "form",
+      "text": "The parcel arrived late."
+    },
+    {
+      "id": "I09",
+      "language": "en",
+      "location": "north",
+      "rating": 1,
+      "source": "board",
+      "text": "The first delivery was late; the replacement arrived on time."
+    },
+    {
+      "id": "I10",
+      "language": "en",
+      "location": "south",
+      "rating": 1,
+      "source": "form",
+      "text": ""
+    },
+    {
+      "id": "I11",
+      "language": "es",
+      "location": "south",
+      "rating": 1,
+      "source": "board",
+      "text": "El paquete llegó tarde."
+    },
+    {
+      "id": "I12",
+      "language": "en",
+      "location": "north",
+      "rating": 5,
+      "source": "form",
+      "text": "The parcel arrived on time and intact."
+    },
+    {
+      "id": "I13",
+      "language": "en",
+      "location": "south",
+      "rating": 2,
+      "source": "board",
+      "text": "The parcel arrived late."
+    },
+    {
+      "id": "I02",
+      "language": "en",
+      "location": "south",
+      "rating": 2,
+      "source": "form",
+      "text": "I was charged twice for one order."
+    }
+  ],
+  "scope": "public_invented"
+}

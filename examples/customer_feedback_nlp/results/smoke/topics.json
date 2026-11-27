@@ -1,0 +1,7 @@
+{
+  "bertopic": "pending; not loaded",
+  "emotion": "pending; no pretrained inference",
+  "issue_extraction": "authored mock; no LLM called",
+  "method": "LDA not executed in standard-library smoke route",
+  "status": "pending"
+}
