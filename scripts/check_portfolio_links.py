@@ -201,6 +201,17 @@ def check_segmentation_artifacts(errors):
         errors.append(f"Segmentation artifacts: {exc}")
 
 
+def check_ship_artifacts(errors):
+    sys.dont_write_bytecode = True
+    if str(ROOT) not in sys.path:
+        sys.path.insert(0, str(ROOT))
+    try:
+        from examples.ship_engine_anomalies.verify import verify
+        verify(ROOT / "examples/ship_engine_anomalies")
+    except (OSError, ValueError, KeyError, TypeError, ImportError) as exc:
+        errors.append(f"Ship artifacts: {exc}")
+
+
 def main():
     errors = []
     pages = [ROOT / "README.md", ROOT / "docs/project-index.md"]
@@ -214,6 +225,9 @@ def main():
     pages.extend(ROOT / "examples/customer_segmentation" / name for name in
                  ["README.md", "source_notes.md", "private_input.md"])
     pages.append(ROOT / "MachineLearning_AI/Customer_Segmentation_Clustering/README.md")
+    pages.extend(ROOT / "projects/ship-engine-anomalies" / name for name in ["evidence.md", "methods.md"])
+    pages.append(ROOT / "examples/ship_engine_anomalies/README.md")
+    pages.append(ROOT / "MachineLearning_AI/Anomaly_Ships_Engine/README.md")
     link_count = 0
     for page in pages:
         if not page.is_file():
@@ -245,6 +259,9 @@ def main():
     if "../examples/customer_segmentation/README.md" not in index_text:
         errors.append("Project index missing corrected segmentation example")
     check_segmentation_artifacts(errors)
+    if "../examples/ship_engine_anomalies/README.md" not in index_text:
+        errors.append("Project index missing corrected ship example")
+    check_ship_artifacts(errors)
     row_counts = {}
     for filename, schema in SCHEMAS.items():
         path = ROOT / "docs" / filename

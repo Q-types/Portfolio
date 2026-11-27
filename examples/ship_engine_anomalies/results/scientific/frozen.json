@@ -1,0 +1,589 @@
+{
+  "calibration_ids": [
+    "sim-096",
+    "sim-097",
+    "sim-098",
+    "sim-099",
+    "sim-100",
+    "sim-101",
+    "sim-102",
+    "sim-103",
+    "sim-104",
+    "sim-105",
+    "sim-106",
+    "sim-107",
+    "sim-108",
+    "sim-109",
+    "sim-110",
+    "sim-111",
+    "sim-112",
+    "sim-113",
+    "sim-114",
+    "sim-115",
+    "sim-116",
+    "sim-117",
+    "sim-118",
+    "sim-119",
+    "sim-120",
+    "sim-121",
+    "sim-122",
+    "sim-123",
+    "sim-124",
+    "sim-125",
+    "sim-126",
+    "sim-127",
+    "sim-128",
+    "sim-129",
+    "sim-130",
+    "sim-131",
+    "sim-132",
+    "sim-133",
+    "sim-134",
+    "sim-135",
+    "sim-136",
+    "sim-137",
+    "sim-138",
+    "sim-139",
+    "sim-140",
+    "sim-141",
+    "sim-142",
+    "sim-143"
+  ],
+  "detector_scaler": {
+    "mean": [
+      1144.5208333333333,
+      2.18306903125,
+      3.510442708333333,
+      1.2385416666666667,
+      85.79166666666667,
+      72.9375
+    ],
+    "scale": [
+      261.3344352854637,
+      0.4334939587216118,
+      0.3308433027711129,
+      0.09949852560325813,
+      6.024112428860832,
+      5.233331674628187
+    ]
+  },
+  "detectors": {
+    "isolation_forest/primary": {
+      "fitted_sha256": "d0b8d69960b8fab1a727e0b88edc294aed475d1d90be8035c41d4d780dbc1bc6",
+      "parameters": {
+        "bootstrap": false,
+        "contamination": 0.05,
+        "max_features": 1.0,
+        "max_samples": 64,
+        "n_estimators": 64,
+        "n_jobs": 1,
+        "random_state": 41,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "score": "-decision_function",
+      "threshold": 0.0
+    },
+    "isolation_forest/sensitivity": {
+      "fitted_sha256": "ca054124bf9c00e8c5a92d0a2018ef132f899282220991be5b2da5104e5a4325",
+      "parameters": {
+        "bootstrap": false,
+        "contamination": 0.1,
+        "max_features": 1.0,
+        "max_samples": 64,
+        "n_estimators": 64,
+        "n_jobs": 1,
+        "random_state": 41,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "score": "-decision_function",
+      "threshold": 0.0
+    },
+    "ocsvm/primary": {
+      "fitted_sha256": "d7b0bdd856af668867e5539f0e17190b3640d5ce983216110eb26d5ad3428986",
+      "parameters": {
+        "cache_size": 32,
+        "coef0": 0.0,
+        "degree": 3,
+        "gamma": 0.2,
+        "kernel": "rbf",
+        "max_iter": 10000,
+        "nu": 0.05,
+        "shrinking": true,
+        "tol": 0.001,
+        "verbose": false
+      },
+      "score": "-decision_function",
+      "threshold": 0.0
+    },
+    "ocsvm/sensitivity": {
+      "fitted_sha256": "3d755879e3500d42edc396509f8f8a7f7bb88676a39aa2ccb124781ef24998b1",
+      "parameters": {
+        "cache_size": 32,
+        "coef0": 0.0,
+        "degree": 3,
+        "gamma": 0.2,
+        "kernel": "rbf",
+        "max_iter": 10000,
+        "nu": 0.1,
+        "shrinking": true,
+        "tol": 0.001,
+        "verbose": false
+      },
+      "score": "-decision_function",
+      "threshold": 0.0
+    }
+  },
+  "feature_dependencies": {
+    "physics_motivated": [
+      [
+        "rpm_squared",
+        [
+          "engine_rpm"
+        ],
+        "rpm^2"
+      ],
+      [
+        "fuel_pressure",
+        [
+          "fuel_pressure"
+        ],
+        "bar_gauge"
+      ],
+      [
+        "coolant_pressure",
+        [
+          "coolant_pressure"
+        ],
+        "bar_gauge"
+      ],
+      [
+        "oil_minus_coolant_temp",
+        [
+          "oil_temp",
+          "coolant_temp"
+        ],
+        "K_difference"
+      ],
+      [
+        "coolant_temp",
+        [
+          "coolant_temp"
+        ],
+        "degC"
+      ]
+    ],
+    "raw": [
+      [
+        "engine_rpm",
+        [
+          "engine_rpm"
+        ],
+        "rpm"
+      ],
+      [
+        "fuel_pressure",
+        [
+          "fuel_pressure"
+        ],
+        "bar_gauge"
+      ],
+      [
+        "coolant_pressure",
+        [
+          "coolant_pressure"
+        ],
+        "bar_gauge"
+      ],
+      [
+        "oil_temp",
+        [
+          "oil_temp"
+        ],
+        "degC"
+      ],
+      [
+        "coolant_temp",
+        [
+          "coolant_temp"
+        ],
+        "degC"
+      ]
+    ]
+  },
+  "fit_ids": [
+    "sim-000",
+    "sim-001",
+    "sim-002",
+    "sim-003",
+    "sim-004",
+    "sim-005",
+    "sim-006",
+    "sim-007",
+    "sim-008",
+    "sim-009",
+    "sim-010",
+    "sim-011",
+    "sim-012",
+    "sim-013",
+    "sim-014",
+    "sim-015",
+    "sim-016",
+    "sim-017",
+    "sim-018",
+    "sim-019",
+    "sim-020",
+    "sim-021",
+    "sim-022",
+    "sim-023",
+    "sim-024",
+    "sim-025",
+    "sim-026",
+    "sim-027",
+    "sim-028",
+    "sim-029",
+    "sim-030",
+    "sim-031",
+    "sim-032",
+    "sim-033",
+    "sim-034",
+    "sim-035",
+    "sim-036",
+    "sim-037",
+    "sim-038",
+    "sim-039",
+    "sim-040",
+    "sim-041",
+    "sim-042",
+    "sim-043",
+    "sim-044",
+    "sim-045",
+    "sim-046",
+    "sim-047",
+    "sim-048",
+    "sim-049",
+    "sim-050",
+    "sim-051",
+    "sim-052",
+    "sim-053",
+    "sim-054",
+    "sim-055",
+    "sim-056",
+    "sim-057",
+    "sim-058",
+    "sim-059",
+    "sim-060",
+    "sim-061",
+    "sim-062",
+    "sim-063",
+    "sim-064",
+    "sim-065",
+    "sim-066",
+    "sim-067",
+    "sim-068",
+    "sim-069",
+    "sim-070",
+    "sim-071",
+    "sim-072",
+    "sim-073",
+    "sim-074",
+    "sim-075",
+    "sim-076",
+    "sim-077",
+    "sim-078",
+    "sim-079",
+    "sim-080",
+    "sim-081",
+    "sim-082",
+    "sim-083",
+    "sim-084",
+    "sim-085",
+    "sim-086",
+    "sim-087",
+    "sim-088",
+    "sim-089",
+    "sim-090",
+    "sim-091",
+    "sim-092",
+    "sim-093",
+    "sim-094",
+    "sim-095"
+  ],
+  "pending": [
+    "symbolic_regression"
+  ],
+  "regressors": {
+    "physics_motivated/mean": {
+      "feature_set": "physics_motivated",
+      "mean": 2.18306903125,
+      "method": "mean",
+      "parameters": {},
+      "scaler": {
+        "mean": [
+          1378223.625,
+          3.510442708333333,
+          1.2385416666666667,
+          12.854166666666666,
+          72.9375
+        ],
+        "scale": [
+          604206.439732199,
+          0.3308433027711129,
+          0.09949852560325813,
+          2.896043157865957,
+          5.233331674628187
+        ]
+      },
+      "threshold_bar": 0.721827809375
+    },
+    "physics_motivated/random_forest": {
+      "feature_set": "physics_motivated",
+      "fitted_sha256": "2072f1425c3b67c759c85c23a0cdee202d7fe45b2aaea4cee9ac3b6fefe7219b",
+      "method": "random_forest",
+      "parameters": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "criterion": "squared_error",
+        "max_depth": 5,
+        "max_features": 1.0,
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 3,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 48,
+        "n_jobs": 1,
+        "oob_score": false,
+        "random_state": 41,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "scaler": {
+        "mean": [
+          1378223.625,
+          3.510442708333333,
+          1.2385416666666667,
+          12.854166666666666,
+          72.9375
+        ],
+        "scale": [
+          604206.439732199,
+          0.3308433027711129,
+          0.09949852560325813,
+          2.896043157865957,
+          5.233331674628187
+        ]
+      },
+      "threshold_bar": 0.1257701117195763
+    },
+    "physics_motivated/ridge": {
+      "coefficients": [
+        2.1830690312500005,
+        0.35536824265705264,
+        0.07122995704328045,
+        0.019147856405669357,
+        -0.03734285216385899,
+        -0.0007151580411596252
+      ],
+      "feature_set": "physics_motivated",
+      "method": "ridge",
+      "parameters": {
+        "alpha": 0.001,
+        "intercept_penalized": false
+      },
+      "scaler": {
+        "mean": [
+          1378223.625,
+          3.510442708333333,
+          1.2385416666666667,
+          12.854166666666666,
+          72.9375
+        ],
+        "scale": [
+          604206.439732199,
+          0.3308433027711129,
+          0.09949852560325813,
+          2.896043157865957,
+          5.233331674628187
+        ]
+      },
+      "threshold_bar": 0.10734925307738959
+    },
+    "raw/mean": {
+      "feature_set": "raw",
+      "mean": 2.18306903125,
+      "method": "mean",
+      "parameters": {},
+      "scaler": {
+        "mean": [
+          1144.5208333333333,
+          3.510442708333333,
+          1.2385416666666667,
+          85.79166666666667,
+          72.9375
+        ],
+        "scale": [
+          261.3344352854637,
+          0.3308433027711129,
+          0.09949852560325813,
+          6.024112428860832,
+          5.233331674628187
+        ]
+      },
+      "threshold_bar": 0.721827809375
+    },
+    "raw/random_forest": {
+      "feature_set": "raw",
+      "fitted_sha256": "d4f2d7007c1f38893620fcc2270c68a9555fb0516c918d8b0258c63d0a142514",
+      "method": "random_forest",
+      "parameters": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "criterion": "squared_error",
+        "max_depth": 5,
+        "max_features": 1.0,
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 3,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 48,
+        "n_jobs": 1,
+        "oob_score": false,
+        "random_state": 41,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "scaler": {
+        "mean": [
+          1144.5208333333333,
+          3.510442708333333,
+          1.2385416666666667,
+          85.79166666666667,
+          72.9375
+        ],
+        "scale": [
+          261.3344352854637,
+          0.3308433027711129,
+          0.09949852560325813,
+          6.024112428860832,
+          5.233331674628187
+        ]
+      },
+      "threshold_bar": 0.13167511936259932
+    },
+    "raw/ridge": {
+      "coefficients": [
+        2.1830690312500005,
+        0.35150363506722704,
+        0.0729800197032671,
+        0.017764009649419557,
+        -0.08328492480668974,
+        0.06766322318574546
+      ],
+      "feature_set": "raw",
+      "method": "ridge",
+      "parameters": {
+        "alpha": 0.001,
+        "intercept_penalized": false
+      },
+      "scaler": {
+        "mean": [
+          1144.5208333333333,
+          3.510442708333333,
+          1.2385416666666667,
+          85.79166666666667,
+          72.9375
+        ],
+        "scale": [
+          261.3344352854637,
+          0.3308433027711129,
+          0.09949852560325813,
+          6.024112428860832,
+          5.233331674628187
+        ]
+      },
+      "threshold_bar": 0.1419640073573763
+    }
+  },
+  "rules": {
+    "coolant_pressure": {
+      "iqr": [
+        0.9599999999999997,
+        1.5200000000000002
+      ],
+      "mean": 1.2385416666666667,
+      "percentile": [
+        1.1,
+        1.38
+      ],
+      "sd": 0.09949852560325813
+    },
+    "coolant_temp": {
+      "iqr": [
+        54.88749999999999,
+        90.98750000000001
+      ],
+      "mean": 72.9375,
+      "percentile": [
+        64.4375,
+        81.4625
+      ],
+      "sd": 5.233331674628187
+    },
+    "engine_rpm": {
+      "iqr": [
+        255.5,
+        2035.5
+      ],
+      "mean": 1144.5208333333333,
+      "percentile": [
+        722.0,
+        1578.125
+      ],
+      "sd": 261.3344352854637
+    },
+    "fuel_pressure": {
+      "iqr": [
+        2.38296875,
+        4.64671875
+      ],
+      "mean": 3.510442708333333,
+      "percentile": [
+        2.9634375,
+        4.05734375
+      ],
+      "sd": 0.3308433027711129
+    },
+    "oil_pressure": {
+      "iqr": [
+        0.7852109999999997,
+        3.561729
+      ],
+      "mean": 2.18306903125,
+      "percentile": [
+        1.52069425,
+        2.9367182499999998
+      ],
+      "sd": 0.4334939587216118
+    },
+    "oil_temp": {
+      "iqr": [
+        68.99999999999999,
+        102.60000000000001
+      ],
+      "mean": 85.79166666666667,
+      "percentile": [
+        74.8,
+        95.6
+      ],
+      "sd": 6.024112428860832
+    }
+  },
+  "scientific": true
+}
