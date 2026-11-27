@@ -1,0 +1,25 @@
+{
+  "config_sha256": "4ab8d6d32547925bc277671329532c33dfe3c07b1a8368d142d847a958eafd9f",
+  "evidence": "synthetic only",
+  "fixture_sha256": "9ddaf88d72301e91681ae16b9d2ec61fc973d3e0175f561f81ee39f801d3890e",
+  "input_sha256": "9ddaf88d72301e91681ae16b9d2ec61fc973d3e0175f561f81ee39f801d3890e",
+  "outputs": {
+    "decisions.json": "a557f73c1ffce9a487d7c906c9bc8a3d5ed40d90f7ee2b594c085c004b1846b7",
+    "folds.csv": "7492405e98c044f1f272d4da5dab7077159978b90e182c2ba2672e8dca12b44a",
+    "forecasts.csv": "3cadc6b1bae0266ec51163f01edab0a2bf3d4bf4b5d324cab591b3760fb7b499",
+    "future.csv": "5aba3dfa32358954d1d17dc4213ddc252d85813528df93c761d36249ec7c0f32",
+    "protocol.json": "4ab8d6d32547925bc277671329532c33dfe3c07b1a8368d142d847a958eafd9f",
+    "scores.csv": "da7cf48ce9d2491a4cf106780675e4e0676508da630914d49c3f74c353f5285e"
+  },
+  "python": "3.14.0",
+  "schema": 1,
+  "sources": {
+    "__init__.py": "b3d940c9a1caa321757fcd2dad83cb8cc800a9ecf2ce069452cde6e5f8694073",
+    "__main__.py": "2012da5a90bc6dd0979a95a2debcea19b7cbe59f1cb2ba0485f7313240bd4fe6",
+    "adapters.py": "5c67019dcd001ab9d9404d3c4da3f41b212c0b94323529db07205fadcd566e34",
+    "data.py": "e8f265aa819dc9393fcb91636fbb20393f078c36f08835d9dd90d51558ef7c48",
+    "evaluation.py": "2f970b7d35c692d9c08ff1b7e23c8771958460e61f8758c3d4b07431c8201d4e",
+    "methods.py": "cbde85744681a27d0c1de8260746a01a35d449b4f26166153b3c7c23b18327f3",
+    "test_protocol.py": "92d1d07e019323978e54560d57eb2394acc13c4f78e6de76e25b83f746ee94e7"
+  }
+}

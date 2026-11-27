@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "coverage": 0.8,
+  "missing_policy": "reject",
+  "zero_policy": "observed_zero",
+  "selection": "per-title development MAE; fixed method order breaks ties",
+  "ensemble": "inverse development MAE, floor 1e-9, normalized",
+  "experiments": [
+    {
+      "id": "weekly",
+      "cadence": "W-SAT",
+      "horizon": 32,
+      "season": 52,
+      "titles": [
+        "synthetic_a",
+        "synthetic_b"
+      ],
+      "development": [
+        "2017-12-23",
+        "2018-08-04",
+        "2019-03-16"
+      ],
+      "calibration": [
+        "2019-10-26",
+        "2020-06-06",
+        "2021-01-16",
+        "2021-08-28",
+        "2022-04-09"
+      ],
+      "evaluation": [
+        "2022-11-19",
+        "2023-07-01"
+      ]
+    },
+    {
+      "id": "monthly",
+      "cadence": "M-END",
+      "horizon": 8,
+      "season": 12,
+      "titles": [
+        "synthetic_a",
+        "synthetic_b"
+      ],
+      "development": [
+        "2017-12-31",
+        "2018-08-31",
+        "2019-04-30"
+      ],
+      "calibration": [
+        "2019-12-31",
+        "2020-08-31",
+        "2021-04-30",
+        "2021-12-31",
+        "2022-08-31"
+      ],
+      "evaluation": [
+        "2023-04-30",
+        "2023-12-31"
+      ]
+    }
+  ]
+}
