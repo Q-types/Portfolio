@@ -205,6 +205,8 @@ def main():
     errors = []
     pages = [ROOT / "README.md", ROOT / "docs/project-index.md"]
     pages.extend(ROOT / "projects" / case / "README.md" for case in CASES)
+    pages.extend(ROOT / "projects/qsol-solution-finder" / name for name in
+                 ["evidence.md", "architecture.md", "illustrative-contract.md"])
     pages.append(ROOT / "examples/packaging_optimisation/README.md")
     pages.append(ROOT / "examples/book_sales_forecasting/README.md")
     pages.append(ROOT / "examples/financial_text_nlp/README.md")

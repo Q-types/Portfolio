@@ -1,20 +1,20 @@
 # QSol business solution finder
 
-**My role:** taxonomy, curated methods, application implementation and project-fit scoring. **Status, 26 November 2026:** published classifier source plus later unpublished retrieval work. Deployment of the later work is unverified.
+**My contribution:** problem taxonomy, curated method selection, TypeScript application integration, deterministic retrieval, structured output and reference validation, and project-fit scoring. I built the application to turn an SME’s loosely stated problem into a practical technical approach and a discovery brief: what data is needed, what to try first, and what remains uncertain.
 
-The application translates a business-problem description into candidate technical approaches and an implementation roadmap. It combines language-model interpretation with an explicit business-problem taxonomy and deterministic aggregation of model-supplied project-fit components. The stack includes TypeScript/Astro, the OpenAI API and Supabase.
+**Evidence updated 27 November 2026:** the later local implementation’s actual offline retrieval and output-contract checks were rerun. [Measured results and failures](evidence.md) distinguish the existing curated cases from a new synthetic challenge. No live model or deployment was tested.
 
-| Version | Implemented behaviour | Evidence boundary |
+| Version | Behaviour | Evidence boundary |
 | --- | --- | --- |
-| Public snapshot `2a9c9dd` | Curated static prompt context, a model call, JSON parsing and weighted fit scoring | Public source inspection; no runtime document retrieval in this path |
-| Later local implementation | Retrieves bounded public-playbook and internal-method context, then generates and validates structured output/citation references | Unpublished implementation and historical offline checks; not evidence that the live site uses it |
+| Published `2a9c9ddacb63dfe91f91f97f01c40729c224765d` | Static prompt context, model-generated classification and weighted project-fit scoring | [Pinned public classifier](https://github.com/Q-types/qsol-analytics-website/blob/2a9c9ddacb63dfe91f91f97f01c40729c224765d/src/lib/classifier.ts); public-main identity supplied by a separate 27 November check |
+| Locally committed `423399849406d1c78d68a162aadc6fd684082547` | Bounded playbook and internal-method retrieval, prompt assembly, structured generation, output and citation validation | Actual committed offline checks rerun in an isolated export; ten commits after the public snapshot; implementation remains unpublished |
+| Separate uncommitted Phase 5 | Later hardening work | Preserved and excluded from this evaluation |
+| Deployed website | Runtime version unverified | Neither source inspection nor offline tests establish what is deployed |
 
-The [published classifier](https://github.com/Q-types/qsol-analytics-website/blob/2a9c9ddacb63dfe91f91f97f01c40729c224765d/src/lib/classifier.ts) is a concrete, inspectable application component. Its weighted project-fit score is a heuristic, not a calibrated probability of success or an estimate of commercial return.
+The [architecture](architecture.md) uses deterministic lexical, phrase and category scoring, rather than dense vector search. It separates citation-eligible context from internal methodological guidance. Both are sent to the model in the production code path: “internal” is a client-visibility rule, not a guarantee of secrecy or compliance. The stack is TypeScript/Astro with an OpenAI generation boundary and Supabase persistence boundary.
 
-The later retrieval implementation uses deterministic token, phrase, category and source scoring rather than embedding/vector search. It separates material eligible for visible citations from internal method guidance. Internal guidance is still supplied to the model provider; excluding it from client-facing citations is not a guarantee that it never leaves the server.
+The existing 85 curated retrieval cases recovered all 80 expected sources. A newly authored ten-case challenge met only **4/10 frozen expectations**, exposing weak-input, out-of-domain and negation failures. The 25 mocked outputs produced the expected validation outcomes, including intentional failures. These are measurements of source selection and deterministic checks, not model accuracy or useful answers in production.
 
-Existing offline evaluation covers author-curated retrieval fixtures and mocked output contracts, including deliberate negative controls. These test source selection and validation under their defined conditions. They do not establish live-model accuracy, independent holdout performance, client adoption or answer usefulness in production. No historical percentage is promoted as an end-to-end accuracy result, and those checks were not rerun for this page.
+The weighted project-fit score combines model-supplied components using fixed rules. It is a heuristic, not a calibrated success probability or commercial-return estimate. [A wholly invented walkthrough](illustrative-contract.md) explains the problem → chunks → mock brief → reference-check flow without exposing original fixtures or internal notes.
 
-A stronger next evaluation would freeze independently authored problems, assess retrieval separately from generated answers, and review unsupported recommendations and abstention behaviour. Live latency and cost need an actual bounded measurement. The public evidence route remains the pinned classifier source and this version-specific explanation; internal notes, local fixtures and unpublished code are not copied here.
-
-[Project index](../../docs/project-index.md) · [Provenance](../../docs/provenance.csv) · [Portfolio](../../README.md)
+[Evidence](evidence.md) · [Architecture](architecture.md) · [Project index](../../docs/project-index.md) · [Provenance](../../docs/provenance.csv) · [Portfolio](../../README.md)
