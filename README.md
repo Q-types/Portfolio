@@ -20,6 +20,8 @@ The completed student-dropout study now has a [runnable staged classification ex
 
 Customer segmentation now has a [corrected offline pipeline](examples/customer_segmentation/README.md) for signed money, distinct orders, reconciliation and held-out cluster stability. Its measured results use invented purchases; the historical notebook/report remain preserved and original-data revalidation is still pending.
 
+The [QSol solution finder](projects/qsol-solution-finder/README.md) now includes actual offline retrieval and output-validation evidence from its later local implementation. The [results](projects/qsol-solution-finder/evidence.md) pair complete expected-source recall on existing curated fixtures with six failures in a new ten-case synthetic challenge; no live-answer accuracy is claimed.
+
 The [complete project and status index](docs/project-index.md) also covers historical acoustics tools, teaching software, learning exercises and exploratory research. Each entry separates the original work’s completion from the readiness of a public revision. These overviews can be read without installing software; they do not certify that the older notebooks or applications run from a fresh checkout.
 
 ## Skills in context
