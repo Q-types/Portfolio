@@ -1,43 +1,34 @@
-# David J McCann — Data Scientist
+# David J McCann — Data Scientist & Applied AI
 
-I’m a Data Scientist and founder of **QSol Analytics**, building analytical systems and business applications for SMEs. My work combines Python and SQL data engineering, statistical and machine learning modelling, mathematical optimisation and tested software delivery. A background in theoretical physics informs how I frame problems, test assumptions and explain uncertainty.
+I design and build analytical systems: from Python/SQL data models and statistical evaluation to optimisation, NLP and auditable application workflows. As founder of **QSol Analytics**, I translate SME requirements into software and explain the assumptions behind its outputs. My background in theoretical physics shapes how I test models and communicate uncertainty.
 
-I completed the University of Cambridge PACE Career Accelerator in Data Science with Machine Learning & AI in 2026, delivered in collaboration with FourthRev. This portfolio brings together that completed coursework and employer project, current private engineering work, and earlier public examples.
+I completed the **University of Cambridge PACE Career Accelerator in Data Science with Machine Learning & AI** in October 2026, delivered in collaboration with FourthRev.
 
-## Selected cases
+## Selected work
 
-| Case | Problem and personal contribution | What you can inspect |
+| Case | My contribution | Evidence to explore |
 | --- | --- | --- |
-| [KSP manufacturing MIS](projects/ksp-mis/README.md) | Connect packaging specifications, material prices and production rules to estimates, quotations and orders. I designed and implemented the data model, calculation workflow and traceability controls. | Current private architecture plus a [runnable synthetic optimisation/provenance example](examples/packaging_optimisation/README.md); separate legacy public code. |
-| [Bank of England financial-text NLP](projects/bank-of-england-nlp/README.md) | Study how analyst attention and management disclosures vary across banks and time. I built the corpus preparation and topic-attention analysis for a Cambridge / Bank of England live employer project. | Saved findings and pinned team notebooks, plus a [runnable synthetic measurement example](examples/financial_text_nlp/README.md) for provenance, denominators and matched comparisons. |
-| [Book-sales forecasting](projects/book-sales-forecasting/README.md) | Compare forecasting approaches for operational demand planning. I prepared the sales series and compared statistical, tree, neural and residual-hybrid models for two titles. | Completed study plus a [runnable synthetic forecasting protocol](examples/book_sales_forecasting/README.md) with separate weekly/monthly scoring. |
+| [KSP manufacturing MIS](projects/ksp-mis/README.md) | Designed and implemented a Python/FastAPI/PostgreSQL system connecting packaging specifications, material prices, constrained layout optimisation, quotations and orders. | Architecture and traceability controls; a separate [synthetic optimisation example](examples/packaging_optimisation/README.md) makes the cost decision and issued-input provenance runnable. |
+| [Bank of England financial-text NLP](projects/bank-of-england-nlp/README.md) | Built the corpus and topic-attention analysis for a completed Cambridge employer project: 60 earnings calls, linked text records, matched comparisons and statistical sensitivity analysis. | Attributed team notebooks and saved findings, including inconclusive associations; a separate [measurement example](examples/financial_text_nlp/README.md) demonstrates joins, denominators and missingness. |
+| [Book-sales forecasting](projects/book-sales-forecasting/README.md) | Prepared sales series and compared statistical, tree, neural and residual-hybrid models for two titles, interpreting errors for demand planning. | Completed study and its evaluation limits; a separate [synthetic protocol](examples/book_sales_forecasting/README.md) separates development selection, interval calibration and weekly/monthly scoring. |
 
-## More projects
+## Further analytical work
 
-[Student dropout](projects/student-dropout/README.md) · [Customer-feedback NLP](projects/customer-feedback-nlp/README.md) · [Customer segmentation](projects/customer-segmentation/README.md) · [Ship-engine anomalies](projects/ship-engine-anomalies/README.md) · [QSol solution finder](projects/qsol-solution-finder/README.md) · [Engineering workflow](projects/engineering-workflow/README.md)
+- [Student dropout](projects/student-dropout/README.md): staged classification, feature availability and development-selected thresholds.
+- [Customer segmentation](projects/customer-segmentation/README.md): signed money, distinct-order features and held-out cluster stability.
+- [Customer-feedback NLP](projects/customer-feedback-nlp/README.md): topic representations, issue-level evidence and explicit unsupported-claim accounting.
+- [Ship-engine anomalies](projects/ship-engine-anomalies/README.md): detector diagnostics and target-isolated prediction with matched feature comparisons.
 
-[Customer-feedback evaluation](examples/customer_feedback_nlp/README.md) adds traceable authored issue judgments and an actual offline LDA comparison on independently invented reviews. Original coursework evidence and publication limits remain separate.
+## Applied AI and engineering
 
-The [corrected ship-sensor example](examples/ship_engine_anomalies/README.md) executes statistical rules, SVM, Isolation Forest and target-isolated RF/ridge comparisons on independently invented data. Original coursework remains separate; real-data fault performance is unmeasured.
+- [QSol solution finder](projects/qsol-solution-finder/README.md): TypeScript retrieval, structured outputs and reference validation. Offline evidence includes both curated-fixture results and failures on a new challenge; live answer quality remains unmeasured.
+- [Engineering workflow](projects/engineering-workflow/README.md): durable task state, source-bound review and recovery after uncertain actions, supported by scoped private-component checks and an invented SQLite demonstration.
 
-The completed student-dropout study now has a [runnable staged classification example](examples/student_dropout/README.md): invented data, train-only preprocessing, development-selected thresholds and a retained comparison across three decision times. Its synthetic results are separate from the original study.
+## Reading the evidence
 
-Customer segmentation now has a [corrected offline pipeline](examples/customer_segmentation/README.md) for signed money, distinct orders, reconciliation and held-out cluster stability. Its measured results use invented purchases; the historical notebook/report remain preserved and original-data revalidation is still pending.
+The cases describe my original contribution and credit collaborators. The eight runnable examples are **new, agent-authored synthetic demonstrations prepared with Codex**, separate from historical notebooks, reports and private applications; they are not all personally authored original code. Their tests establish bounded mechanics, not original-data performance, commercial gains or production readiness.
 
-The [QSol solution finder](projects/qsol-solution-finder/README.md) now includes actual offline retrieval and output-validation evidence from its later local implementation. The [results](projects/qsol-solution-finder/evidence.md) pair complete expected-source recall on existing curated fixtures with six failures in a new ten-case synthetic challenge; no live-answer accuracy is claimed.
-
-The [engineering workflow case](projects/engineering-workflow/README.md) pairs scoped offline checks of private components with an [independently invented SQLite example](examples/engineering_workflow/README.md) for writer ownership, review and uncertain publication recovery. Neither route establishes installed operation or accepted real delivery.
-
-The [complete project and status index](docs/project-index.md) also covers historical acoustics tools, teaching software, learning exercises and exploratory research. Each entry separates the original work’s completion from the readiness of a public revision. These overviews can be read without installing software; they do not certify that the older notebooks or applications run from a fresh checkout.
-
-## Skills in context
-
-- **Data and modelling:** Python, SQL, pandas, NumPy, scikit-learn, XGBoost, TensorFlow/Keras; classification, clustering, forecasting and anomaly detection.
-- **NLP and statistics:** corpus engineering, BERTopic, pretrained language-model inference, matched comparisons, regression, bootstrap uncertainty and sensitivity analysis.
-- **Engineering:** FastAPI, PostgreSQL, SQLite, TypeScript, Git/GitHub, pytest and browser testing; deterministic optimisation and auditable records.
-- **Communication:** technical reports, stakeholder requirements, clear attribution and explicit limits on what the evidence establishes.
-
-The [claim register](docs/claims.csv) and [public provenance register](docs/provenance.csv) identify the evidence level and access limits behind these summaries. Client data and restricted source materials are not bundled here.
+Start with the [project index](docs/project-index.md), [evidence guide](docs/evidence-guide.md) or [offline reproduction commands](docs/reproduce.md). The [claim](docs/claims.csv) and [provenance](docs/provenance.csv) registers trace statements to their evidence. Case pages explain access limits without requiring an installation. Historical tools, learning exercises and exploratory work remain available through the index.
 
 ## Contact
 
