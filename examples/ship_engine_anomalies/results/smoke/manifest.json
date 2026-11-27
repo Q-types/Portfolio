@@ -1,0 +1,74 @@
+{
+  "config": {
+    "bytes": 840,
+    "sha256": "e0a2fae7eec2266744f7d52379c8098f13f7224a89657bcaf2a7d19ef82ea2f3"
+  },
+  "evidence": "synthetic mechanics only",
+  "files": {
+    "config.json": {
+      "bytes": 840,
+      "sha256": "e0a2fae7eec2266744f7d52379c8098f13f7224a89657bcaf2a7d19ef82ea2f3"
+    },
+    "evaluation.json": {
+      "bytes": 691193,
+      "sha256": "daa016aaa77929f69dd55bd57f5e46325a194151791f6db85ffda112587432a6"
+    },
+    "frozen.json": {
+      "bytes": 7968,
+      "sha256": "7767e3b187447f06fe31d755e8d8838988a4c16c9824a591efc137d284e98e3f"
+    },
+    "input.json": {
+      "bytes": 45218,
+      "sha256": "7f9d498c30d70e86e355e7e95ed63c04d823ef74d683b7474c245e6a71998290"
+    }
+  },
+  "frozen_before_evaluation": {
+    "bytes": 7968,
+    "sha256": "7767e3b187447f06fe31d755e8d8838988a4c16c9824a591efc137d284e98e3f"
+  },
+  "input": {
+    "bytes": 45218,
+    "sha256": "7f9d498c30d70e86e355e7e95ed63c04d823ef74d683b7474c245e6a71998290"
+  },
+  "permission_receipt": null,
+  "run_id": "b2c5e1a5b16558132339f719bbd800703e6b37bd5a47ae3a58783951bad75b25",
+  "runtime": {
+    "implementation": "CPython",
+    "machine": "arm64",
+    "packages": {},
+    "python": "3.11.14"
+  },
+  "schema": "ship_run_v1",
+  "scientific": false,
+  "scope": "public_invented",
+  "source": {
+    "__init__.py": {
+      "bytes": 72,
+      "sha256": "47fcc856a43a71e75b5912aecf18afef483671046b5630314193e9090c9ce9f9"
+    },
+    "__main__.py": {
+      "bytes": 2900,
+      "sha256": "f49dc152942cef0dee36eabb81b4bd84dd7be6ecb99b5d4d68fca94bef73c836"
+    },
+    "core.py": {
+      "bytes": 5677,
+      "sha256": "d49d0f2cd65e6476104436ac6dd38c2f01b9a99c4426683f8f4180f0bdc53d8b"
+    },
+    "fixture.py": {
+      "bytes": 1162,
+      "sha256": "ca00d5ddaa66ab1c7820ccd275aefd7ffbeaf4c8c5091610564f63a05402fc87"
+    },
+    "protocol.py": {
+      "bytes": 12288,
+      "sha256": "4a8325cfffd5bf9175bc44c2dc70e4b7bb01285c79ed870b1d8e967c704871b4"
+    },
+    "test_protocol.py": {
+      "bytes": 12808,
+      "sha256": "236dea1a148fc8d6c9fa6f8cecdd0534771f7fee6a38bf4d956fb3028074ecc0"
+    },
+    "verify.py": {
+      "bytes": 5284,
+      "sha256": "36f1e2c4128fb344d04081710f4d4da0e33b6a99b442208f33ee64a7f2eb9716"
+    }
+  }
+}

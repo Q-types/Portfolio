@@ -1,0 +1,1933 @@
+{
+  "origin": "independently_invented_v1",
+  "rows": [
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 64.0,
+      "engine_rpm": 700,
+      "fuel_pressure": 2.875,
+      "id": "sim-000",
+      "oil_pressure": 1.497,
+      "oil_temp": 72.0
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 65.7,
+      "engine_rpm": 837,
+      "fuel_pressure": 3.17625,
+      "id": "sim-001",
+      "oil_pressure": 1.830198,
+      "oil_temp": 74.8
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 67.4,
+      "engine_rpm": 974,
+      "fuel_pressure": 3.3075,
+      "id": "sim-002",
+      "oil_pressure": 1.959673,
+      "oil_temp": 77.6
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 69.1,
+      "engine_rpm": 1111,
+      "fuel_pressure": 3.43875,
+      "id": "sim-003",
+      "oil_pressure": 2.115425,
+      "oil_temp": 80.4
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 70.8,
+      "engine_rpm": 1248,
+      "fuel_pressure": 3.57,
+      "id": "sim-004",
+      "oil_pressure": 2.297453,
+      "oil_temp": 83.2
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 72.5,
+      "engine_rpm": 1385,
+      "fuel_pressure": 3.87125,
+      "id": "sim-005",
+      "oil_pressure": 2.449758,
+      "oil_temp": 86.0
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 74.2,
+      "engine_rpm": 1522,
+      "fuel_pressure": 4.0025,
+      "id": "sim-006",
+      "oil_pressure": 2.914339,
+      "oil_temp": 88.8
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 75.9,
+      "engine_rpm": 758,
+      "fuel_pressure": 3.0075,
+      "id": "sim-007",
+      "oil_pressure": 1.650795,
+      "oil_temp": 91.6
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 77.6,
+      "engine_rpm": 895,
+      "fuel_pressure": 3.13875,
+      "id": "sim-008",
+      "oil_pressure": 1.765117,
+      "oil_temp": 94.4
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 79.3,
+      "engine_rpm": 1032,
+      "fuel_pressure": 3.44,
+      "id": "sim-009",
+      "oil_pressure": 1.905717,
+      "oil_temp": 97.2
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 81.0,
+      "engine_rpm": 1169,
+      "fuel_pressure": 3.57125,
+      "id": "sim-010",
+      "oil_pressure": 2.156593,
+      "oil_temp": 90.0
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 64.7,
+      "engine_rpm": 1306,
+      "fuel_pressure": 3.7025,
+      "id": "sim-011",
+      "oil_pressure": 2.349745,
+      "oil_temp": 74.8
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 66.4,
+      "engine_rpm": 1443,
+      "fuel_pressure": 3.83375,
+      "id": "sim-012",
+      "oil_pressure": 2.799174,
+      "oil_temp": 77.6
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 68.1,
+      "engine_rpm": 1580,
+      "fuel_pressure": 4.135,
+      "id": "sim-013",
+      "oil_pressure": 3.04488,
+      "oil_temp": 80.4
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 69.8,
+      "engine_rpm": 816,
+      "fuel_pressure": 3.14,
+      "id": "sim-014",
+      "oil_pressure": 1.719299,
+      "oil_temp": 83.2
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 71.5,
+      "engine_rpm": 953,
+      "fuel_pressure": 3.27125,
+      "id": "sim-015",
+      "oil_pressure": 1.788746,
+      "oil_temp": 86.0
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 73.2,
+      "engine_rpm": 1090,
+      "fuel_pressure": 3.4025,
+      "id": "sim-016",
+      "oil_pressure": 1.94047,
+      "oil_temp": 88.8
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 74.9,
+      "engine_rpm": 1227,
+      "fuel_pressure": 3.53375,
+      "id": "sim-017",
+      "oil_pressure": 2.11847,
+      "oil_temp": 91.6
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 76.6,
+      "engine_rpm": 1364,
+      "fuel_pressure": 3.835,
+      "id": "sim-018",
+      "oil_pressure": 2.552747,
+      "oil_temp": 94.4
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 78.3,
+      "engine_rpm": 1501,
+      "fuel_pressure": 3.96625,
+      "id": "sim-019",
+      "oil_pressure": 2.923301,
+      "oil_temp": 87.2
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 80.0,
+      "engine_rpm": 737,
+      "fuel_pressure": 2.97125,
+      "id": "sim-020",
+      "oil_pressure": 1.626218,
+      "oil_temp": 90.0
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 81.7,
+      "engine_rpm": 874,
+      "fuel_pressure": 3.1025,
+      "id": "sim-021",
+      "oil_pressure": 1.736513,
+      "oil_temp": 92.8
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 65.4,
+      "engine_rpm": 1011,
+      "fuel_pressure": 3.40375,
+      "id": "sim-022",
+      "oil_pressure": 1.873085,
+      "oil_temp": 77.6
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 67.1,
+      "engine_rpm": 1148,
+      "fuel_pressure": 3.535,
+      "id": "sim-023",
+      "oil_pressure": 2.035933,
+      "oil_temp": 80.4
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 68.8,
+      "engine_rpm": 1285,
+      "fuel_pressure": 3.66625,
+      "id": "sim-024",
+      "oil_pressure": 2.455058,
+      "oil_temp": 83.2
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 70.5,
+      "engine_rpm": 1422,
+      "fuel_pressure": 3.7975,
+      "id": "sim-025",
+      "oil_pressure": 2.614459,
+      "oil_temp": 86.0
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 72.2,
+      "engine_rpm": 1559,
+      "fuel_pressure": 4.09875,
+      "id": "sim-026",
+      "oil_pressure": 2.856137,
+      "oil_temp": 88.8
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 73.9,
+      "engine_rpm": 795,
+      "fuel_pressure": 3.10375,
+      "id": "sim-027",
+      "oil_pressure": 1.553017,
+      "oil_temp": 91.6
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 75.6,
+      "engine_rpm": 932,
+      "fuel_pressure": 3.235,
+      "id": "sim-028",
+      "oil_pressure": 1.814437,
+      "oil_temp": 84.4
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 77.3,
+      "engine_rpm": 1069,
+      "fuel_pressure": 3.36625,
+      "id": "sim-029",
+      "oil_pressure": 2.192133,
+      "oil_temp": 87.2
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 79.0,
+      "engine_rpm": 1206,
+      "fuel_pressure": 3.6675,
+      "id": "sim-030",
+      "oil_pressure": 2.310105,
+      "oil_temp": 90.0
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 80.7,
+      "engine_rpm": 1343,
+      "fuel_pressure": 3.79875,
+      "id": "sim-031",
+      "oil_pressure": 2.510354,
+      "oil_temp": 92.8
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 64.4,
+      "engine_rpm": 1480,
+      "fuel_pressure": 3.93,
+      "id": "sim-032",
+      "oil_pressure": 2.73688,
+      "oil_temp": 77.6
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 66.1,
+      "engine_rpm": 716,
+      "fuel_pressure": 2.935,
+      "id": "sim-033",
+      "oil_pressure": 1.518259,
+      "oil_temp": 80.4
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 67.8,
+      "engine_rpm": 853,
+      "fuel_pressure": 3.06625,
+      "id": "sim-034",
+      "oil_pressure": 1.624526,
+      "oil_temp": 83.2
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 69.5,
+      "engine_rpm": 990,
+      "fuel_pressure": 3.3675,
+      "id": "sim-035",
+      "oil_pressure": 1.93107,
+      "oil_temp": 86.0
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 71.2,
+      "engine_rpm": 1127,
+      "fuel_pressure": 3.49875,
+      "id": "sim-036",
+      "oil_pressure": 2.08989,
+      "oil_temp": 88.8
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 72.9,
+      "engine_rpm": 1264,
+      "fuel_pressure": 3.63,
+      "id": "sim-037",
+      "oil_pressure": 2.414987,
+      "oil_temp": 81.6
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 74.6,
+      "engine_rpm": 1401,
+      "fuel_pressure": 3.76125,
+      "id": "sim-038",
+      "oil_pressure": 2.626361,
+      "oil_temp": 84.4
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 76.3,
+      "engine_rpm": 1538,
+      "fuel_pressure": 4.0625,
+      "id": "sim-039",
+      "oil_pressure": 2.864011,
+      "oil_temp": 87.2
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 78.0,
+      "engine_rpm": 774,
+      "fuel_pressure": 3.0675,
+      "id": "sim-040",
+      "oil_pressure": 1.527353,
+      "oil_temp": 90.0
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 79.7,
+      "engine_rpm": 911,
+      "fuel_pressure": 3.19875,
+      "id": "sim-041",
+      "oil_pressure": 1.874745,
+      "oil_temp": 92.8
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 81.4,
+      "engine_rpm": 1048,
+      "fuel_pressure": 3.33,
+      "id": "sim-042",
+      "oil_pressure": 2.018413,
+      "oil_temp": 95.6
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 65.1,
+      "engine_rpm": 1185,
+      "fuel_pressure": 3.63125,
+      "id": "sim-043",
+      "oil_pressure": 2.188357,
+      "oil_temp": 80.4
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 66.8,
+      "engine_rpm": 1322,
+      "fuel_pressure": 3.7625,
+      "id": "sim-044",
+      "oil_pressure": 2.384579,
+      "oil_temp": 83.2
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 68.5,
+      "engine_rpm": 1459,
+      "fuel_pressure": 3.89375,
+      "id": "sim-045",
+      "oil_pressure": 2.551077,
+      "oil_temp": 86.0
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 70.2,
+      "engine_rpm": 1596,
+      "fuel_pressure": 4.025,
+      "id": "sim-046",
+      "oil_pressure": 2.939851,
+      "oil_temp": 78.8
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 71.9,
+      "engine_rpm": 832,
+      "fuel_pressure": 3.2,
+      "id": "sim-047",
+      "oil_pressure": 1.827157,
+      "oil_temp": 81.6
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 73.6,
+      "engine_rpm": 969,
+      "fuel_pressure": 3.33125,
+      "id": "sim-048",
+      "oil_pressure": 1.955673,
+      "oil_temp": 84.4
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 75.3,
+      "engine_rpm": 1106,
+      "fuel_pressure": 3.4625,
+      "id": "sim-049",
+      "oil_pressure": 2.110465,
+      "oil_temp": 87.2
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 77.0,
+      "engine_rpm": 1243,
+      "fuel_pressure": 3.59375,
+      "id": "sim-050",
+      "oil_pressure": 2.235534,
+      "oil_temp": 90.0
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 78.7,
+      "engine_rpm": 1380,
+      "fuel_pressure": 3.725,
+      "id": "sim-051",
+      "oil_pressure": 2.44288,
+      "oil_temp": 92.8
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 80.4,
+      "engine_rpm": 1517,
+      "fuel_pressure": 4.02625,
+      "id": "sim-052",
+      "oil_pressure": 2.906502,
+      "oil_temp": 95.6
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 64.1,
+      "engine_rpm": 753,
+      "fuel_pressure": 3.03125,
+      "id": "sim-053",
+      "oil_pressure": 1.648306,
+      "oil_temp": 80.4
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 65.8,
+      "engine_rpm": 890,
+      "fuel_pressure": 3.1625,
+      "id": "sim-054",
+      "oil_pressure": 1.76167,
+      "oil_temp": 83.2
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 67.5,
+      "engine_rpm": 1027,
+      "fuel_pressure": 3.29375,
+      "id": "sim-055",
+      "oil_pressure": 1.98531,
+      "oil_temp": 76.0
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 69.2,
+      "engine_rpm": 1164,
+      "fuel_pressure": 3.595,
+      "id": "sim-056",
+      "oil_pressure": 2.151227,
+      "oil_temp": 78.8
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 70.9,
+      "engine_rpm": 1301,
+      "fuel_pressure": 3.72625,
+      "id": "sim-057",
+      "oil_pressure": 2.343421,
+      "oil_temp": 81.6
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 72.6,
+      "engine_rpm": 1438,
+      "fuel_pressure": 3.8575,
+      "id": "sim-058",
+      "oil_pressure": 2.791891,
+      "oil_temp": 84.4
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 74.3,
+      "engine_rpm": 1575,
+      "fuel_pressure": 3.98875,
+      "id": "sim-059",
+      "oil_pressure": 3.036637,
+      "oil_temp": 87.2
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 76.0,
+      "engine_rpm": 811,
+      "fuel_pressure": 3.16375,
+      "id": "sim-060",
+      "oil_pressure": 1.660405,
+      "oil_temp": 90.0
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 77.7,
+      "engine_rpm": 948,
+      "fuel_pressure": 3.295,
+      "id": "sim-061",
+      "oil_pressure": 1.784893,
+      "oil_temp": 92.8
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 79.4,
+      "engine_rpm": 1085,
+      "fuel_pressure": 3.42625,
+      "id": "sim-062",
+      "oil_pressure": 1.935658,
+      "oil_temp": 95.6
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 81.1,
+      "engine_rpm": 1222,
+      "fuel_pressure": 3.5575,
+      "id": "sim-063",
+      "oil_pressure": 2.112699,
+      "oil_temp": 98.4
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 64.8,
+      "engine_rpm": 1359,
+      "fuel_pressure": 3.85875,
+      "id": "sim-064",
+      "oil_pressure": 2.686017,
+      "oil_temp": 73.2
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 66.5,
+      "engine_rpm": 1496,
+      "fuel_pressure": 3.99,
+      "id": "sim-065",
+      "oil_pressure": 2.859611,
+      "oil_temp": 76.0
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 68.2,
+      "engine_rpm": 732,
+      "fuel_pressure": 2.995,
+      "id": "sim-066",
+      "oil_pressure": 1.623877,
+      "oil_temp": 78.8
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 69.9,
+      "engine_rpm": 869,
+      "fuel_pressure": 3.12625,
+      "id": "sim-067",
+      "oil_pressure": 1.733213,
+      "oil_temp": 81.6
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 71.6,
+      "engine_rpm": 1006,
+      "fuel_pressure": 3.2575,
+      "id": "sim-068",
+      "oil_pressure": 1.868825,
+      "oil_temp": 84.4
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 73.3,
+      "engine_rpm": 1143,
+      "fuel_pressure": 3.55875,
+      "id": "sim-069",
+      "oil_pressure": 2.030714,
+      "oil_temp": 87.2
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 75.0,
+      "engine_rpm": 1280,
+      "fuel_pressure": 3.69,
+      "id": "sim-070",
+      "oil_pressure": 2.39288,
+      "oil_temp": 90.0
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 76.7,
+      "engine_rpm": 1417,
+      "fuel_pressure": 3.82125,
+      "id": "sim-071",
+      "oil_pressure": 2.607322,
+      "oil_temp": 92.8
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 78.4,
+      "engine_rpm": 1554,
+      "fuel_pressure": 3.9525,
+      "id": "sim-072",
+      "oil_pressure": 2.848041,
+      "oil_temp": 95.6
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 80.1,
+      "engine_rpm": 790,
+      "fuel_pressure": 3.1275,
+      "id": "sim-073",
+      "oil_pressure": 1.69027,
+      "oil_temp": 88.4
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 81.8,
+      "engine_rpm": 927,
+      "fuel_pressure": 3.25875,
+      "id": "sim-074",
+      "oil_pressure": 1.81073,
+      "oil_temp": 91.2
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 65.5,
+      "engine_rpm": 1064,
+      "fuel_pressure": 3.39,
+      "id": "sim-075",
+      "oil_pressure": 2.131467,
+      "oil_temp": 76.0
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 67.2,
+      "engine_rpm": 1201,
+      "fuel_pressure": 3.52125,
+      "id": "sim-076",
+      "oil_pressure": 2.304481,
+      "oil_temp": 78.8
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 68.9,
+      "engine_rpm": 1338,
+      "fuel_pressure": 3.8225,
+      "id": "sim-077",
+      "oil_pressure": 2.503771,
+      "oil_temp": 81.6
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 70.6,
+      "engine_rpm": 1475,
+      "fuel_pressure": 3.95375,
+      "id": "sim-078",
+      "oil_pressure": 2.729337,
+      "oil_temp": 84.4
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 72.3,
+      "engine_rpm": 711,
+      "fuel_pressure": 2.95875,
+      "id": "sim-079",
+      "oil_pressure": 1.516065,
+      "oil_temp": 87.2
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 74.0,
+      "engine_rpm": 848,
+      "fuel_pressure": 3.09,
+      "id": "sim-080",
+      "oil_pressure": 1.565373,
+      "oil_temp": 90.0
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 75.7,
+      "engine_rpm": 985,
+      "fuel_pressure": 3.39125,
+      "id": "sim-081",
+      "oil_pressure": 1.926958,
+      "oil_temp": 92.8
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 77.4,
+      "engine_rpm": 1122,
+      "fuel_pressure": 3.5225,
+      "id": "sim-082",
+      "oil_pressure": 2.224819,
+      "oil_temp": 85.6
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 79.1,
+      "engine_rpm": 1259,
+      "fuel_pressure": 3.65375,
+      "id": "sim-083",
+      "oil_pressure": 2.408957,
+      "oil_temp": 88.4
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 80.8,
+      "engine_rpm": 1396,
+      "fuel_pressure": 3.785,
+      "id": "sim-084",
+      "oil_pressure": 2.619371,
+      "oil_temp": 91.2
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 64.5,
+      "engine_rpm": 1533,
+      "fuel_pressure": 3.91625,
+      "id": "sim-085",
+      "oil_pressure": 2.800062,
+      "oil_temp": 76.0
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 66.2,
+      "engine_rpm": 769,
+      "fuel_pressure": 3.09125,
+      "id": "sim-086",
+      "oil_pressure": 1.524753,
+      "oil_temp": 78.8
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 67.9,
+      "engine_rpm": 906,
+      "fuel_pressure": 3.2225,
+      "id": "sim-087",
+      "oil_pressure": 1.871185,
+      "oil_temp": 81.6
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 69.6,
+      "engine_rpm": 1043,
+      "fuel_pressure": 3.35375,
+      "id": "sim-088",
+      "oil_pressure": 2.013894,
+      "oil_temp": 84.4
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 71.3,
+      "engine_rpm": 1180,
+      "fuel_pressure": 3.485,
+      "id": "sim-089",
+      "oil_pressure": 2.18288,
+      "oil_temp": 87.2
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 73.0,
+      "engine_rpm": 1317,
+      "fuel_pressure": 3.78625,
+      "id": "sim-090",
+      "oil_pressure": 2.322142,
+      "oil_temp": 90.0
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 74.7,
+      "engine_rpm": 1454,
+      "fuel_pressure": 3.9175,
+      "id": "sim-091",
+      "oil_pressure": 2.683681,
+      "oil_temp": 82.8
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 76.4,
+      "engine_rpm": 1591,
+      "fuel_pressure": 4.04875,
+      "id": "sim-092",
+      "oil_pressure": 2.931497,
+      "oil_temp": 85.6
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 78.1,
+      "engine_rpm": 827,
+      "fuel_pressure": 3.05375,
+      "id": "sim-093",
+      "oil_pressure": 1.82415,
+      "oil_temp": 88.4
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 79.8,
+      "engine_rpm": 964,
+      "fuel_pressure": 3.355,
+      "id": "sim-094",
+      "oil_pressure": 1.951707,
+      "oil_temp": 91.2
+    },
+    {
+      "cohort": "fit",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 81.5,
+      "engine_rpm": 1101,
+      "fuel_pressure": 3.48625,
+      "id": "sim-095",
+      "oil_pressure": 2.049541,
+      "oil_temp": 94.0
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 65.2,
+      "engine_rpm": 1238,
+      "fuel_pressure": 3.6175,
+      "id": "sim-096",
+      "oil_pressure": 2.229651,
+      "oil_temp": 78.8
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 66.9,
+      "engine_rpm": 1375,
+      "fuel_pressure": 3.74875,
+      "id": "sim-097",
+      "oil_pressure": 2.436037,
+      "oil_temp": 81.6
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 68.6,
+      "engine_rpm": 1512,
+      "fuel_pressure": 4.05,
+      "id": "sim-098",
+      "oil_pressure": 2.898701,
+      "oil_temp": 84.4
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 70.3,
+      "engine_rpm": 748,
+      "fuel_pressure": 3.055,
+      "id": "sim-099",
+      "oil_pressure": 1.645853,
+      "oil_temp": 87.2
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 72.0,
+      "engine_rpm": 885,
+      "fuel_pressure": 3.18625,
+      "id": "sim-100",
+      "oil_pressure": 1.842257,
+      "oil_temp": 80.0
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 73.7,
+      "engine_rpm": 1022,
+      "fuel_pressure": 3.3175,
+      "id": "sim-101",
+      "oil_pressure": 1.980939,
+      "oil_temp": 82.8
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 75.4,
+      "engine_rpm": 1159,
+      "fuel_pressure": 3.44875,
+      "id": "sim-102",
+      "oil_pressure": 2.145897,
+      "oil_temp": 85.6
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 77.1,
+      "engine_rpm": 1296,
+      "fuel_pressure": 3.75,
+      "id": "sim-103",
+      "oil_pressure": 2.337131,
+      "oil_temp": 88.4
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 78.8,
+      "engine_rpm": 1433,
+      "fuel_pressure": 3.88125,
+      "id": "sim-104",
+      "oil_pressure": 2.784642,
+      "oil_temp": 91.2
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 80.5,
+      "engine_rpm": 1570,
+      "fuel_pressure": 4.0125,
+      "id": "sim-105",
+      "oil_pressure": 2.97243,
+      "oil_temp": 94.0
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 64.2,
+      "engine_rpm": 806,
+      "fuel_pressure": 3.0175,
+      "id": "sim-106",
+      "oil_pressure": 1.657545,
+      "oil_temp": 78.8
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 65.9,
+      "engine_rpm": 943,
+      "fuel_pressure": 3.31875,
+      "id": "sim-107",
+      "oil_pressure": 1.781074,
+      "oil_temp": 81.6
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 67.6,
+      "engine_rpm": 1080,
+      "fuel_pressure": 3.45,
+      "id": "sim-108",
+      "oil_pressure": 1.93088,
+      "oil_temp": 84.4
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 69.3,
+      "engine_rpm": 1217,
+      "fuel_pressure": 3.58125,
+      "id": "sim-109",
+      "oil_pressure": 2.106962,
+      "oil_temp": 87.2
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 71.0,
+      "engine_rpm": 1354,
+      "fuel_pressure": 3.7125,
+      "id": "sim-110",
+      "oil_pressure": 2.623321,
+      "oil_temp": 80.0
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 72.7,
+      "engine_rpm": 1491,
+      "fuel_pressure": 4.01375,
+      "id": "sim-111",
+      "oil_pressure": 2.851957,
+      "oil_temp": 82.8
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 74.4,
+      "engine_rpm": 727,
+      "fuel_pressure": 3.01875,
+      "id": "sim-112",
+      "oil_pressure": 1.62157,
+      "oil_temp": 85.6
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 76.1,
+      "engine_rpm": 864,
+      "fuel_pressure": 3.15,
+      "id": "sim-113",
+      "oil_pressure": 1.729947,
+      "oil_temp": 88.4
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 77.8,
+      "engine_rpm": 1001,
+      "fuel_pressure": 3.28125,
+      "id": "sim-114",
+      "oil_pressure": 1.864601,
+      "oil_temp": 91.2
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 79.5,
+      "engine_rpm": 1138,
+      "fuel_pressure": 3.5825,
+      "id": "sim-115",
+      "oil_pressure": 1.969531,
+      "oil_temp": 94.0
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 81.2,
+      "engine_rpm": 1275,
+      "fuel_pressure": 3.71375,
+      "id": "sim-116",
+      "oil_pressure": 2.386737,
+      "oil_temp": 96.8
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 64.9,
+      "engine_rpm": 1412,
+      "fuel_pressure": 3.845,
+      "id": "sim-117",
+      "oil_pressure": 2.600221,
+      "oil_temp": 81.6
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 66.6,
+      "engine_rpm": 1549,
+      "fuel_pressure": 3.97625,
+      "id": "sim-118",
+      "oil_pressure": 2.839981,
+      "oil_temp": 84.4
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 68.3,
+      "engine_rpm": 785,
+      "fuel_pressure": 2.98125,
+      "id": "sim-119",
+      "oil_pressure": 1.687558,
+      "oil_temp": 77.2
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 70.0,
+      "engine_rpm": 922,
+      "fuel_pressure": 3.2825,
+      "id": "sim-120",
+      "oil_pressure": 1.751059,
+      "oil_temp": 80.0
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 71.7,
+      "engine_rpm": 1059,
+      "fuel_pressure": 3.41375,
+      "id": "sim-121",
+      "oil_pressure": 2.126837,
+      "oil_temp": 82.8
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 73.4,
+      "engine_rpm": 1196,
+      "fuel_pressure": 3.545,
+      "id": "sim-122",
+      "oil_pressure": 2.298891,
+      "oil_temp": 85.6
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 75.1,
+      "engine_rpm": 1333,
+      "fuel_pressure": 3.67625,
+      "id": "sim-123",
+      "oil_pressure": 2.497222,
+      "oil_temp": 88.4
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 76.8,
+      "engine_rpm": 1470,
+      "fuel_pressure": 3.9775,
+      "id": "sim-124",
+      "oil_pressure": 2.72183,
+      "oil_temp": 91.2
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 78.5,
+      "engine_rpm": 706,
+      "fuel_pressure": 2.9825,
+      "id": "sim-125",
+      "oil_pressure": 1.457905,
+      "oil_temp": 94.0
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 80.2,
+      "engine_rpm": 843,
+      "fuel_pressure": 3.11375,
+      "id": "sim-126",
+      "oil_pressure": 1.562254,
+      "oil_temp": 96.8
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 81.9,
+      "engine_rpm": 980,
+      "fuel_pressure": 3.245,
+      "id": "sim-127",
+      "oil_pressure": 1.92288,
+      "oil_temp": 99.6
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 65.6,
+      "engine_rpm": 1117,
+      "fuel_pressure": 3.54625,
+      "id": "sim-128",
+      "oil_pressure": 2.219782,
+      "oil_temp": 74.4
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 67.3,
+      "engine_rpm": 1254,
+      "fuel_pressure": 3.6775,
+      "id": "sim-129",
+      "oil_pressure": 2.402961,
+      "oil_temp": 77.2
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 69.0,
+      "engine_rpm": 1391,
+      "fuel_pressure": 3.80875,
+      "id": "sim-130",
+      "oil_pressure": 2.556417,
+      "oil_temp": 80.0
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 70.7,
+      "engine_rpm": 1528,
+      "fuel_pressure": 3.94,
+      "id": "sim-131",
+      "oil_pressure": 2.792149,
+      "oil_temp": 82.8
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 72.4,
+      "engine_rpm": 764,
+      "fuel_pressure": 3.115,
+      "id": "sim-132",
+      "oil_pressure": 1.522187,
+      "oil_temp": 85.6
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 74.1,
+      "engine_rpm": 901,
+      "fuel_pressure": 3.24625,
+      "id": "sim-133",
+      "oil_pressure": 1.867661,
+      "oil_temp": 88.4
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 75.8,
+      "engine_rpm": 1038,
+      "fuel_pressure": 3.3775,
+      "id": "sim-134",
+      "oil_pressure": 2.009411,
+      "oil_temp": 91.2
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 77.5,
+      "engine_rpm": 1175,
+      "fuel_pressure": 3.50875,
+      "id": "sim-135",
+      "oil_pressure": 2.121437,
+      "oil_temp": 94.0
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 79.2,
+      "engine_rpm": 1312,
+      "fuel_pressure": 3.64,
+      "id": "sim-136",
+      "oil_pressure": 2.315741,
+      "oil_temp": 96.8
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 80.9,
+      "engine_rpm": 1449,
+      "fuel_pressure": 3.94125,
+      "id": "sim-137",
+      "oil_pressure": 2.676321,
+      "oil_temp": 89.6
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 64.6,
+      "engine_rpm": 1586,
+      "fuel_pressure": 4.0725,
+      "id": "sim-138",
+      "oil_pressure": 2.923177,
+      "oil_temp": 74.4
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 66.3,
+      "engine_rpm": 822,
+      "fuel_pressure": 3.0775,
+      "id": "sim-139",
+      "oil_pressure": 1.821179,
+      "oil_temp": 77.2
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 68.0,
+      "engine_rpm": 959,
+      "fuel_pressure": 3.20875,
+      "id": "sim-140",
+      "oil_pressure": 1.891777,
+      "oil_temp": 80.0
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 69.7,
+      "engine_rpm": 1096,
+      "fuel_pressure": 3.51,
+      "id": "sim-141",
+      "oil_pressure": 2.044651,
+      "oil_temp": 82.8
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 71.4,
+      "engine_rpm": 1233,
+      "fuel_pressure": 3.64125,
+      "id": "sim-142",
+      "oil_pressure": 2.223802,
+      "oil_temp": 85.6
+    },
+    {
+      "cohort": "calibration",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 73.1,
+      "engine_rpm": 1370,
+      "fuel_pressure": 3.7725,
+      "id": "sim-143",
+      "oil_pressure": 2.42923,
+      "oil_temp": 88.4
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 74.8,
+      "engine_rpm": 1507,
+      "fuel_pressure": 3.90375,
+      "id": "sim-144",
+      "oil_pressure": 2.890934,
+      "oil_temp": 91.2
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 76.5,
+      "engine_rpm": 743,
+      "fuel_pressure": 3.07875,
+      "id": "sim-145",
+      "oil_pressure": 1.587434,
+      "oil_temp": 94.0
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 78.2,
+      "engine_rpm": 880,
+      "fuel_pressure": 3.21,
+      "id": "sim-146",
+      "oil_pressure": 1.83888,
+      "oil_temp": 86.8
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 79.9,
+      "engine_rpm": 1017,
+      "fuel_pressure": 3.34125,
+      "id": "sim-147",
+      "oil_pressure": 1.976602,
+      "oil_temp": 89.6
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 81.6,
+      "engine_rpm": 1154,
+      "fuel_pressure": 3.4725,
+      "id": "sim-148",
+      "oil_pressure": 2.140601,
+      "oil_temp": 92.4
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 65.3,
+      "engine_rpm": 1291,
+      "fuel_pressure": 3.77375,
+      "id": "sim-149",
+      "oil_pressure": 2.330877,
+      "oil_temp": 77.2
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 67.0,
+      "engine_rpm": 1428,
+      "fuel_pressure": 3.905,
+      "id": "sim-150",
+      "oil_pressure": 2.721429,
+      "oil_temp": 80.0
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 68.7,
+      "engine_rpm": 1565,
+      "fuel_pressure": 4.03625,
+      "id": "sim-151",
+      "oil_pressure": 2.964257,
+      "oil_temp": 82.8
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 70.4,
+      "engine_rpm": 801,
+      "fuel_pressure": 3.04125,
+      "id": "sim-152",
+      "oil_pressure": 1.654721,
+      "oil_temp": 85.6
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 72.1,
+      "engine_rpm": 938,
+      "fuel_pressure": 3.1725,
+      "id": "sim-153",
+      "oil_pressure": 1.777291,
+      "oil_temp": 88.4
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 73.8,
+      "engine_rpm": 1075,
+      "fuel_pressure": 3.47375,
+      "id": "sim-154",
+      "oil_pressure": 1.926138,
+      "oil_temp": 91.2
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 75.5,
+      "engine_rpm": 1212,
+      "fuel_pressure": 3.605,
+      "id": "sim-155",
+      "oil_pressure": 2.185261,
+      "oil_temp": 84.0
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 77.2,
+      "engine_rpm": 1349,
+      "fuel_pressure": 3.73625,
+      "id": "sim-156",
+      "oil_pressure": 2.616661,
+      "oil_temp": 86.8
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 78.9,
+      "engine_rpm": 1486,
+      "fuel_pressure": 3.8675,
+      "id": "sim-157",
+      "oil_pressure": 2.844337,
+      "oil_temp": 89.6
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 80.6,
+      "engine_rpm": 722,
+      "fuel_pressure": 3.0425,
+      "id": "sim-158",
+      "oil_pressure": 1.619299,
+      "oil_temp": 92.4
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 64.3,
+      "engine_rpm": 859,
+      "fuel_pressure": 3.17375,
+      "id": "sim-159",
+      "oil_pressure": 1.726717,
+      "oil_temp": 77.2
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 66.0,
+      "engine_rpm": 996,
+      "fuel_pressure": 3.305,
+      "id": "sim-160",
+      "oil_pressure": 1.804411,
+      "oil_temp": 80.0
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 67.7,
+      "engine_rpm": 1133,
+      "fuel_pressure": 3.43625,
+      "id": "sim-161",
+      "oil_pressure": 1.964382,
+      "oil_temp": 82.8
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 69.4,
+      "engine_rpm": 1270,
+      "fuel_pressure": 3.7375,
+      "id": "sim-162",
+      "oil_pressure": 2.38063,
+      "oil_temp": 85.6
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 71.1,
+      "engine_rpm": 1407,
+      "fuel_pressure": 3.86875,
+      "id": "sim-163",
+      "oil_pressure": 2.593154,
+      "oil_temp": 88.4
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 72.8,
+      "engine_rpm": 1544,
+      "fuel_pressure": 4.0,
+      "id": "sim-164",
+      "oil_pressure": 2.971955,
+      "oil_temp": 81.2
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 74.5,
+      "engine_rpm": 780,
+      "fuel_pressure": 3.005,
+      "id": "sim-165",
+      "oil_pressure": 1.62888,
+      "oil_temp": 84.0
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 76.2,
+      "engine_rpm": 917,
+      "fuel_pressure": 3.30625,
+      "id": "sim-166",
+      "oil_pressure": 1.747422,
+      "oil_temp": 86.8
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 77.9,
+      "engine_rpm": 1054,
+      "fuel_pressure": 3.4375,
+      "id": "sim-167",
+      "oil_pressure": 2.122241,
+      "oil_temp": 89.6
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 79.6,
+      "engine_rpm": 1191,
+      "fuel_pressure": 3.56875,
+      "id": "sim-168",
+      "oil_pressure": 2.293337,
+      "oil_temp": 92.4
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 81.3,
+      "engine_rpm": 1328,
+      "fuel_pressure": 3.7,
+      "id": "sim-169",
+      "oil_pressure": 2.490709,
+      "oil_temp": 95.2
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 65.0,
+      "engine_rpm": 1465,
+      "fuel_pressure": 3.83125,
+      "id": "sim-170",
+      "oil_pressure": 2.658358,
+      "oil_temp": 80.0
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 66.7,
+      "engine_rpm": 701,
+      "fuel_pressure": 3.00625,
+      "id": "sim-171",
+      "oil_pressure": 1.455781,
+      "oil_temp": 82.8
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 68.4,
+      "engine_rpm": 838,
+      "fuel_pressure": 3.1375,
+      "id": "sim-172",
+      "oil_pressure": 1.559171,
+      "oil_temp": 85.6
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 70.1,
+      "engine_rpm": 975,
+      "fuel_pressure": 3.26875,
+      "id": "sim-173",
+      "oil_pressure": 2.058838,
+      "oil_temp": 78.4
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 71.8,
+      "engine_rpm": 1112,
+      "fuel_pressure": 3.4,
+      "id": "sim-174",
+      "oil_pressure": 2.214781,
+      "oil_temp": 81.2
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 73.5,
+      "engine_rpm": 1249,
+      "fuel_pressure": 3.70125,
+      "id": "sim-175",
+      "oil_pressure": 2.341001,
+      "oil_temp": 84.0
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 75.2,
+      "engine_rpm": 1386,
+      "fuel_pressure": 3.8325,
+      "id": "sim-176",
+      "oil_pressure": 2.549497,
+      "oil_temp": 86.8
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 76.9,
+      "engine_rpm": 1523,
+      "fuel_pressure": 3.96375,
+      "id": "sim-177",
+      "oil_pressure": 2.78427,
+      "oil_temp": 89.6
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 78.6,
+      "engine_rpm": 759,
+      "fuel_pressure": 2.96875,
+      "id": "sim-178",
+      "oil_pressure": 1.519657,
+      "oil_temp": 92.4
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 80.3,
+      "engine_rpm": 896,
+      "fuel_pressure": 3.27,
+      "id": "sim-179",
+      "oil_pressure": 1.864171,
+      "oil_temp": 95.2
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 64.0,
+      "engine_rpm": 1033,
+      "fuel_pressure": 3.40125,
+      "id": "sim-180",
+      "oil_pressure": 1.948962,
+      "oil_temp": 80.0
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 65.7,
+      "engine_rpm": 1170,
+      "fuel_pressure": 3.5325,
+      "id": "sim-181",
+      "oil_pressure": 2.11603,
+      "oil_temp": 82.8
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 67.4,
+      "engine_rpm": 1307,
+      "fuel_pressure": 3.66375,
+      "id": "sim-182",
+      "oil_pressure": 2.449374,
+      "oil_temp": 75.6
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 69.1,
+      "engine_rpm": 1444,
+      "fuel_pressure": 3.965,
+      "id": "sim-183",
+      "oil_pressure": 2.668995,
+      "oil_temp": 78.4
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 70.8,
+      "engine_rpm": 1581,
+      "fuel_pressure": 4.09625,
+      "id": "sim-184",
+      "oil_pressure": 2.914893,
+      "oil_temp": 81.2
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 72.5,
+      "engine_rpm": 817,
+      "fuel_pressure": 3.10125,
+      "id": "sim-185",
+      "oil_pressure": 1.762242,
+      "oil_temp": 84.0
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 74.2,
+      "engine_rpm": 954,
+      "fuel_pressure": 3.2325,
+      "id": "sim-186",
+      "oil_pressure": 1.887881,
+      "oil_temp": 86.8
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.24,
+      "coolant_temp": 75.9,
+      "engine_rpm": 1091,
+      "fuel_pressure": 3.36375,
+      "id": "sim-187",
+      "oil_pressure": 2.039797,
+      "oil_temp": 89.6
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.31,
+      "coolant_temp": 77.6,
+      "engine_rpm": 1228,
+      "fuel_pressure": 3.665,
+      "id": "sim-188",
+      "oil_pressure": 2.217989,
+      "oil_temp": 92.4
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.38,
+      "coolant_temp": 79.3,
+      "engine_rpm": 1365,
+      "fuel_pressure": 3.79625,
+      "id": "sim-189",
+      "oil_pressure": 2.422457,
+      "oil_temp": 95.2
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.1,
+      "coolant_temp": 81.0,
+      "engine_rpm": 1502,
+      "fuel_pressure": 3.9275,
+      "id": "sim-190",
+      "oil_pressure": 2.827203,
+      "oil_temp": 98.0
+    },
+    {
+      "cohort": "evaluation",
+      "coolant_pressure": 1.17,
+      "coolant_temp": 64.7,
+      "engine_rpm": 738,
+      "fuel_pressure": 2.9325,
+      "id": "sim-191",
+      "oil_pressure": 1.725051,
+      "oil_temp": 72.8
+    }
+  ],
+  "units": {
+    "coolant_pressure": "bar_gauge",
+    "coolant_temp": "degC",
+    "engine_rpm": "rpm",
+    "fuel_pressure": "bar_gauge",
+    "oil_pressure": "bar_gauge",
+    "oil_temp": "degC"
+  }
+}
