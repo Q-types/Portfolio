@@ -1,0 +1,513 @@
+{
+  "schema_version": "synthetic_measurement_v1",
+  "release_id": "invented_v1",
+  "assignment_version": "manual_proxy_v1",
+  "window_tokens": 4,
+  "banks": [
+    {
+      "bank_id": "alder",
+      "name": "Invented Alder Bank"
+    },
+    {
+      "bank_id": "birch",
+      "name": "Invented Birch Bank"
+    }
+  ],
+  "cohort": [
+    {
+      "bank_id": "alder",
+      "quarter": "2024Q1",
+      "call_id": "alder_q1"
+    },
+    {
+      "bank_id": "alder",
+      "quarter": "2024Q2",
+      "call_id": "alder_q2"
+    },
+    {
+      "bank_id": "birch",
+      "quarter": "2024Q1",
+      "call_id": "birch_q1"
+    },
+    {
+      "bank_id": "birch",
+      "quarter": "2024Q2",
+      "call_id": null
+    }
+  ],
+  "calls": [
+    {
+      "call_id": "alder_q1",
+      "bank_id": "alder",
+      "quarter": "2024Q1",
+      "revision_id": "alder_q1_r1",
+      "denominator_question_ids": [
+        "q1",
+        "q2",
+        "q3"
+      ]
+    },
+    {
+      "call_id": "alder_q2",
+      "bank_id": "alder",
+      "quarter": "2024Q2",
+      "revision_id": "alder_q2_r1",
+      "denominator_question_ids": [
+        "q4",
+        "q5",
+        "q7"
+      ]
+    },
+    {
+      "call_id": "birch_q1",
+      "bank_id": "birch",
+      "quarter": "2024Q1",
+      "revision_id": "birch_q1_r1",
+      "denominator_question_ids": [
+        "q6"
+      ]
+    }
+  ],
+  "revisions": [
+    {
+      "revision_id": "alder_q1_r1",
+      "call_id": "alder_q1",
+      "release_id": "invented_v1",
+      "selected": true,
+      "text": "Could fictional funding costs ease while deposits expand Please discuss general progress Thank you Invented deposits remain steady imaginary lending grows slowly",
+      "text_sha256": "1c4c904d5f7acfdb6fdd3685508b25e1a6b37e92cae212c3831c7b2eff8e9712"
+    },
+    {
+      "revision_id": "alder_q2_r1",
+      "call_id": "alder_q2",
+      "release_id": "invented_v1",
+      "selected": true,
+      "text": "Will imagined lending expand Discuss your imaginary strategy Could fictional outlook change Imaginary lending remains stable",
+      "text_sha256": "26ab849c3ada45f62d95630e069ef89a77992264bc3fde8a669edbacbbf02255"
+    },
+    {
+      "revision_id": "birch_q1_r1",
+      "call_id": "birch_q1",
+      "release_id": "invented_v1",
+      "selected": true,
+      "text": "Are invented deposits stable",
+      "text_sha256": "2a51a3b63f503dcead955482523e1aa3d7d6427d5f9b10f455036d3d2099f1d2"
+    },
+    {
+      "revision_id": "alder_q1_r0",
+      "call_id": "alder_q1",
+      "release_id": "invented_v1",
+      "selected": false,
+      "text": "Earlier invented source wording",
+      "text_sha256": "8b5115691fe85b63e8f36e34f923fcdd742037bd6beafcb6b2103570c039ec35"
+    }
+  ],
+  "speakers": [
+    {
+      "speaker_id": "alder_analyst",
+      "bank_id": "alder",
+      "role": "analyst"
+    },
+    {
+      "speaker_id": "alder_management",
+      "bank_id": "alder",
+      "role": "management"
+    },
+    {
+      "speaker_id": "birch_analyst",
+      "bank_id": "birch",
+      "role": "analyst"
+    },
+    {
+      "speaker_id": "birch_management",
+      "bank_id": "birch",
+      "role": "management"
+    }
+  ],
+  "segments": [
+    {
+      "call_id": "alder_q1",
+      "revision_id": "alder_q1_r1",
+      "release_id": "invented_v1",
+      "text_sha256": "6f51991bdd962a89d4a7bc62c11ad24aaf68adb16669b8b5653019b3fabe95f8",
+      "segment_id": "alder_q1_s0",
+      "ordinal": 0,
+      "speaker_id": "alder_analyst",
+      "section": "qa",
+      "channel": "analyst_question",
+      "text": "Could fictional funding costs ease while deposits expand"
+    },
+    {
+      "call_id": "alder_q1",
+      "revision_id": "alder_q1_r1",
+      "release_id": "invented_v1",
+      "text_sha256": "1d4fc629f54a472bf4475490d5c044c87e7ab44d3bd562383cc45ce7cea317d3",
+      "segment_id": "alder_q1_s1",
+      "ordinal": 1,
+      "speaker_id": "alder_analyst",
+      "section": "qa",
+      "channel": "analyst_question",
+      "text": "Please discuss general progress"
+    },
+    {
+      "call_id": "alder_q1",
+      "revision_id": "alder_q1_r1",
+      "release_id": "invented_v1",
+      "text_sha256": "268bc1833e83306f48ae6203eefb86e7a39dedb1d3d6df99c18ef70aa61ef84d",
+      "segment_id": "alder_q1_s2",
+      "ordinal": 2,
+      "speaker_id": "alder_analyst",
+      "section": "qa",
+      "channel": "analyst_question",
+      "text": "Thank you"
+    },
+    {
+      "call_id": "alder_q1",
+      "revision_id": "alder_q1_r1",
+      "release_id": "invented_v1",
+      "text_sha256": "fbd92d0d52b15f522011e77c87001dbff2f01c54450cd5edefdf29b0d6f15d7c",
+      "segment_id": "alder_q1_s3",
+      "ordinal": 3,
+      "speaker_id": "alder_management",
+      "section": "prepared",
+      "channel": "prepared_management",
+      "text": "Invented deposits remain steady imaginary lending grows slowly"
+    },
+    {
+      "call_id": "alder_q2",
+      "revision_id": "alder_q2_r1",
+      "release_id": "invented_v1",
+      "text_sha256": "53bfe3a7b9123c8d83e2660e2f0da684cf5ee4280538d22da5201d8f6153e6f5",
+      "segment_id": "alder_q2_s0",
+      "ordinal": 0,
+      "speaker_id": "alder_analyst",
+      "section": "qa",
+      "channel": "analyst_question",
+      "text": "Will imagined lending expand"
+    },
+    {
+      "call_id": "alder_q2",
+      "revision_id": "alder_q2_r1",
+      "release_id": "invented_v1",
+      "text_sha256": "05ad0c5e54d921f2a58ee0710a93f9b7cee17d803dd9a7e580bf1e41cb1118c1",
+      "segment_id": "alder_q2_s1",
+      "ordinal": 1,
+      "speaker_id": "alder_analyst",
+      "section": "qa",
+      "channel": "analyst_question",
+      "text": "Discuss your imaginary strategy"
+    },
+    {
+      "call_id": "alder_q2",
+      "revision_id": "alder_q2_r1",
+      "release_id": "invented_v1",
+      "text_sha256": "bf143c16bc9e02e4c7f13d55f6e4e708bbb1c34643d5ecf50227f619bcc8027e",
+      "segment_id": "alder_q2_s2",
+      "ordinal": 2,
+      "speaker_id": "alder_analyst",
+      "section": "qa",
+      "channel": "analyst_question",
+      "text": "Could fictional outlook change"
+    },
+    {
+      "call_id": "alder_q2",
+      "revision_id": "alder_q2_r1",
+      "release_id": "invented_v1",
+      "text_sha256": "a916dc5c00e65c90394db8fcdacd38665f130289740236ef5f0e949609ef5a52",
+      "segment_id": "alder_q2_s3",
+      "ordinal": 3,
+      "speaker_id": "alder_management",
+      "section": "prepared",
+      "channel": "prepared_management",
+      "text": "Imaginary lending remains stable"
+    },
+    {
+      "call_id": "birch_q1",
+      "revision_id": "birch_q1_r1",
+      "release_id": "invented_v1",
+      "text_sha256": "2a51a3b63f503dcead955482523e1aa3d7d6427d5f9b10f455036d3d2099f1d2",
+      "segment_id": "birch_q1_s0",
+      "ordinal": 0,
+      "speaker_id": "birch_analyst",
+      "section": "qa",
+      "channel": "analyst_question",
+      "text": "Are invented deposits stable"
+    }
+  ],
+  "questions": [
+    {
+      "call_id": "alder_q1",
+      "revision_id": "alder_q1_r1",
+      "release_id": "invented_v1",
+      "text_sha256": "6f51991bdd962a89d4a7bc62c11ad24aaf68adb16669b8b5653019b3fabe95f8",
+      "question_id": "q1",
+      "segment_id": "alder_q1_s0",
+      "fit_eligible": true
+    },
+    {
+      "call_id": "alder_q1",
+      "revision_id": "alder_q1_r1",
+      "release_id": "invented_v1",
+      "text_sha256": "1d4fc629f54a472bf4475490d5c044c87e7ab44d3bd562383cc45ce7cea317d3",
+      "question_id": "q2",
+      "segment_id": "alder_q1_s1",
+      "fit_eligible": true
+    },
+    {
+      "call_id": "alder_q1",
+      "revision_id": "alder_q1_r1",
+      "release_id": "invented_v1",
+      "text_sha256": "268bc1833e83306f48ae6203eefb86e7a39dedb1d3d6df99c18ef70aa61ef84d",
+      "question_id": "q3",
+      "segment_id": "alder_q1_s2",
+      "fit_eligible": false
+    },
+    {
+      "call_id": "alder_q2",
+      "revision_id": "alder_q2_r1",
+      "release_id": "invented_v1",
+      "text_sha256": "53bfe3a7b9123c8d83e2660e2f0da684cf5ee4280538d22da5201d8f6153e6f5",
+      "question_id": "q4",
+      "segment_id": "alder_q2_s0",
+      "fit_eligible": true
+    },
+    {
+      "call_id": "alder_q2",
+      "revision_id": "alder_q2_r1",
+      "release_id": "invented_v1",
+      "text_sha256": "05ad0c5e54d921f2a58ee0710a93f9b7cee17d803dd9a7e580bf1e41cb1118c1",
+      "question_id": "q5",
+      "segment_id": "alder_q2_s1",
+      "fit_eligible": true
+    },
+    {
+      "call_id": "alder_q2",
+      "revision_id": "alder_q2_r1",
+      "release_id": "invented_v1",
+      "text_sha256": "bf143c16bc9e02e4c7f13d55f6e4e708bbb1c34643d5ecf50227f619bcc8027e",
+      "question_id": "q7",
+      "segment_id": "alder_q2_s2",
+      "fit_eligible": true
+    },
+    {
+      "call_id": "birch_q1",
+      "revision_id": "birch_q1_r1",
+      "release_id": "invented_v1",
+      "text_sha256": "2a51a3b63f503dcead955482523e1aa3d7d6427d5f9b10f455036d3d2099f1d2",
+      "question_id": "q6",
+      "segment_id": "birch_q1_s0",
+      "fit_eligible": true
+    }
+  ],
+  "question_assignments": [
+    {
+      "call_id": "alder_q1",
+      "revision_id": "alder_q1_r1",
+      "release_id": "invented_v1",
+      "text_sha256": "6f51991bdd962a89d4a7bc62c11ad24aaf68adb16669b8b5653019b3fabe95f8",
+      "question_id": "q1",
+      "assignment_version": "manual_proxy_v1",
+      "category": "retained",
+      "theme_id": "funding"
+    },
+    {
+      "call_id": "alder_q1",
+      "revision_id": "alder_q1_r1",
+      "release_id": "invented_v1",
+      "text_sha256": "1d4fc629f54a472bf4475490d5c044c87e7ab44d3bd562383cc45ce7cea317d3",
+      "question_id": "q2",
+      "assignment_version": "manual_proxy_v1",
+      "category": "noise",
+      "theme_id": null
+    },
+    {
+      "call_id": "alder_q1",
+      "revision_id": "alder_q1_r1",
+      "release_id": "invented_v1",
+      "text_sha256": "268bc1833e83306f48ae6203eefb86e7a39dedb1d3d6df99c18ef70aa61ef84d",
+      "question_id": "q3",
+      "assignment_version": "manual_proxy_v1",
+      "category": "excluded",
+      "theme_id": null
+    },
+    {
+      "call_id": "alder_q2",
+      "revision_id": "alder_q2_r1",
+      "release_id": "invented_v1",
+      "text_sha256": "53bfe3a7b9123c8d83e2660e2f0da684cf5ee4280538d22da5201d8f6153e6f5",
+      "question_id": "q4",
+      "assignment_version": "manual_proxy_v1",
+      "category": "retained",
+      "theme_id": "lending"
+    },
+    {
+      "call_id": "alder_q2",
+      "revision_id": "alder_q2_r1",
+      "release_id": "invented_v1",
+      "text_sha256": "05ad0c5e54d921f2a58ee0710a93f9b7cee17d803dd9a7e580bf1e41cb1118c1",
+      "question_id": "q5",
+      "assignment_version": "manual_proxy_v1",
+      "category": "unresolved",
+      "theme_id": null
+    },
+    {
+      "call_id": "birch_q1",
+      "revision_id": "birch_q1_r1",
+      "release_id": "invented_v1",
+      "text_sha256": "2a51a3b63f503dcead955482523e1aa3d7d6427d5f9b10f455036d3d2099f1d2",
+      "question_id": "q6",
+      "assignment_version": "manual_proxy_v1",
+      "category": "retained",
+      "theme_id": "funding"
+    }
+  ],
+  "window_assignments": [
+    {
+      "call_id": "alder_q1",
+      "revision_id": "alder_q1_r1",
+      "release_id": "invented_v1",
+      "text_sha256": "6778ba0e9243db7fe06a052a3b28c61e4d3e41bdcb7ef3a3296f719b98822517",
+      "window_id": "alder_q1_s0_w0",
+      "assignment_version": "manual_proxy_v1",
+      "category": "retained",
+      "theme_id": "funding"
+    },
+    {
+      "call_id": "alder_q1",
+      "revision_id": "alder_q1_r1",
+      "release_id": "invented_v1",
+      "text_sha256": "8c0afc0a36ee1b552e8130f92608c1a91d926157e655188e13dbe264e6642eac",
+      "window_id": "alder_q1_s0_w1",
+      "assignment_version": "manual_proxy_v1",
+      "category": "retained",
+      "theme_id": "funding"
+    },
+    {
+      "call_id": "alder_q1",
+      "revision_id": "alder_q1_r1",
+      "release_id": "invented_v1",
+      "text_sha256": "1d4fc629f54a472bf4475490d5c044c87e7ab44d3bd562383cc45ce7cea317d3",
+      "window_id": "alder_q1_s1_w0",
+      "assignment_version": "manual_proxy_v1",
+      "category": "noise",
+      "theme_id": null
+    },
+    {
+      "call_id": "alder_q1",
+      "revision_id": "alder_q1_r1",
+      "release_id": "invented_v1",
+      "text_sha256": "268bc1833e83306f48ae6203eefb86e7a39dedb1d3d6df99c18ef70aa61ef84d",
+      "window_id": "alder_q1_s2_w0",
+      "assignment_version": "manual_proxy_v1",
+      "category": "excluded",
+      "theme_id": null
+    },
+    {
+      "call_id": "alder_q1",
+      "revision_id": "alder_q1_r1",
+      "release_id": "invented_v1",
+      "text_sha256": "5d7479ca4c95a2a80fd9638f5b207d0a32f9fa5244401c752b586de49b8cf0bf",
+      "window_id": "alder_q1_s3_w0",
+      "assignment_version": "manual_proxy_v1",
+      "category": "retained",
+      "theme_id": "funding"
+    },
+    {
+      "call_id": "alder_q1",
+      "revision_id": "alder_q1_r1",
+      "release_id": "invented_v1",
+      "text_sha256": "31822cbb0fde2eb69042effddb73077582337952a1b5281730d942a89c1a9bda",
+      "window_id": "alder_q1_s3_w1",
+      "assignment_version": "manual_proxy_v1",
+      "category": "retained",
+      "theme_id": "lending"
+    },
+    {
+      "call_id": "alder_q2",
+      "revision_id": "alder_q2_r1",
+      "release_id": "invented_v1",
+      "text_sha256": "53bfe3a7b9123c8d83e2660e2f0da684cf5ee4280538d22da5201d8f6153e6f5",
+      "window_id": "alder_q2_s0_w0",
+      "assignment_version": "manual_proxy_v1",
+      "category": "retained",
+      "theme_id": "lending"
+    },
+    {
+      "call_id": "alder_q2",
+      "revision_id": "alder_q2_r1",
+      "release_id": "invented_v1",
+      "text_sha256": "05ad0c5e54d921f2a58ee0710a93f9b7cee17d803dd9a7e580bf1e41cb1118c1",
+      "window_id": "alder_q2_s1_w0",
+      "assignment_version": "manual_proxy_v1",
+      "category": "unresolved",
+      "theme_id": null
+    },
+    {
+      "call_id": "alder_q2",
+      "revision_id": "alder_q2_r1",
+      "release_id": "invented_v1",
+      "text_sha256": "a916dc5c00e65c90394db8fcdacd38665f130289740236ef5f0e949609ef5a52",
+      "window_id": "alder_q2_s3_w0",
+      "assignment_version": "manual_proxy_v1",
+      "category": "retained",
+      "theme_id": "lending"
+    },
+    {
+      "call_id": "birch_q1",
+      "revision_id": "birch_q1_r1",
+      "release_id": "invented_v1",
+      "text_sha256": "2a51a3b63f503dcead955482523e1aa3d7d6427d5f9b10f455036d3d2099f1d2",
+      "window_id": "birch_q1_s0_w0",
+      "assignment_version": "manual_proxy_v1",
+      "category": "retained",
+      "theme_id": "funding"
+    }
+  ],
+  "sentiment": [
+    {
+      "call_id": "alder_q1",
+      "revision_id": "alder_q1_r1",
+      "release_id": "invented_v1",
+      "text_sha256": "6f51991bdd962a89d4a7bc62c11ad24aaf68adb16669b8b5653019b3fabe95f8",
+      "question_id": "q1",
+      "score": 0.5
+    },
+    {
+      "call_id": "alder_q2",
+      "revision_id": "alder_q2_r1",
+      "release_id": "invented_v1",
+      "text_sha256": "53bfe3a7b9123c8d83e2660e2f0da684cf5ee4280538d22da5201d8f6153e6f5",
+      "question_id": "q4",
+      "score": 0.0
+    },
+    {
+      "call_id": "alder_q2",
+      "revision_id": "alder_q2_r1",
+      "release_id": "invented_v1",
+      "text_sha256": "05ad0c5e54d921f2a58ee0710a93f9b7cee17d803dd9a7e580bf1e41cb1118c1",
+      "question_id": "q5",
+      "score": null
+    }
+  ],
+  "themes": [
+    {
+      "theme_id": "funding",
+      "label": "Invented funding proxy"
+    },
+    {
+      "theme_id": "lending",
+      "label": "Invented lending proxy"
+    }
+  ],
+  "expected_coverage": {
+    "denominator_questions": 7,
+    "eligible_questions": 6,
+    "assigned_questions": 6,
+    "retained_questions": 3,
+    "missing_question_assignments": 1,
+    "windows": 11,
+    "missing_window_assignments": 1,
+    "missing_sentiment_rows": 4,
+    "missing_sentiment_values": 1
+  }
+}

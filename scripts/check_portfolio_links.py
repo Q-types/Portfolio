@@ -9,6 +9,8 @@ it is not a general Markdown parser. URL fragments are not validated.
 """
 
 import csv
+import hashlib
+import json
 import re
 import sys
 from pathlib import Path
@@ -45,12 +47,43 @@ def check_destination(source, destination, errors):
         errors.append(f"{source.relative_to(ROOT)}: missing/outside destination {destination}")
 
 
+def check_financial_text_artifacts(errors):
+    """Check the declared synthetic result/source bytes without external access."""
+    base = ROOT / "examples/financial_text_nlp"
+    result_names = {"input.json", "audit.json", "questions.csv", "windows.csv", "bank_quarter.csv"}
+    source_names = {"__init__.py", "__main__.py", "measurement.py"}
+    try:
+        for path in base.rglob("*"):
+            if path.is_symlink():
+                raise ValueError("symlink in financial-text example")
+            if path.name == "__pycache__" or path.suffix == ".pyc":
+                raise ValueError("generated cache in financial-text example")
+        manifest = json.loads((base / "results/manifest.json").read_bytes())
+        if manifest["evidence"] != "synthetic mechanics only":
+            raise ValueError("public results must be synthetic")
+        if set(manifest["files"]) != result_names or set(manifest["source"]) != source_names:
+            raise ValueError("unexpected manifest file set")
+        for group, directory in [("files", base / "results"), ("source", base)]:
+            for name, expected in manifest[group].items():
+                raw = (directory / name).read_bytes()
+                if expected != {"bytes": len(raw), "sha256": hashlib.sha256(raw).hexdigest()}:
+                    raise ValueError(f"artifact identity mismatch: {name}")
+        raw = (base / "fixtures/synthetic.json").read_bytes()
+        if raw != (base / "results/input.json").read_bytes():
+            raise ValueError("result input differs from bundled fixture")
+        if manifest["input"] != {"bytes": len(raw), "sha256": hashlib.sha256(raw).hexdigest()}:
+            raise ValueError("input identity mismatch")
+    except (OSError, ValueError, KeyError, TypeError) as exc:
+        errors.append(f"Financial-text artifacts: {exc}")
+
+
 def main():
     errors = []
     pages = [ROOT / "README.md", ROOT / "docs/project-index.md"]
     pages.extend(ROOT / "projects" / case / "README.md" for case in CASES)
     pages.append(ROOT / "examples/packaging_optimisation/README.md")
     pages.append(ROOT / "examples/book_sales_forecasting/README.md")
+    pages.append(ROOT / "examples/financial_text_nlp/README.md")
     link_count = 0
     for page in pages:
         if not page.is_file():
@@ -73,6 +106,9 @@ def main():
         errors.append("Project index missing synthetic packaging example")
     if "../examples/book_sales_forecasting/README.md" not in index_text:
         errors.append("Project index missing synthetic forecasting example")
+    if "../examples/financial_text_nlp/README.md" not in index_text:
+        errors.append("Project index missing synthetic financial-text example")
+    check_financial_text_artifacts(errors)
     row_counts = {}
     for filename, schema in SCHEMAS.items():
         path = ROOT / "docs" / filename
