@@ -1,0 +1,49 @@
+# KSP manufacturing management information system
+
+**Role:** designer and implementer through QSol Analytics. **Status, 26 November 2026:** current private Python/FastAPI/PostgreSQL implementation; public architecture overview. Source implementation, historical verification and deployed operation are separate evidence levels.
+
+## Problem and contribution
+
+Packaging estimates depend on connected decisions: product dimensions, material choice, sheet utilisation, cutting operations, current prices and production rules. An estimate is difficult to explain or revisit if those inputs are scattered across spreadsheets or change without a retained version.
+
+I designed and implemented a management information system connecting packaging specifications and production inputs to cost estimates, quotations and orders. My work includes relational modelling, structuring legacy spreadsheet information, constrained sheet-layout and cutting-cost optimisation, input validation, price provenance and traceable quotation records. The public explanation focuses on those mechanisms; it does not publish client prices, quotations or operational records.
+
+## Data and calculation design
+
+The inputs are operational specifications and reference data, rather than a labelled machine learning dataset. Product geometry, quantities, material-price versions and production constraints determine which calculations are meaningful. Relational records connect these inputs so a quotation can be traced back to the specification and price information used to create it.
+
+Deterministic optimisation fits this problem because feasibility and cost depend on explicit physical and business rules. A low nominal sheet price alone does not identify the cheapest feasible production plan. Candidate layouts must satisfy dimensional constraints and be assessed alongside cutting costs. The implementation contains separate services for mixed-layout optimisation, material-price provenance and quote issuance, with structural payload checks around the quotation boundary.
+
+```mermaid
+flowchart TD
+    A[Specification and quantity] --> C[Validate inputs]
+    B[Versioned materials and production rules] --> C
+    C --> D[Evaluate feasible layouts and cutting costs]
+    D --> E[Cost estimate with input provenance]
+    E --> F[Validate and issue quotation]
+    F --> G[Traceable quotation and order records]
+```
+
+This is a conceptual view of the implemented responsibilities. It omits client configuration and deployment details.
+
+## Illustrative decision
+
+Consider an invented job whose specification and quantity stay fixed while a material price changes. The important questions are: which price version did the estimate use, does a recalculation use a different version, and does the issued quotation retain its original input identity? Keeping those relationships explicit allows the two estimates to be explained without treating the latest price as if it had always applied.
+
+Likewise, a candidate layout that fails a dimension constraint should be excluded before comparing costs. A feasible low-material-cost layout may still require more cutting. The decision needs a common cost basis and recorded assumptions. This example explains the design; it is not an executed quotation, client record or measured optimisation result.
+
+## Verification evidence and findings
+
+The inspected implementation has focused tests for material-price provenance, atomic quote issuance and structural payload identity. It also defines offline release-qualification checks using synthetic receipts. These provide concrete inspection points for input lineage and transaction boundaries, rather than evidence of universal calculation accuracy.
+
+Historical verification records include focused, regression and browser checks against particular source versions. They also retain deferred or blocked checks. Those records have not been rerun for this overview and cannot be transferred automatically to a later source revision. No live client workflow or production database was exercised to prepare this page.
+
+The delivered engineering contribution is a connected estimating workflow with explicit constraints and traceable inputs. Its practical value is that an estimate has an inspectable basis and quotation issuance has a defined consistency boundary. Timing improvements, adoption, reduced commercial errors and return on investment require separately scoped measurements; none is asserted here. Current source also does not establish which revision is deployed.
+
+## Public evidence and limits
+
+The [legacy desktop estimator](../../KSP_Packaging_Estimator/README.md) is an earlier Tkinter/SQLite implementation preserved in this repository. It is useful historical source evidence, but it does not contain the current FastAPI/PostgreSQL MIS. Its setup and calculation paths need maintenance before it is offered as a fresh-checkout demonstration. Historical outcome statements in that folder are not adopted as evidence for this case, and its conflicting permission/licence statements require separate resolution before code reuse.
+
+This overview is the public route for the current system. Private code, client inputs, historical screenshots and release records are not included. A separately reviewed synthetic executable example and version-bound validation summary would extend the evidence beyond this narrative.
+
+[Project index](../../docs/project-index.md) · [Provenance](../../docs/provenance.csv) · [Portfolio](../../README.md)
