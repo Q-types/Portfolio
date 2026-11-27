@@ -1,0 +1,7493 @@
+{
+  "records": [
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-01",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-01-31",
+          "value": null
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-01",
+          "value": null
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-01",
+          "value": null
+        },
+        "failed_modules": {
+          "available_at": "2021-04-01",
+          "value": null
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-01",
+          "value": null
+        },
+        "passed_modules": {
+          "available_at": "2021-04-01",
+          "value": null
+        },
+        "practice_completed": {
+          "available_at": "2021-01-31",
+          "value": 1
+        }
+      },
+      "group_id": "group-2021-00",
+      "id": "syn-2021-000",
+      "label": 0,
+      "label_at": "2021-06-30",
+      "learner_id": "learner-2021-000"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-01",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-01-31",
+          "value": 12
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-01",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-01",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-01",
+          "value": 1
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-01",
+          "value": 6
+        },
+        "passed_modules": {
+          "available_at": "2021-04-01",
+          "value": 4
+        },
+        "practice_completed": {
+          "available_at": "2021-01-31",
+          "value": 7
+        }
+      },
+      "group_id": "group-2021-00",
+      "id": "syn-2021-001",
+      "label": 0,
+      "label_at": "2021-06-30",
+      "learner_id": "learner-2021-001"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-01",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-01-31",
+          "value": 8
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-01",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-01",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-01",
+          "value": 1
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-01",
+          "value": 7
+        },
+        "passed_modules": {
+          "available_at": "2021-04-01",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2021-01-31",
+          "value": 9
+        }
+      },
+      "group_id": "group-2021-00",
+      "id": "syn-2021-002",
+      "label": 0,
+      "label_at": "2021-06-30",
+      "learner_id": "learner-2021-002"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-01",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-01-31",
+          "value": 6
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-01",
+          "value": 3
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-01",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-01",
+          "value": 1
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-01",
+          "value": 6
+        },
+        "passed_modules": {
+          "available_at": "2021-04-01",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2021-01-31",
+          "value": 7
+        }
+      },
+      "group_id": "group-2021-00",
+      "id": "syn-2021-003",
+      "label": 0,
+      "label_at": "2021-06-30",
+      "learner_id": "learner-2021-003"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-02",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-01",
+          "value": 13
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-02",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-02",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-02",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-02",
+          "value": 2
+        },
+        "passed_modules": {
+          "available_at": "2021-04-02",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2021-02-01",
+          "value": 3
+        }
+      },
+      "group_id": "group-2021-01",
+      "id": "syn-2021-004",
+      "label": 1,
+      "label_at": "2021-07-01",
+      "learner_id": "learner-2021-004"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-02",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-01",
+          "value": 11
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-02",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-02",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-02",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-02",
+          "value": 2
+        },
+        "passed_modules": {
+          "available_at": "2021-04-02",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2021-02-01",
+          "value": 2
+        }
+      },
+      "group_id": "group-2021-01",
+      "id": "syn-2021-005",
+      "label": 1,
+      "label_at": "2021-07-01",
+      "learner_id": "learner-2021-005"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-02",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-01",
+          "value": 9
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-02",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-02",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-02",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-02",
+          "value": 3
+        },
+        "passed_modules": {
+          "available_at": "2021-04-02",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2021-02-01",
+          "value": 4
+        }
+      },
+      "group_id": "group-2021-01",
+      "id": "syn-2021-006",
+      "label": 0,
+      "label_at": "2021-07-01",
+      "learner_id": "learner-2021-006"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-02",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-01",
+          "value": 13
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-02",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-02",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-02",
+          "value": 1
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-02",
+          "value": 1
+        },
+        "passed_modules": {
+          "available_at": "2021-04-02",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2021-02-01",
+          "value": 2
+        }
+      },
+      "group_id": "group-2021-01",
+      "id": "syn-2021-007",
+      "label": 0,
+      "label_at": "2021-07-01",
+      "learner_id": "learner-2021-007"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-03",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-02",
+          "value": 12
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-03",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-03",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-03",
+          "value": 4
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-03",
+          "value": 2
+        },
+        "passed_modules": {
+          "available_at": "2021-04-03",
+          "value": 1
+        },
+        "practice_completed": {
+          "available_at": "2021-02-02",
+          "value": 2
+        }
+      },
+      "group_id": "group-2021-02",
+      "id": "syn-2021-008",
+      "label": 1,
+      "label_at": "2021-07-02",
+      "learner_id": "learner-2021-008"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-03",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-02",
+          "value": 11
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-03",
+          "value": 3
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-03",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-03",
+          "value": 1
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-03",
+          "value": 5
+        },
+        "passed_modules": {
+          "available_at": "2021-04-03",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2021-02-02",
+          "value": 5
+        }
+      },
+      "group_id": "group-2021-02",
+      "id": "syn-2021-009",
+      "label": 0,
+      "label_at": "2021-07-02",
+      "learner_id": "learner-2021-009"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-03",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-02",
+          "value": 8
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-03",
+          "value": 3
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-03",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-03",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-03",
+          "value": 5
+        },
+        "passed_modules": {
+          "available_at": "2021-04-03",
+          "value": 1
+        },
+        "practice_completed": {
+          "available_at": "2021-02-02",
+          "value": 6
+        }
+      },
+      "group_id": "group-2021-02",
+      "id": "syn-2021-010",
+      "label": 1,
+      "label_at": "2021-07-02",
+      "learner_id": "learner-2021-010"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-03",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-02",
+          "value": 12
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-03",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-03",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-03",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-03",
+          "value": 4
+        },
+        "passed_modules": {
+          "available_at": "2021-04-03",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2021-02-02",
+          "value": 5
+        }
+      },
+      "group_id": "group-2021-02",
+      "id": "syn-2021-011",
+      "label": 1,
+      "label_at": "2021-07-02",
+      "learner_id": "learner-2021-011"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-04",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-03",
+          "value": 6
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-04",
+          "value": 3
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-04",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-04",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-04",
+          "value": 5
+        },
+        "passed_modules": {
+          "available_at": "2021-04-04",
+          "value": 1
+        },
+        "practice_completed": {
+          "available_at": "2021-02-03",
+          "value": 6
+        }
+      },
+      "group_id": "group-2021-03",
+      "id": "syn-2021-012",
+      "label": 1,
+      "label_at": "2021-07-03",
+      "learner_id": "learner-2021-012"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-04",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-03",
+          "value": 8
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-04",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-04",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-04",
+          "value": 1
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-04",
+          "value": 5
+        },
+        "passed_modules": {
+          "available_at": "2021-04-04",
+          "value": 5
+        },
+        "practice_completed": {
+          "available_at": "2021-02-03",
+          "value": 5
+        }
+      },
+      "group_id": "group-2021-03",
+      "id": "syn-2021-013",
+      "label": 0,
+      "label_at": "2021-07-03",
+      "learner_id": "learner-2021-013"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-04",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-03",
+          "value": 6
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-04",
+          "value": 3
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-04",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-04",
+          "value": 0
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-04",
+          "value": 6
+        },
+        "passed_modules": {
+          "available_at": "2021-04-04",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2021-02-03",
+          "value": 9
+        }
+      },
+      "group_id": "group-2021-03",
+      "id": "syn-2021-014",
+      "label": 0,
+      "label_at": "2021-07-03",
+      "learner_id": "learner-2021-014"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-04",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-03",
+          "value": 9
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-04",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-04",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-04",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-04",
+          "value": 6
+        },
+        "passed_modules": {
+          "available_at": "2021-04-04",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2021-02-03",
+          "value": 8
+        }
+      },
+      "group_id": "group-2021-03",
+      "id": "syn-2021-015",
+      "label": 0,
+      "label_at": "2021-07-03",
+      "learner_id": "learner-2021-015"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-05",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-04",
+          "value": 11
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-05",
+          "value": 3
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-05",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-05",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-05",
+          "value": 3
+        },
+        "passed_modules": {
+          "available_at": "2021-04-05",
+          "value": 1
+        },
+        "practice_completed": {
+          "available_at": "2021-02-04",
+          "value": 5
+        }
+      },
+      "group_id": "group-2021-04",
+      "id": "syn-2021-016",
+      "label": 0,
+      "label_at": "2021-07-04",
+      "learner_id": "learner-2021-016"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-05",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-04",
+          "value": null
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-05",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-05",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-05",
+          "value": 5
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-05",
+          "value": 4
+        },
+        "passed_modules": {
+          "available_at": "2021-04-05",
+          "value": 1
+        },
+        "practice_completed": {
+          "available_at": "2021-02-04",
+          "value": 2
+        }
+      },
+      "group_id": "group-2021-04",
+      "id": "syn-2021-017",
+      "label": 0,
+      "label_at": "2021-07-04",
+      "learner_id": "learner-2021-017"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-05",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-04",
+          "value": 18
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-05",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-05",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-05",
+          "value": 4
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-05",
+          "value": 1
+        },
+        "passed_modules": {
+          "available_at": "2021-04-05",
+          "value": 1
+        },
+        "practice_completed": {
+          "available_at": "2021-02-04",
+          "value": 4
+        }
+      },
+      "group_id": "group-2021-04",
+      "id": "syn-2021-018",
+      "label": 1,
+      "label_at": "2021-07-04",
+      "learner_id": "learner-2021-018"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-05",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-04",
+          "value": 17
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-05",
+          "value": 3
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-05",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-05",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-05",
+          "value": null
+        },
+        "passed_modules": {
+          "available_at": "2021-04-05",
+          "value": 1
+        },
+        "practice_completed": {
+          "available_at": "2021-02-04",
+          "value": 3
+        }
+      },
+      "group_id": "group-2021-04",
+      "id": "syn-2021-019",
+      "label": 1,
+      "label_at": "2021-07-04",
+      "learner_id": "learner-2021-019"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-06",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-05",
+          "value": 4
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-06",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-06",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-06",
+          "value": 0
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-06",
+          "value": 4
+        },
+        "passed_modules": {
+          "available_at": "2021-04-06",
+          "value": 4
+        },
+        "practice_completed": {
+          "available_at": "2021-02-05",
+          "value": 7
+        }
+      },
+      "group_id": "group-2021-05",
+      "id": "syn-2021-020",
+      "label": 0,
+      "label_at": "2021-07-05",
+      "learner_id": "learner-2021-020"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-06",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-05",
+          "value": 8
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-06",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-06",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-06",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-06",
+          "value": 5
+        },
+        "passed_modules": {
+          "available_at": "2021-04-06",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2021-02-05",
+          "value": 6
+        }
+      },
+      "group_id": "group-2021-05",
+      "id": "syn-2021-021",
+      "label": 0,
+      "label_at": "2021-07-05",
+      "learner_id": "learner-2021-021"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-06",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-05",
+          "value": 6
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-06",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-06",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-06",
+          "value": 1
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-06",
+          "value": 6
+        },
+        "passed_modules": {
+          "available_at": "2021-04-06",
+          "value": 4
+        },
+        "practice_completed": {
+          "available_at": "2021-02-05",
+          "value": 7
+        }
+      },
+      "group_id": "group-2021-05",
+      "id": "syn-2021-022",
+      "label": 0,
+      "label_at": "2021-07-05",
+      "learner_id": "learner-2021-022"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-06",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-05",
+          "value": 13
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-06",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-06",
+          "value": null
+        },
+        "failed_modules": {
+          "available_at": "2021-04-06",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-06",
+          "value": 2
+        },
+        "passed_modules": {
+          "available_at": "2021-04-06",
+          "value": 1
+        },
+        "practice_completed": {
+          "available_at": "2021-02-05",
+          "value": 2
+        }
+      },
+      "group_id": "group-2021-05",
+      "id": "syn-2021-023",
+      "label": 0,
+      "label_at": "2021-07-05",
+      "learner_id": "learner-2021-023"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-07",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-06",
+          "value": 3
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-07",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-07",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-07",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-07",
+          "value": 5
+        },
+        "passed_modules": {
+          "available_at": "2021-04-07",
+          "value": 4
+        },
+        "practice_completed": {
+          "available_at": "2021-02-06",
+          "value": 9
+        }
+      },
+      "group_id": "group-2021-06",
+      "id": "syn-2021-024",
+      "label": 0,
+      "label_at": "2021-07-06",
+      "learner_id": "learner-2021-024"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-07",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-06",
+          "value": 17
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-07",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-07",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-07",
+          "value": 5
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-07",
+          "value": 1
+        },
+        "passed_modules": {
+          "available_at": "2021-04-07",
+          "value": 1
+        },
+        "practice_completed": {
+          "available_at": "2021-02-06",
+          "value": 3
+        }
+      },
+      "group_id": "group-2021-06",
+      "id": "syn-2021-025",
+      "label": 1,
+      "label_at": "2021-07-06",
+      "learner_id": "learner-2021-025"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-07",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-06",
+          "value": 12
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-07",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-07",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-07",
+          "value": 4
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-07",
+          "value": 1
+        },
+        "passed_modules": {
+          "available_at": "2021-04-07",
+          "value": 1
+        },
+        "practice_completed": {
+          "available_at": "2021-02-06",
+          "value": 2
+        }
+      },
+      "group_id": "group-2021-06",
+      "id": "syn-2021-026",
+      "label": 0,
+      "label_at": "2021-07-06",
+      "learner_id": "learner-2021-026"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-07",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-06",
+          "value": 9
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-07",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-07",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-07",
+          "value": 1
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-07",
+          "value": 4
+        },
+        "passed_modules": {
+          "available_at": "2021-04-07",
+          "value": 4
+        },
+        "practice_completed": {
+          "available_at": "2021-02-06",
+          "value": 6
+        }
+      },
+      "group_id": "group-2021-06",
+      "id": "syn-2021-027",
+      "label": 0,
+      "label_at": "2021-07-06",
+      "learner_id": "learner-2021-027"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-08",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-07",
+          "value": 12
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-08",
+          "value": 3
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-08",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-08",
+          "value": 1
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-08",
+          "value": 2
+        },
+        "passed_modules": {
+          "available_at": "2021-04-08",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2021-02-07",
+          "value": 4
+        }
+      },
+      "group_id": "group-2021-07",
+      "id": "syn-2021-028",
+      "label": 0,
+      "label_at": "2021-07-07",
+      "learner_id": "learner-2021-028"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-08",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-07",
+          "value": 7
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-08",
+          "value": null
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-08",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-08",
+          "value": null
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-08",
+          "value": 5
+        },
+        "passed_modules": {
+          "available_at": "2021-04-08",
+          "value": null
+        },
+        "practice_completed": {
+          "available_at": "2021-02-07",
+          "value": 5
+        }
+      },
+      "group_id": "group-2021-07",
+      "id": "syn-2021-029",
+      "label": 0,
+      "label_at": "2021-07-07",
+      "learner_id": "learner-2021-029"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-08",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-07",
+          "value": 7
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-08",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-08",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-08",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-08",
+          "value": 5
+        },
+        "passed_modules": {
+          "available_at": "2021-04-08",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2021-02-07",
+          "value": 8
+        }
+      },
+      "group_id": "group-2021-07",
+      "id": "syn-2021-030",
+      "label": 0,
+      "label_at": "2021-07-07",
+      "learner_id": "learner-2021-030"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-08",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-07",
+          "value": 10
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-08",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-08",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-08",
+          "value": 4
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-08",
+          "value": 3
+        },
+        "passed_modules": {
+          "available_at": "2021-04-08",
+          "value": 0
+        },
+        "practice_completed": {
+          "available_at": "2021-02-07",
+          "value": 4
+        }
+      },
+      "group_id": "group-2021-07",
+      "id": "syn-2021-031",
+      "label": 0,
+      "label_at": "2021-07-07",
+      "learner_id": "learner-2021-031"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-09",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-08",
+          "value": 4
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-09",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-09",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-09",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-09",
+          "value": 7
+        },
+        "passed_modules": {
+          "available_at": "2021-04-09",
+          "value": 4
+        },
+        "practice_completed": {
+          "available_at": "2021-02-08",
+          "value": 8
+        }
+      },
+      "group_id": "group-2021-08",
+      "id": "syn-2021-032",
+      "label": 0,
+      "label_at": "2021-07-08",
+      "learner_id": "learner-2021-032"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-09",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-08",
+          "value": 16
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-09",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-09",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-09",
+          "value": 4
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-09",
+          "value": 2
+        },
+        "passed_modules": {
+          "available_at": "2021-04-09",
+          "value": 0
+        },
+        "practice_completed": {
+          "available_at": "2021-02-08",
+          "value": 1
+        }
+      },
+      "group_id": "group-2021-08",
+      "id": "syn-2021-033",
+      "label": 1,
+      "label_at": "2021-07-08",
+      "learner_id": "learner-2021-033"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-09",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-08",
+          "value": null
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-09",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-09",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-09",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-09",
+          "value": 2
+        },
+        "passed_modules": {
+          "available_at": "2021-04-09",
+          "value": 1
+        },
+        "practice_completed": {
+          "available_at": "2021-02-08",
+          "value": 2
+        }
+      },
+      "group_id": "group-2021-08",
+      "id": "syn-2021-034",
+      "label": 1,
+      "label_at": "2021-07-08",
+      "learner_id": "learner-2021-034"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-09",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-08",
+          "value": 19
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-09",
+          "value": 3
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-09",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-09",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-09",
+          "value": 0
+        },
+        "passed_modules": {
+          "available_at": "2021-04-09",
+          "value": 1
+        },
+        "practice_completed": {
+          "available_at": "2021-02-08",
+          "value": 3
+        }
+      },
+      "group_id": "group-2021-08",
+      "id": "syn-2021-035",
+      "label": 1,
+      "label_at": "2021-07-08",
+      "learner_id": "learner-2021-035"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-10",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-09",
+          "value": 9
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-10",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-10",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-10",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-10",
+          "value": 2
+        },
+        "passed_modules": {
+          "available_at": "2021-04-10",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2021-02-09",
+          "value": 4
+        }
+      },
+      "group_id": "group-2021-09",
+      "id": "syn-2021-036",
+      "label": 1,
+      "label_at": "2021-07-09",
+      "learner_id": "learner-2021-036"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-10",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-09",
+          "value": 4
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-10",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-10",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-10",
+          "value": 0
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-10",
+          "value": 5
+        },
+        "passed_modules": {
+          "available_at": "2021-04-10",
+          "value": 5
+        },
+        "practice_completed": {
+          "available_at": "2021-02-09",
+          "value": 5
+        }
+      },
+      "group_id": "group-2021-09",
+      "id": "syn-2021-037",
+      "label": 0,
+      "label_at": "2021-07-09",
+      "learner_id": "learner-2021-037"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-10",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-09",
+          "value": 11
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-10",
+          "value": 3
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-10",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-10",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-10",
+          "value": null
+        },
+        "passed_modules": {
+          "available_at": "2021-04-10",
+          "value": 1
+        },
+        "practice_completed": {
+          "available_at": "2021-02-09",
+          "value": 6
+        }
+      },
+      "group_id": "group-2021-09",
+      "id": "syn-2021-038",
+      "label": 0,
+      "label_at": "2021-07-09",
+      "learner_id": "learner-2021-038"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-10",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-09",
+          "value": 9
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-10",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-10",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-10",
+          "value": 1
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-10",
+          "value": 4
+        },
+        "passed_modules": {
+          "available_at": "2021-04-10",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2021-02-09",
+          "value": 8
+        }
+      },
+      "group_id": "group-2021-09",
+      "id": "syn-2021-039",
+      "label": 0,
+      "label_at": "2021-07-09",
+      "learner_id": "learner-2021-039"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-11",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-10",
+          "value": 16
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-11",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-11",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-11",
+          "value": 4
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-11",
+          "value": 1
+        },
+        "passed_modules": {
+          "available_at": "2021-04-11",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2021-02-10",
+          "value": 4
+        }
+      },
+      "group_id": "group-2021-10",
+      "id": "syn-2021-040",
+      "label": 0,
+      "label_at": "2021-07-10",
+      "learner_id": "learner-2021-040"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-11",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-10",
+          "value": 15
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-11",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-11",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-11",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-11",
+          "value": 2
+        },
+        "passed_modules": {
+          "available_at": "2021-04-11",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2021-02-10",
+          "value": 4
+        }
+      },
+      "group_id": "group-2021-10",
+      "id": "syn-2021-041",
+      "label": 0,
+      "label_at": "2021-07-10",
+      "learner_id": "learner-2021-041"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-11",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-10",
+          "value": 17
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-11",
+          "value": 3
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-11",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-11",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-11",
+          "value": 0
+        },
+        "passed_modules": {
+          "available_at": "2021-04-11",
+          "value": 0
+        },
+        "practice_completed": {
+          "available_at": "2021-02-10",
+          "value": 4
+        }
+      },
+      "group_id": "group-2021-10",
+      "id": "syn-2021-042",
+      "label": 0,
+      "label_at": "2021-07-10",
+      "learner_id": "learner-2021-042"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-11",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-10",
+          "value": 2
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-11",
+          "value": 3
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-11",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-11",
+          "value": 1
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-11",
+          "value": 6
+        },
+        "passed_modules": {
+          "available_at": "2021-04-11",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2021-02-10",
+          "value": 9
+        }
+      },
+      "group_id": "group-2021-10",
+      "id": "syn-2021-043",
+      "label": 0,
+      "label_at": "2021-07-10",
+      "learner_id": "learner-2021-043"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-12",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-11",
+          "value": 10
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-12",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-12",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-12",
+          "value": 4
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-12",
+          "value": 3
+        },
+        "passed_modules": {
+          "available_at": "2021-04-12",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2021-02-11",
+          "value": 5
+        }
+      },
+      "group_id": "group-2021-11",
+      "id": "syn-2021-044",
+      "label": 0,
+      "label_at": "2021-07-11",
+      "learner_id": "learner-2021-044"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-12",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-11",
+          "value": 16
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-12",
+          "value": 3
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-12",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-12",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-12",
+          "value": 2
+        },
+        "passed_modules": {
+          "available_at": "2021-04-12",
+          "value": 1
+        },
+        "practice_completed": {
+          "available_at": "2021-02-11",
+          "value": 2
+        }
+      },
+      "group_id": "group-2021-11",
+      "id": "syn-2021-045",
+      "label": 1,
+      "label_at": "2021-07-11",
+      "learner_id": "learner-2021-045"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-12",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-11",
+          "value": 4
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-12",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-12",
+          "value": null
+        },
+        "failed_modules": {
+          "available_at": "2021-04-12",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-12",
+          "value": 7
+        },
+        "passed_modules": {
+          "available_at": "2021-04-12",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2021-02-11",
+          "value": 8
+        }
+      },
+      "group_id": "group-2021-11",
+      "id": "syn-2021-046",
+      "label": 1,
+      "label_at": "2021-07-11",
+      "learner_id": "learner-2021-046"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-12",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-11",
+          "value": 9
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-12",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-12",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-12",
+          "value": 0
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-12",
+          "value": 6
+        },
+        "passed_modules": {
+          "available_at": "2021-04-12",
+          "value": 4
+        },
+        "practice_completed": {
+          "available_at": "2021-02-11",
+          "value": 6
+        }
+      },
+      "group_id": "group-2021-11",
+      "id": "syn-2021-047",
+      "label": 0,
+      "label_at": "2021-07-11",
+      "learner_id": "learner-2021-047"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-13",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-12",
+          "value": 10
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-13",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-13",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-13",
+          "value": 1
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-13",
+          "value": 6
+        },
+        "passed_modules": {
+          "available_at": "2021-04-13",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2021-02-12",
+          "value": 6
+        }
+      },
+      "group_id": "group-2021-12",
+      "id": "syn-2021-048",
+      "label": 1,
+      "label_at": "2021-07-12",
+      "learner_id": "learner-2021-048"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-13",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-12",
+          "value": 8
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-13",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-13",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-13",
+          "value": 1
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-13",
+          "value": 4
+        },
+        "passed_modules": {
+          "available_at": "2021-04-13",
+          "value": 5
+        },
+        "practice_completed": {
+          "available_at": "2021-02-12",
+          "value": 6
+        }
+      },
+      "group_id": "group-2021-12",
+      "id": "syn-2021-049",
+      "label": 0,
+      "label_at": "2021-07-12",
+      "learner_id": "learner-2021-049"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-13",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-12",
+          "value": 12
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-13",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-13",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-13",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-13",
+          "value": 6
+        },
+        "passed_modules": {
+          "available_at": "2021-04-13",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2021-02-12",
+          "value": 6
+        }
+      },
+      "group_id": "group-2021-12",
+      "id": "syn-2021-050",
+      "label": 0,
+      "label_at": "2021-07-12",
+      "learner_id": "learner-2021-050"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-13",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-12",
+          "value": null
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-13",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-13",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-13",
+          "value": 5
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-13",
+          "value": 2
+        },
+        "passed_modules": {
+          "available_at": "2021-04-13",
+          "value": 1
+        },
+        "practice_completed": {
+          "available_at": "2021-02-12",
+          "value": 2
+        }
+      },
+      "group_id": "group-2021-12",
+      "id": "syn-2021-051",
+      "label": 0,
+      "label_at": "2021-07-12",
+      "learner_id": "learner-2021-051"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-14",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-13",
+          "value": 9
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-14",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-14",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-14",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-14",
+          "value": 3
+        },
+        "passed_modules": {
+          "available_at": "2021-04-14",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2021-02-13",
+          "value": 4
+        }
+      },
+      "group_id": "group-2021-13",
+      "id": "syn-2021-052",
+      "label": 0,
+      "label_at": "2021-07-13",
+      "learner_id": "learner-2021-052"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-14",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-13",
+          "value": 16
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-14",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-14",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-14",
+          "value": 4
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-14",
+          "value": 2
+        },
+        "passed_modules": {
+          "available_at": "2021-04-14",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2021-02-13",
+          "value": 1
+        }
+      },
+      "group_id": "group-2021-13",
+      "id": "syn-2021-053",
+      "label": 1,
+      "label_at": "2021-07-13",
+      "learner_id": "learner-2021-053"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-14",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-13",
+          "value": 14
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-14",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-14",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-14",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-14",
+          "value": 4
+        },
+        "passed_modules": {
+          "available_at": "2021-04-14",
+          "value": 1
+        },
+        "practice_completed": {
+          "available_at": "2021-02-13",
+          "value": 2
+        }
+      },
+      "group_id": "group-2021-13",
+      "id": "syn-2021-054",
+      "label": 1,
+      "label_at": "2021-07-13",
+      "learner_id": "learner-2021-054"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-14",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-13",
+          "value": 9
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-14",
+          "value": 3
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-14",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-14",
+          "value": 1
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-14",
+          "value": 5
+        },
+        "passed_modules": {
+          "available_at": "2021-04-14",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2021-02-13",
+          "value": 7
+        }
+      },
+      "group_id": "group-2021-13",
+      "id": "syn-2021-055",
+      "label": 0,
+      "label_at": "2021-07-13",
+      "learner_id": "learner-2021-055"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-15",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-14",
+          "value": 2
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-15",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-15",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-15",
+          "value": 0
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-15",
+          "value": 7
+        },
+        "passed_modules": {
+          "available_at": "2021-04-15",
+          "value": 6
+        },
+        "practice_completed": {
+          "available_at": "2021-02-14",
+          "value": 9
+        }
+      },
+      "group_id": "group-2021-14",
+      "id": "syn-2021-056",
+      "label": 0,
+      "label_at": "2021-07-14",
+      "learner_id": "learner-2021-056"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-15",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-14",
+          "value": 3
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-15",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-15",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-15",
+          "value": 0
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-15",
+          "value": null
+        },
+        "passed_modules": {
+          "available_at": "2021-04-15",
+          "value": 6
+        },
+        "practice_completed": {
+          "available_at": "2021-02-14",
+          "value": 8
+        }
+      },
+      "group_id": "group-2021-14",
+      "id": "syn-2021-057",
+      "label": 0,
+      "label_at": "2021-07-14",
+      "learner_id": "learner-2021-057"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-15",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-14",
+          "value": 10
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-15",
+          "value": null
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-15",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-15",
+          "value": null
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-15",
+          "value": 5
+        },
+        "passed_modules": {
+          "available_at": "2021-04-15",
+          "value": null
+        },
+        "practice_completed": {
+          "available_at": "2021-02-14",
+          "value": 3
+        }
+      },
+      "group_id": "group-2021-14",
+      "id": "syn-2021-058",
+      "label": 0,
+      "label_at": "2021-07-14",
+      "learner_id": "learner-2021-058"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-15",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-14",
+          "value": 14
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-15",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-15",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-15",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-15",
+          "value": 2
+        },
+        "passed_modules": {
+          "available_at": "2021-04-15",
+          "value": 1
+        },
+        "practice_completed": {
+          "available_at": "2021-02-14",
+          "value": 2
+        }
+      },
+      "group_id": "group-2021-14",
+      "id": "syn-2021-059",
+      "label": 1,
+      "label_at": "2021-07-14",
+      "learner_id": "learner-2021-059"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-16",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-15",
+          "value": 11
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-16",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-16",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-16",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-16",
+          "value": 1
+        },
+        "passed_modules": {
+          "available_at": "2021-04-16",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2021-02-15",
+          "value": 5
+        }
+      },
+      "group_id": "group-2021-15",
+      "id": "syn-2021-060",
+      "label": 0,
+      "label_at": "2021-07-15",
+      "learner_id": "learner-2021-060"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-16",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-15",
+          "value": 6
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-16",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-16",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-16",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-16",
+          "value": 6
+        },
+        "passed_modules": {
+          "available_at": "2021-04-16",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2021-02-15",
+          "value": 4
+        }
+      },
+      "group_id": "group-2021-15",
+      "id": "syn-2021-061",
+      "label": 1,
+      "label_at": "2021-07-15",
+      "learner_id": "learner-2021-061"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-16",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-15",
+          "value": 8
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-16",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-16",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-16",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-16",
+          "value": 4
+        },
+        "passed_modules": {
+          "available_at": "2021-04-16",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2021-02-15",
+          "value": 6
+        }
+      },
+      "group_id": "group-2021-15",
+      "id": "syn-2021-062",
+      "label": 0,
+      "label_at": "2021-07-15",
+      "learner_id": "learner-2021-062"
+    },
+    {
+      "cohort": "c2021",
+      "enrolled_at": "2021-01-16",
+      "features": {
+        "absence_count": {
+          "available_at": "2021-02-15",
+          "value": 9
+        },
+        "assessed_modules": {
+          "available_at": "2021-04-16",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2021-01-16",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2021-04-16",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2021-01-16",
+          "value": 4
+        },
+        "passed_modules": {
+          "available_at": "2021-04-16",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2021-02-15",
+          "value": 5
+        }
+      },
+      "group_id": "group-2021-15",
+      "id": "syn-2021-063",
+      "label": 1,
+      "label_at": "2021-07-15",
+      "learner_id": "learner-2021-063"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-01",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-01-31",
+          "value": null
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-01",
+          "value": null
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-01",
+          "value": null
+        },
+        "failed_modules": {
+          "available_at": "2022-04-01",
+          "value": null
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-01",
+          "value": null
+        },
+        "passed_modules": {
+          "available_at": "2022-04-01",
+          "value": null
+        },
+        "practice_completed": {
+          "available_at": "2022-01-31",
+          "value": 2
+        }
+      },
+      "group_id": "group-2022-00",
+      "id": "syn-2022-000",
+      "label": 0,
+      "label_at": "2022-06-30",
+      "learner_id": "learner-2022-000"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-01",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-01-31",
+          "value": 3
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-01",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-01",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-01",
+          "value": 0
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-01",
+          "value": 6
+        },
+        "passed_modules": {
+          "available_at": "2022-04-01",
+          "value": 6
+        },
+        "practice_completed": {
+          "available_at": "2022-01-31",
+          "value": 8
+        }
+      },
+      "group_id": "group-2022-00",
+      "id": "syn-2022-001",
+      "label": 0,
+      "label_at": "2022-06-30",
+      "learner_id": "learner-2022-001"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-01",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-01-31",
+          "value": 5
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-01",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-01",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-01",
+          "value": 0
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-01",
+          "value": 6
+        },
+        "passed_modules": {
+          "available_at": "2022-04-01",
+          "value": 4
+        },
+        "practice_completed": {
+          "available_at": "2022-01-31",
+          "value": 9
+        }
+      },
+      "group_id": "group-2022-00",
+      "id": "syn-2022-002",
+      "label": 0,
+      "label_at": "2022-06-30",
+      "learner_id": "learner-2022-002"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-01",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-01-31",
+          "value": 8
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-01",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-01",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-01",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-01",
+          "value": 3
+        },
+        "passed_modules": {
+          "available_at": "2022-04-01",
+          "value": 4
+        },
+        "practice_completed": {
+          "available_at": "2022-01-31",
+          "value": 2
+        }
+      },
+      "group_id": "group-2022-00",
+      "id": "syn-2022-003",
+      "label": 1,
+      "label_at": "2022-06-30",
+      "learner_id": "learner-2022-003"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-02",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-01",
+          "value": 13
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-02",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-02",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-02",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-02",
+          "value": 3
+        },
+        "passed_modules": {
+          "available_at": "2022-04-02",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2022-02-01",
+          "value": 5
+        }
+      },
+      "group_id": "group-2022-01",
+      "id": "syn-2022-004",
+      "label": 1,
+      "label_at": "2022-07-01",
+      "learner_id": "learner-2022-004"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-02",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-01",
+          "value": 9
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-02",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-02",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-02",
+          "value": 0
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-02",
+          "value": 5
+        },
+        "passed_modules": {
+          "available_at": "2022-04-02",
+          "value": 6
+        },
+        "practice_completed": {
+          "available_at": "2022-02-01",
+          "value": 7
+        }
+      },
+      "group_id": "group-2022-01",
+      "id": "syn-2022-005",
+      "label": 0,
+      "label_at": "2022-07-01",
+      "learner_id": "learner-2022-005"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-02",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-01",
+          "value": 16
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-02",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-02",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-02",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-02",
+          "value": 1
+        },
+        "passed_modules": {
+          "available_at": "2022-04-02",
+          "value": 1
+        },
+        "practice_completed": {
+          "available_at": "2022-02-01",
+          "value": 2
+        }
+      },
+      "group_id": "group-2022-01",
+      "id": "syn-2022-006",
+      "label": 0,
+      "label_at": "2022-07-01",
+      "learner_id": "learner-2022-006"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-02",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-01",
+          "value": 11
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-02",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-02",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-02",
+          "value": 4
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-02",
+          "value": 4
+        },
+        "passed_modules": {
+          "available_at": "2022-04-02",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2022-02-01",
+          "value": 6
+        }
+      },
+      "group_id": "group-2022-01",
+      "id": "syn-2022-007",
+      "label": 1,
+      "label_at": "2022-07-01",
+      "learner_id": "learner-2022-007"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-03",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-02",
+          "value": 10
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-03",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-03",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-03",
+          "value": 5
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-03",
+          "value": 4
+        },
+        "passed_modules": {
+          "available_at": "2022-04-03",
+          "value": 0
+        },
+        "practice_completed": {
+          "available_at": "2022-02-02",
+          "value": 5
+        }
+      },
+      "group_id": "group-2022-02",
+      "id": "syn-2022-008",
+      "label": 1,
+      "label_at": "2022-07-02",
+      "learner_id": "learner-2022-008"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-03",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-02",
+          "value": 10
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-03",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-03",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-03",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-03",
+          "value": 2
+        },
+        "passed_modules": {
+          "available_at": "2022-04-03",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2022-02-02",
+          "value": 4
+        }
+      },
+      "group_id": "group-2022-02",
+      "id": "syn-2022-009",
+      "label": 1,
+      "label_at": "2022-07-02",
+      "learner_id": "learner-2022-009"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-03",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-02",
+          "value": 10
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-03",
+          "value": 3
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-03",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-03",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-03",
+          "value": 5
+        },
+        "passed_modules": {
+          "available_at": "2022-04-03",
+          "value": 0
+        },
+        "practice_completed": {
+          "available_at": "2022-02-02",
+          "value": 6
+        }
+      },
+      "group_id": "group-2022-02",
+      "id": "syn-2022-010",
+      "label": 0,
+      "label_at": "2022-07-02",
+      "learner_id": "learner-2022-010"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-03",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-02",
+          "value": 17
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-03",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-03",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-03",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-03",
+          "value": 3
+        },
+        "passed_modules": {
+          "available_at": "2022-04-03",
+          "value": 4
+        },
+        "practice_completed": {
+          "available_at": "2022-02-02",
+          "value": 4
+        }
+      },
+      "group_id": "group-2022-02",
+      "id": "syn-2022-011",
+      "label": 0,
+      "label_at": "2022-07-02",
+      "learner_id": "learner-2022-011"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-04",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-03",
+          "value": 10
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-04",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-04",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-04",
+          "value": 0
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-04",
+          "value": 7
+        },
+        "passed_modules": {
+          "available_at": "2022-04-04",
+          "value": 6
+        },
+        "practice_completed": {
+          "available_at": "2022-02-03",
+          "value": 9
+        }
+      },
+      "group_id": "group-2022-03",
+      "id": "syn-2022-012",
+      "label": 0,
+      "label_at": "2022-07-03",
+      "learner_id": "learner-2022-012"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-04",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-03",
+          "value": 17
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-04",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-04",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-04",
+          "value": 4
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-04",
+          "value": 1
+        },
+        "passed_modules": {
+          "available_at": "2022-04-04",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2022-02-03",
+          "value": 3
+        }
+      },
+      "group_id": "group-2022-03",
+      "id": "syn-2022-013",
+      "label": 0,
+      "label_at": "2022-07-03",
+      "learner_id": "learner-2022-013"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-04",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-03",
+          "value": 11
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-04",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-04",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-04",
+          "value": 0
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-04",
+          "value": 5
+        },
+        "passed_modules": {
+          "available_at": "2022-04-04",
+          "value": 5
+        },
+        "practice_completed": {
+          "available_at": "2022-02-03",
+          "value": 5
+        }
+      },
+      "group_id": "group-2022-03",
+      "id": "syn-2022-014",
+      "label": 0,
+      "label_at": "2022-07-03",
+      "learner_id": "learner-2022-014"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-04",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-03",
+          "value": 1
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-04",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-04",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-04",
+          "value": 0
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-04",
+          "value": 6
+        },
+        "passed_modules": {
+          "available_at": "2022-04-04",
+          "value": 4
+        },
+        "practice_completed": {
+          "available_at": "2022-02-03",
+          "value": 9
+        }
+      },
+      "group_id": "group-2022-03",
+      "id": "syn-2022-015",
+      "label": 0,
+      "label_at": "2022-07-03",
+      "learner_id": "learner-2022-015"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-05",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-04",
+          "value": 15
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-05",
+          "value": 3
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-05",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-05",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-05",
+          "value": 3
+        },
+        "passed_modules": {
+          "available_at": "2022-04-05",
+          "value": 0
+        },
+        "practice_completed": {
+          "available_at": "2022-02-04",
+          "value": 3
+        }
+      },
+      "group_id": "group-2022-04",
+      "id": "syn-2022-016",
+      "label": 0,
+      "label_at": "2022-07-04",
+      "learner_id": "learner-2022-016"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-05",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-04",
+          "value": null
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-05",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-05",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-05",
+          "value": 4
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-05",
+          "value": 2
+        },
+        "passed_modules": {
+          "available_at": "2022-04-05",
+          "value": 1
+        },
+        "practice_completed": {
+          "available_at": "2022-02-04",
+          "value": 5
+        }
+      },
+      "group_id": "group-2022-04",
+      "id": "syn-2022-017",
+      "label": 0,
+      "label_at": "2022-07-04",
+      "learner_id": "learner-2022-017"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-05",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-04",
+          "value": 3
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-05",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-05",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-05",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-05",
+          "value": 6
+        },
+        "passed_modules": {
+          "available_at": "2022-04-05",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2022-02-04",
+          "value": 9
+        }
+      },
+      "group_id": "group-2022-04",
+      "id": "syn-2022-018",
+      "label": 0,
+      "label_at": "2022-07-04",
+      "learner_id": "learner-2022-018"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-05",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-04",
+          "value": 10
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-05",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-05",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-05",
+          "value": 5
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-05",
+          "value": null
+        },
+        "passed_modules": {
+          "available_at": "2022-04-05",
+          "value": 0
+        },
+        "practice_completed": {
+          "available_at": "2022-02-04",
+          "value": 3
+        }
+      },
+      "group_id": "group-2022-04",
+      "id": "syn-2022-019",
+      "label": 0,
+      "label_at": "2022-07-04",
+      "learner_id": "learner-2022-019"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-06",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-05",
+          "value": 4
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-06",
+          "value": 3
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-06",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-06",
+          "value": 0
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-06",
+          "value": 6
+        },
+        "passed_modules": {
+          "available_at": "2022-04-06",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2022-02-05",
+          "value": 8
+        }
+      },
+      "group_id": "group-2022-05",
+      "id": "syn-2022-020",
+      "label": 0,
+      "label_at": "2022-07-05",
+      "learner_id": "learner-2022-020"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-06",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-05",
+          "value": 5
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-06",
+          "value": 3
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-06",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-06",
+          "value": 0
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-06",
+          "value": 6
+        },
+        "passed_modules": {
+          "available_at": "2022-04-06",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2022-02-05",
+          "value": 8
+        }
+      },
+      "group_id": "group-2022-05",
+      "id": "syn-2022-021",
+      "label": 0,
+      "label_at": "2022-07-05",
+      "learner_id": "learner-2022-021"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-06",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-05",
+          "value": 4
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-06",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-06",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-06",
+          "value": 1
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-06",
+          "value": 4
+        },
+        "passed_modules": {
+          "available_at": "2022-04-06",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2022-02-05",
+          "value": 6
+        }
+      },
+      "group_id": "group-2022-05",
+      "id": "syn-2022-022",
+      "label": 0,
+      "label_at": "2022-07-05",
+      "learner_id": "learner-2022-022"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-06",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-05",
+          "value": 8
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-06",
+          "value": 3
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-06",
+          "value": null
+        },
+        "failed_modules": {
+          "available_at": "2022-04-06",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-06",
+          "value": 4
+        },
+        "passed_modules": {
+          "available_at": "2022-04-06",
+          "value": 0
+        },
+        "practice_completed": {
+          "available_at": "2022-02-05",
+          "value": 5
+        }
+      },
+      "group_id": "group-2022-05",
+      "id": "syn-2022-023",
+      "label": 0,
+      "label_at": "2022-07-05",
+      "learner_id": "learner-2022-023"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-07",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-06",
+          "value": 2
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-07",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-07",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-07",
+          "value": 0
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-07",
+          "value": 7
+        },
+        "passed_modules": {
+          "available_at": "2022-04-07",
+          "value": 5
+        },
+        "practice_completed": {
+          "available_at": "2022-02-06",
+          "value": 9
+        }
+      },
+      "group_id": "group-2022-06",
+      "id": "syn-2022-024",
+      "label": 0,
+      "label_at": "2022-07-06",
+      "learner_id": "learner-2022-024"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-07",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-06",
+          "value": 10
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-07",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-07",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-07",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-07",
+          "value": 6
+        },
+        "passed_modules": {
+          "available_at": "2022-04-07",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2022-02-06",
+          "value": 5
+        }
+      },
+      "group_id": "group-2022-06",
+      "id": "syn-2022-025",
+      "label": 0,
+      "label_at": "2022-07-06",
+      "learner_id": "learner-2022-025"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-07",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-06",
+          "value": 14
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-07",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-07",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-07",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-07",
+          "value": 2
+        },
+        "passed_modules": {
+          "available_at": "2022-04-07",
+          "value": 1
+        },
+        "practice_completed": {
+          "available_at": "2022-02-06",
+          "value": 4
+        }
+      },
+      "group_id": "group-2022-06",
+      "id": "syn-2022-026",
+      "label": 1,
+      "label_at": "2022-07-06",
+      "learner_id": "learner-2022-026"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-07",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-06",
+          "value": 10
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-07",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-07",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-07",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-07",
+          "value": 5
+        },
+        "passed_modules": {
+          "available_at": "2022-04-07",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2022-02-06",
+          "value": 5
+        }
+      },
+      "group_id": "group-2022-06",
+      "id": "syn-2022-027",
+      "label": 0,
+      "label_at": "2022-07-06",
+      "learner_id": "learner-2022-027"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-08",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-07",
+          "value": 4
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-08",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-08",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-08",
+          "value": 0
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-08",
+          "value": 7
+        },
+        "passed_modules": {
+          "available_at": "2022-04-08",
+          "value": 4
+        },
+        "practice_completed": {
+          "available_at": "2022-02-07",
+          "value": 9
+        }
+      },
+      "group_id": "group-2022-07",
+      "id": "syn-2022-028",
+      "label": 0,
+      "label_at": "2022-07-07",
+      "learner_id": "learner-2022-028"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-08",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-07",
+          "value": 7
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-08",
+          "value": null
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-08",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-08",
+          "value": null
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-08",
+          "value": 4
+        },
+        "passed_modules": {
+          "available_at": "2022-04-08",
+          "value": null
+        },
+        "practice_completed": {
+          "available_at": "2022-02-07",
+          "value": 8
+        }
+      },
+      "group_id": "group-2022-07",
+      "id": "syn-2022-029",
+      "label": 1,
+      "label_at": "2022-07-07",
+      "learner_id": "learner-2022-029"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-08",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-07",
+          "value": 2
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-08",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-08",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-08",
+          "value": 1
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-08",
+          "value": 5
+        },
+        "passed_modules": {
+          "available_at": "2022-04-08",
+          "value": 4
+        },
+        "practice_completed": {
+          "available_at": "2022-02-07",
+          "value": 7
+        }
+      },
+      "group_id": "group-2022-07",
+      "id": "syn-2022-030",
+      "label": 0,
+      "label_at": "2022-07-07",
+      "learner_id": "learner-2022-030"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-08",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-07",
+          "value": 11
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-08",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-08",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-08",
+          "value": 5
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-08",
+          "value": 4
+        },
+        "passed_modules": {
+          "available_at": "2022-04-08",
+          "value": 1
+        },
+        "practice_completed": {
+          "available_at": "2022-02-07",
+          "value": 2
+        }
+      },
+      "group_id": "group-2022-07",
+      "id": "syn-2022-031",
+      "label": 0,
+      "label_at": "2022-07-07",
+      "learner_id": "learner-2022-031"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-09",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-08",
+          "value": 17
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-09",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-09",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-09",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-09",
+          "value": 2
+        },
+        "passed_modules": {
+          "available_at": "2022-04-09",
+          "value": 1
+        },
+        "practice_completed": {
+          "available_at": "2022-02-08",
+          "value": 3
+        }
+      },
+      "group_id": "group-2022-08",
+      "id": "syn-2022-032",
+      "label": 0,
+      "label_at": "2022-07-08",
+      "learner_id": "learner-2022-032"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-09",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-08",
+          "value": 13
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-09",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-09",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-09",
+          "value": 1
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-09",
+          "value": 5
+        },
+        "passed_modules": {
+          "available_at": "2022-04-09",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2022-02-08",
+          "value": 5
+        }
+      },
+      "group_id": "group-2022-08",
+      "id": "syn-2022-033",
+      "label": 0,
+      "label_at": "2022-07-08",
+      "learner_id": "learner-2022-033"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-09",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-08",
+          "value": null
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-09",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-09",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-09",
+          "value": 4
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-09",
+          "value": 4
+        },
+        "passed_modules": {
+          "available_at": "2022-04-09",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2022-02-08",
+          "value": 5
+        }
+      },
+      "group_id": "group-2022-08",
+      "id": "syn-2022-034",
+      "label": 0,
+      "label_at": "2022-07-08",
+      "learner_id": "learner-2022-034"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-09",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-08",
+          "value": 16
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-09",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-09",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-09",
+          "value": 5
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-09",
+          "value": 2
+        },
+        "passed_modules": {
+          "available_at": "2022-04-09",
+          "value": 1
+        },
+        "practice_completed": {
+          "available_at": "2022-02-08",
+          "value": 4
+        }
+      },
+      "group_id": "group-2022-08",
+      "id": "syn-2022-035",
+      "label": 1,
+      "label_at": "2022-07-08",
+      "learner_id": "learner-2022-035"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-10",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-09",
+          "value": 12
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-10",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-10",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-10",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-10",
+          "value": 5
+        },
+        "passed_modules": {
+          "available_at": "2022-04-10",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2022-02-09",
+          "value": 7
+        }
+      },
+      "group_id": "group-2022-09",
+      "id": "syn-2022-036",
+      "label": 0,
+      "label_at": "2022-07-09",
+      "learner_id": "learner-2022-036"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-10",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-09",
+          "value": 7
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-10",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-10",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-10",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-10",
+          "value": 6
+        },
+        "passed_modules": {
+          "available_at": "2022-04-10",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2022-02-09",
+          "value": 5
+        }
+      },
+      "group_id": "group-2022-09",
+      "id": "syn-2022-037",
+      "label": 0,
+      "label_at": "2022-07-09",
+      "learner_id": "learner-2022-037"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-10",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-09",
+          "value": 15
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-10",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-10",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-10",
+          "value": 4
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-10",
+          "value": null
+        },
+        "passed_modules": {
+          "available_at": "2022-04-10",
+          "value": 1
+        },
+        "practice_completed": {
+          "available_at": "2022-02-09",
+          "value": 3
+        }
+      },
+      "group_id": "group-2022-09",
+      "id": "syn-2022-038",
+      "label": 0,
+      "label_at": "2022-07-09",
+      "learner_id": "learner-2022-038"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-10",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-09",
+          "value": 14
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-10",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-10",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-10",
+          "value": 5
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-10",
+          "value": 2
+        },
+        "passed_modules": {
+          "available_at": "2022-04-10",
+          "value": 1
+        },
+        "practice_completed": {
+          "available_at": "2022-02-09",
+          "value": 4
+        }
+      },
+      "group_id": "group-2022-09",
+      "id": "syn-2022-039",
+      "label": 1,
+      "label_at": "2022-07-09",
+      "learner_id": "learner-2022-039"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-11",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-10",
+          "value": 15
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-11",
+          "value": 3
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-11",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-11",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-11",
+          "value": 3
+        },
+        "passed_modules": {
+          "available_at": "2022-04-11",
+          "value": 0
+        },
+        "practice_completed": {
+          "available_at": "2022-02-10",
+          "value": 6
+        }
+      },
+      "group_id": "group-2022-10",
+      "id": "syn-2022-040",
+      "label": 0,
+      "label_at": "2022-07-10",
+      "learner_id": "learner-2022-040"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-11",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-10",
+          "value": 15
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-11",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-11",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-11",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-11",
+          "value": 2
+        },
+        "passed_modules": {
+          "available_at": "2022-04-11",
+          "value": 1
+        },
+        "practice_completed": {
+          "available_at": "2022-02-10",
+          "value": 3
+        }
+      },
+      "group_id": "group-2022-10",
+      "id": "syn-2022-041",
+      "label": 1,
+      "label_at": "2022-07-10",
+      "learner_id": "learner-2022-041"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-11",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-10",
+          "value": 4
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-11",
+          "value": 3
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-11",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-11",
+          "value": 0
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-11",
+          "value": 5
+        },
+        "passed_modules": {
+          "available_at": "2022-04-11",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2022-02-10",
+          "value": 6
+        }
+      },
+      "group_id": "group-2022-10",
+      "id": "syn-2022-042",
+      "label": 0,
+      "label_at": "2022-07-10",
+      "learner_id": "learner-2022-042"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-11",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-10",
+          "value": 9
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-11",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-11",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-11",
+          "value": 1
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-11",
+          "value": 7
+        },
+        "passed_modules": {
+          "available_at": "2022-04-11",
+          "value": 5
+        },
+        "practice_completed": {
+          "available_at": "2022-02-10",
+          "value": 9
+        }
+      },
+      "group_id": "group-2022-10",
+      "id": "syn-2022-043",
+      "label": 0,
+      "label_at": "2022-07-10",
+      "learner_id": "learner-2022-043"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-12",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-11",
+          "value": 13
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-12",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-12",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-12",
+          "value": 5
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-12",
+          "value": 2
+        },
+        "passed_modules": {
+          "available_at": "2022-04-12",
+          "value": 1
+        },
+        "practice_completed": {
+          "available_at": "2022-02-11",
+          "value": 5
+        }
+      },
+      "group_id": "group-2022-11",
+      "id": "syn-2022-044",
+      "label": 1,
+      "label_at": "2022-07-11",
+      "learner_id": "learner-2022-044"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-12",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-11",
+          "value": 8
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-12",
+          "value": 3
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-12",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-12",
+          "value": 1
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-12",
+          "value": 4
+        },
+        "passed_modules": {
+          "available_at": "2022-04-12",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2022-02-11",
+          "value": 3
+        }
+      },
+      "group_id": "group-2022-11",
+      "id": "syn-2022-045",
+      "label": 0,
+      "label_at": "2022-07-11",
+      "learner_id": "learner-2022-045"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-12",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-11",
+          "value": 16
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-12",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-12",
+          "value": null
+        },
+        "failed_modules": {
+          "available_at": "2022-04-12",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-12",
+          "value": 2
+        },
+        "passed_modules": {
+          "available_at": "2022-04-12",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2022-02-11",
+          "value": 2
+        }
+      },
+      "group_id": "group-2022-11",
+      "id": "syn-2022-046",
+      "label": 1,
+      "label_at": "2022-07-11",
+      "learner_id": "learner-2022-046"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-12",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-11",
+          "value": 11
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-12",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-12",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-12",
+          "value": 4
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-12",
+          "value": 5
+        },
+        "passed_modules": {
+          "available_at": "2022-04-12",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2022-02-11",
+          "value": 5
+        }
+      },
+      "group_id": "group-2022-11",
+      "id": "syn-2022-047",
+      "label": 0,
+      "label_at": "2022-07-11",
+      "learner_id": "learner-2022-047"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-13",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-12",
+          "value": 15
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-13",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-13",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-13",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-13",
+          "value": 5
+        },
+        "passed_modules": {
+          "available_at": "2022-04-13",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2022-02-12",
+          "value": 5
+        }
+      },
+      "group_id": "group-2022-12",
+      "id": "syn-2022-048",
+      "label": 0,
+      "label_at": "2022-07-12",
+      "learner_id": "learner-2022-048"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-13",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-12",
+          "value": 15
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-13",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-13",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-13",
+          "value": 4
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-13",
+          "value": 3
+        },
+        "passed_modules": {
+          "available_at": "2022-04-13",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2022-02-12",
+          "value": 5
+        }
+      },
+      "group_id": "group-2022-12",
+      "id": "syn-2022-049",
+      "label": 0,
+      "label_at": "2022-07-12",
+      "learner_id": "learner-2022-049"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-13",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-12",
+          "value": 11
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-13",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-13",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-13",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-13",
+          "value": 6
+        },
+        "passed_modules": {
+          "available_at": "2022-04-13",
+          "value": 4
+        },
+        "practice_completed": {
+          "available_at": "2022-02-12",
+          "value": 6
+        }
+      },
+      "group_id": "group-2022-12",
+      "id": "syn-2022-050",
+      "label": 1,
+      "label_at": "2022-07-12",
+      "learner_id": "learner-2022-050"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-13",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-12",
+          "value": null
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-13",
+          "value": 3
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-13",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-13",
+          "value": 0
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-13",
+          "value": 5
+        },
+        "passed_modules": {
+          "available_at": "2022-04-13",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2022-02-12",
+          "value": 6
+        }
+      },
+      "group_id": "group-2022-12",
+      "id": "syn-2022-051",
+      "label": 1,
+      "label_at": "2022-07-12",
+      "learner_id": "learner-2022-051"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-14",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-13",
+          "value": 9
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-14",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-14",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-14",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-14",
+          "value": 2
+        },
+        "passed_modules": {
+          "available_at": "2022-04-14",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2022-02-13",
+          "value": 3
+        }
+      },
+      "group_id": "group-2022-13",
+      "id": "syn-2022-052",
+      "label": 1,
+      "label_at": "2022-07-13",
+      "learner_id": "learner-2022-052"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-14",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-13",
+          "value": 10
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-14",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-14",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-14",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-14",
+          "value": 4
+        },
+        "passed_modules": {
+          "available_at": "2022-04-14",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2022-02-13",
+          "value": 4
+        }
+      },
+      "group_id": "group-2022-13",
+      "id": "syn-2022-053",
+      "label": 1,
+      "label_at": "2022-07-13",
+      "learner_id": "learner-2022-053"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-14",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-13",
+          "value": 2
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-14",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-14",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-14",
+          "value": 0
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-14",
+          "value": 6
+        },
+        "passed_modules": {
+          "available_at": "2022-04-14",
+          "value": 5
+        },
+        "practice_completed": {
+          "available_at": "2022-02-13",
+          "value": 8
+        }
+      },
+      "group_id": "group-2022-13",
+      "id": "syn-2022-054",
+      "label": 0,
+      "label_at": "2022-07-13",
+      "learner_id": "learner-2022-054"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-14",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-13",
+          "value": 14
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-14",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-14",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-14",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-14",
+          "value": 4
+        },
+        "passed_modules": {
+          "available_at": "2022-04-14",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2022-02-13",
+          "value": 4
+        }
+      },
+      "group_id": "group-2022-13",
+      "id": "syn-2022-055",
+      "label": 1,
+      "label_at": "2022-07-13",
+      "learner_id": "learner-2022-055"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-15",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-14",
+          "value": 13
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-15",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-15",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-15",
+          "value": 4
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-15",
+          "value": 1
+        },
+        "passed_modules": {
+          "available_at": "2022-04-15",
+          "value": 1
+        },
+        "practice_completed": {
+          "available_at": "2022-02-14",
+          "value": 2
+        }
+      },
+      "group_id": "group-2022-14",
+      "id": "syn-2022-056",
+      "label": 0,
+      "label_at": "2022-07-14",
+      "learner_id": "learner-2022-056"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-15",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-14",
+          "value": 8
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-15",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-15",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-15",
+          "value": 1
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-15",
+          "value": null
+        },
+        "passed_modules": {
+          "available_at": "2022-04-15",
+          "value": 4
+        },
+        "practice_completed": {
+          "available_at": "2022-02-14",
+          "value": 9
+        }
+      },
+      "group_id": "group-2022-14",
+      "id": "syn-2022-057",
+      "label": 0,
+      "label_at": "2022-07-14",
+      "learner_id": "learner-2022-057"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-15",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-14",
+          "value": 7
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-15",
+          "value": null
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-15",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-15",
+          "value": null
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-15",
+          "value": 5
+        },
+        "passed_modules": {
+          "available_at": "2022-04-15",
+          "value": null
+        },
+        "practice_completed": {
+          "available_at": "2022-02-14",
+          "value": 8
+        }
+      },
+      "group_id": "group-2022-14",
+      "id": "syn-2022-058",
+      "label": 1,
+      "label_at": "2022-07-14",
+      "learner_id": "learner-2022-058"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-15",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-14",
+          "value": 9
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-15",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-15",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-15",
+          "value": 0
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-15",
+          "value": 3
+        },
+        "passed_modules": {
+          "available_at": "2022-04-15",
+          "value": 4
+        },
+        "practice_completed": {
+          "available_at": "2022-02-14",
+          "value": 7
+        }
+      },
+      "group_id": "group-2022-14",
+      "id": "syn-2022-059",
+      "label": 1,
+      "label_at": "2022-07-14",
+      "learner_id": "learner-2022-059"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-16",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-15",
+          "value": 6
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-16",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-16",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-16",
+          "value": 1
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-16",
+          "value": 4
+        },
+        "passed_modules": {
+          "available_at": "2022-04-16",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2022-02-15",
+          "value": 5
+        }
+      },
+      "group_id": "group-2022-15",
+      "id": "syn-2022-060",
+      "label": 0,
+      "label_at": "2022-07-15",
+      "learner_id": "learner-2022-060"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-16",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-15",
+          "value": 4
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-16",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-16",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-16",
+          "value": 1
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-16",
+          "value": 6
+        },
+        "passed_modules": {
+          "available_at": "2022-04-16",
+          "value": 5
+        },
+        "practice_completed": {
+          "available_at": "2022-02-15",
+          "value": 7
+        }
+      },
+      "group_id": "group-2022-15",
+      "id": "syn-2022-061",
+      "label": 0,
+      "label_at": "2022-07-15",
+      "learner_id": "learner-2022-061"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-16",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-15",
+          "value": 8
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-16",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-16",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-16",
+          "value": 1
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-16",
+          "value": 5
+        },
+        "passed_modules": {
+          "available_at": "2022-04-16",
+          "value": 4
+        },
+        "practice_completed": {
+          "available_at": "2022-02-15",
+          "value": 7
+        }
+      },
+      "group_id": "group-2022-15",
+      "id": "syn-2022-062",
+      "label": 0,
+      "label_at": "2022-07-15",
+      "learner_id": "learner-2022-062"
+    },
+    {
+      "cohort": "c2022",
+      "enrolled_at": "2022-01-16",
+      "features": {
+        "absence_count": {
+          "available_at": "2022-02-15",
+          "value": 12
+        },
+        "assessed_modules": {
+          "available_at": "2022-04-16",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2022-01-16",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2022-04-16",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2022-01-16",
+          "value": 1
+        },
+        "passed_modules": {
+          "available_at": "2022-04-16",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2022-02-15",
+          "value": 1
+        }
+      },
+      "group_id": "group-2022-15",
+      "id": "syn-2022-063",
+      "label": 1,
+      "label_at": "2022-07-15",
+      "learner_id": "learner-2022-063"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-01",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-01-31",
+          "value": null
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-01",
+          "value": null
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-01",
+          "value": "reviewed"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-01",
+          "value": null
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-01",
+          "value": null
+        },
+        "passed_modules": {
+          "available_at": "2023-04-01",
+          "value": null
+        },
+        "practice_completed": {
+          "available_at": "2023-01-31",
+          "value": 8
+        }
+      },
+      "group_id": "group-2023-00",
+      "id": "syn-2023-000",
+      "label": 0,
+      "label_at": "2023-06-30",
+      "learner_id": "learner-2023-000"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-01",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-01-31",
+          "value": 8
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-01",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-01",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-01",
+          "value": 0
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-01",
+          "value": 8
+        },
+        "passed_modules": {
+          "available_at": "2023-04-01",
+          "value": 5
+        },
+        "practice_completed": {
+          "available_at": "2023-01-31",
+          "value": 8
+        }
+      },
+      "group_id": "group-2023-00",
+      "id": "syn-2023-001",
+      "label": 0,
+      "label_at": "2023-06-30",
+      "learner_id": "learner-2023-001"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-01",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-01-31",
+          "value": 10
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-01",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-01",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-01",
+          "value": 1
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-01",
+          "value": 6
+        },
+        "passed_modules": {
+          "available_at": "2023-04-01",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2023-01-31",
+          "value": 9
+        }
+      },
+      "group_id": "group-2023-00",
+      "id": "syn-2023-002",
+      "label": 0,
+      "label_at": "2023-06-30",
+      "learner_id": "learner-2023-002"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-01",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-01-31",
+          "value": 12
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-01",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-01",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-01",
+          "value": 1
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-01",
+          "value": 4
+        },
+        "passed_modules": {
+          "available_at": "2023-04-01",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2023-01-31",
+          "value": 6
+        }
+      },
+      "group_id": "group-2023-00",
+      "id": "syn-2023-003",
+      "label": 0,
+      "label_at": "2023-06-30",
+      "learner_id": "learner-2023-003"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-02",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-01",
+          "value": 2
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-02",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-02",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-02",
+          "value": 0
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-02",
+          "value": 8
+        },
+        "passed_modules": {
+          "available_at": "2023-04-02",
+          "value": 5
+        },
+        "practice_completed": {
+          "available_at": "2023-02-01",
+          "value": 10
+        }
+      },
+      "group_id": "group-2023-01",
+      "id": "syn-2023-004",
+      "label": 0,
+      "label_at": "2023-07-01",
+      "learner_id": "learner-2023-004"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-02",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-01",
+          "value": 13
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-02",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-02",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-02",
+          "value": 4
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-02",
+          "value": 4
+        },
+        "passed_modules": {
+          "available_at": "2023-04-02",
+          "value": 0
+        },
+        "practice_completed": {
+          "available_at": "2023-02-01",
+          "value": 2
+        }
+      },
+      "group_id": "group-2023-01",
+      "id": "syn-2023-005",
+      "label": 1,
+      "label_at": "2023-07-01",
+      "learner_id": "learner-2023-005"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-02",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-01",
+          "value": 11
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-02",
+          "value": 3
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-02",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-02",
+          "value": 0
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-02",
+          "value": 6
+        },
+        "passed_modules": {
+          "available_at": "2023-04-02",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2023-02-01",
+          "value": 7
+        }
+      },
+      "group_id": "group-2023-01",
+      "id": "syn-2023-006",
+      "label": 0,
+      "label_at": "2023-07-01",
+      "learner_id": "learner-2023-006"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-02",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-01",
+          "value": 10
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-02",
+          "value": 3
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-02",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-02",
+          "value": 0
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-02",
+          "value": 4
+        },
+        "passed_modules": {
+          "available_at": "2023-04-02",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2023-02-01",
+          "value": 5
+        }
+      },
+      "group_id": "group-2023-01",
+      "id": "syn-2023-007",
+      "label": 1,
+      "label_at": "2023-07-01",
+      "learner_id": "learner-2023-007"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-03",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-02",
+          "value": 7
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-03",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-03",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-03",
+          "value": 0
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-03",
+          "value": 8
+        },
+        "passed_modules": {
+          "available_at": "2023-04-03",
+          "value": 6
+        },
+        "practice_completed": {
+          "available_at": "2023-02-02",
+          "value": 10
+        }
+      },
+      "group_id": "group-2023-02",
+      "id": "syn-2023-008",
+      "label": 0,
+      "label_at": "2023-07-02",
+      "learner_id": "learner-2023-008"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-03",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-02",
+          "value": 16
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-03",
+          "value": 3
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-03",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-03",
+          "value": 1
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-03",
+          "value": 3
+        },
+        "passed_modules": {
+          "available_at": "2023-04-03",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2023-02-02",
+          "value": 3
+        }
+      },
+      "group_id": "group-2023-02",
+      "id": "syn-2023-009",
+      "label": 1,
+      "label_at": "2023-07-02",
+      "learner_id": "learner-2023-009"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-03",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-02",
+          "value": 2
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-03",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-03",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-03",
+          "value": 0
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-03",
+          "value": 5
+        },
+        "passed_modules": {
+          "available_at": "2023-04-03",
+          "value": 5
+        },
+        "practice_completed": {
+          "available_at": "2023-02-02",
+          "value": 6
+        }
+      },
+      "group_id": "group-2023-02",
+      "id": "syn-2023-010",
+      "label": 1,
+      "label_at": "2023-07-02",
+      "learner_id": "learner-2023-010"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-03",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-02",
+          "value": 18
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-03",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-03",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-03",
+          "value": 4
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-03",
+          "value": 2
+        },
+        "passed_modules": {
+          "available_at": "2023-04-03",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2023-02-02",
+          "value": 1
+        }
+      },
+      "group_id": "group-2023-02",
+      "id": "syn-2023-011",
+      "label": 1,
+      "label_at": "2023-07-02",
+      "learner_id": "learner-2023-011"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-04",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-03",
+          "value": 8
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-04",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-04",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-04",
+          "value": 0
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-04",
+          "value": 4
+        },
+        "passed_modules": {
+          "available_at": "2023-04-04",
+          "value": 4
+        },
+        "practice_completed": {
+          "available_at": "2023-02-03",
+          "value": 5
+        }
+      },
+      "group_id": "group-2023-03",
+      "id": "syn-2023-012",
+      "label": 1,
+      "label_at": "2023-07-03",
+      "learner_id": "learner-2023-012"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-04",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-03",
+          "value": 12
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-04",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-04",
+          "value": "reviewed"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-04",
+          "value": 4
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-04",
+          "value": 3
+        },
+        "passed_modules": {
+          "available_at": "2023-04-04",
+          "value": 0
+        },
+        "practice_completed": {
+          "available_at": "2023-02-03",
+          "value": 3
+        }
+      },
+      "group_id": "group-2023-03",
+      "id": "syn-2023-013",
+      "label": 1,
+      "label_at": "2023-07-03",
+      "learner_id": "learner-2023-013"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-04",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-03",
+          "value": 6
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-04",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-04",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-04",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-04",
+          "value": 4
+        },
+        "passed_modules": {
+          "available_at": "2023-04-04",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2023-02-03",
+          "value": 5
+        }
+      },
+      "group_id": "group-2023-03",
+      "id": "syn-2023-014",
+      "label": 0,
+      "label_at": "2023-07-03",
+      "learner_id": "learner-2023-014"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-04",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-03",
+          "value": 6
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-04",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-04",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-04",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-04",
+          "value": 4
+        },
+        "passed_modules": {
+          "available_at": "2023-04-04",
+          "value": 4
+        },
+        "practice_completed": {
+          "available_at": "2023-02-03",
+          "value": 5
+        }
+      },
+      "group_id": "group-2023-03",
+      "id": "syn-2023-015",
+      "label": 1,
+      "label_at": "2023-07-03",
+      "learner_id": "learner-2023-015"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-05",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-04",
+          "value": 4
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-05",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-05",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-05",
+          "value": 0
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-05",
+          "value": 7
+        },
+        "passed_modules": {
+          "available_at": "2023-04-05",
+          "value": 5
+        },
+        "practice_completed": {
+          "available_at": "2023-02-04",
+          "value": 9
+        }
+      },
+      "group_id": "group-2023-04",
+      "id": "syn-2023-016",
+      "label": 1,
+      "label_at": "2023-07-04",
+      "learner_id": "learner-2023-016"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-05",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-04",
+          "value": null
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-05",
+          "value": 3
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-05",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-05",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-05",
+          "value": 4
+        },
+        "passed_modules": {
+          "available_at": "2023-04-05",
+          "value": 1
+        },
+        "practice_completed": {
+          "available_at": "2023-02-04",
+          "value": 5
+        }
+      },
+      "group_id": "group-2023-04",
+      "id": "syn-2023-017",
+      "label": 0,
+      "label_at": "2023-07-04",
+      "learner_id": "learner-2023-017"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-05",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-04",
+          "value": 16
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-05",
+          "value": 3
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-05",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-05",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-05",
+          "value": 1
+        },
+        "passed_modules": {
+          "available_at": "2023-04-05",
+          "value": 0
+        },
+        "practice_completed": {
+          "available_at": "2023-02-04",
+          "value": 3
+        }
+      },
+      "group_id": "group-2023-04",
+      "id": "syn-2023-018",
+      "label": 1,
+      "label_at": "2023-07-04",
+      "learner_id": "learner-2023-018"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-05",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-04",
+          "value": 7
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-05",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-05",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-05",
+          "value": 4
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-05",
+          "value": null
+        },
+        "passed_modules": {
+          "available_at": "2023-04-05",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2023-02-04",
+          "value": 5
+        }
+      },
+      "group_id": "group-2023-04",
+      "id": "syn-2023-019",
+      "label": 0,
+      "label_at": "2023-07-04",
+      "learner_id": "learner-2023-019"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-06",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-05",
+          "value": 19
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-06",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-06",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-06",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-06",
+          "value": 1
+        },
+        "passed_modules": {
+          "available_at": "2023-04-06",
+          "value": 1
+        },
+        "practice_completed": {
+          "available_at": "2023-02-05",
+          "value": 3
+        }
+      },
+      "group_id": "group-2023-05",
+      "id": "syn-2023-020",
+      "label": 1,
+      "label_at": "2023-07-05",
+      "learner_id": "learner-2023-020"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-06",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-05",
+          "value": 2
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-06",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-06",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-06",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-06",
+          "value": 5
+        },
+        "passed_modules": {
+          "available_at": "2023-04-06",
+          "value": 4
+        },
+        "practice_completed": {
+          "available_at": "2023-02-05",
+          "value": 6
+        }
+      },
+      "group_id": "group-2023-05",
+      "id": "syn-2023-021",
+      "label": 0,
+      "label_at": "2023-07-05",
+      "learner_id": "learner-2023-021"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-06",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-05",
+          "value": 14
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-06",
+          "value": 3
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-06",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-06",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-06",
+          "value": 2
+        },
+        "passed_modules": {
+          "available_at": "2023-04-06",
+          "value": 0
+        },
+        "practice_completed": {
+          "available_at": "2023-02-05",
+          "value": 1
+        }
+      },
+      "group_id": "group-2023-05",
+      "id": "syn-2023-022",
+      "label": 1,
+      "label_at": "2023-07-05",
+      "learner_id": "learner-2023-022"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-06",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-05",
+          "value": 7
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-06",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-06",
+          "value": null
+        },
+        "failed_modules": {
+          "available_at": "2023-04-06",
+          "value": 1
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-06",
+          "value": 2
+        },
+        "passed_modules": {
+          "available_at": "2023-04-06",
+          "value": 5
+        },
+        "practice_completed": {
+          "available_at": "2023-02-05",
+          "value": 6
+        }
+      },
+      "group_id": "group-2023-05",
+      "id": "syn-2023-023",
+      "label": 1,
+      "label_at": "2023-07-05",
+      "learner_id": "learner-2023-023"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-07",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-06",
+          "value": 16
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-07",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-07",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-07",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-07",
+          "value": 2
+        },
+        "passed_modules": {
+          "available_at": "2023-04-07",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2023-02-06",
+          "value": 2
+        }
+      },
+      "group_id": "group-2023-06",
+      "id": "syn-2023-024",
+      "label": 1,
+      "label_at": "2023-07-06",
+      "learner_id": "learner-2023-024"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-07",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-06",
+          "value": 14
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-07",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-07",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-07",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-07",
+          "value": 2
+        },
+        "passed_modules": {
+          "available_at": "2023-04-07",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2023-02-06",
+          "value": 4
+        }
+      },
+      "group_id": "group-2023-06",
+      "id": "syn-2023-025",
+      "label": 0,
+      "label_at": "2023-07-06",
+      "learner_id": "learner-2023-025"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-07",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-06",
+          "value": 13
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-07",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-07",
+          "value": "reviewed"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-07",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-07",
+          "value": 3
+        },
+        "passed_modules": {
+          "available_at": "2023-04-07",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2023-02-06",
+          "value": 4
+        }
+      },
+      "group_id": "group-2023-06",
+      "id": "syn-2023-026",
+      "label": 0,
+      "label_at": "2023-07-06",
+      "learner_id": "learner-2023-026"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-07",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-06",
+          "value": 14
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-07",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-07",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-07",
+          "value": 1
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-07",
+          "value": 2
+        },
+        "passed_modules": {
+          "available_at": "2023-04-07",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2023-02-06",
+          "value": 4
+        }
+      },
+      "group_id": "group-2023-06",
+      "id": "syn-2023-027",
+      "label": 0,
+      "label_at": "2023-07-06",
+      "learner_id": "learner-2023-027"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-08",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-07",
+          "value": 9
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-08",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-08",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-08",
+          "value": 1
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-08",
+          "value": 4
+        },
+        "passed_modules": {
+          "available_at": "2023-04-08",
+          "value": 4
+        },
+        "practice_completed": {
+          "available_at": "2023-02-07",
+          "value": 8
+        }
+      },
+      "group_id": "group-2023-07",
+      "id": "syn-2023-028",
+      "label": 0,
+      "label_at": "2023-07-07",
+      "learner_id": "learner-2023-028"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-08",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-07",
+          "value": 14
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-08",
+          "value": null
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-08",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-08",
+          "value": null
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-08",
+          "value": 5
+        },
+        "passed_modules": {
+          "available_at": "2023-04-08",
+          "value": null
+        },
+        "practice_completed": {
+          "available_at": "2023-02-07",
+          "value": 5
+        }
+      },
+      "group_id": "group-2023-07",
+      "id": "syn-2023-029",
+      "label": 0,
+      "label_at": "2023-07-07",
+      "learner_id": "learner-2023-029"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-08",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-07",
+          "value": 8
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-08",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-08",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-08",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-08",
+          "value": 4
+        },
+        "passed_modules": {
+          "available_at": "2023-04-08",
+          "value": 4
+        },
+        "practice_completed": {
+          "available_at": "2023-02-07",
+          "value": 4
+        }
+      },
+      "group_id": "group-2023-07",
+      "id": "syn-2023-030",
+      "label": 0,
+      "label_at": "2023-07-07",
+      "learner_id": "learner-2023-030"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-08",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-07",
+          "value": 8
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-08",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-08",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-08",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-08",
+          "value": 5
+        },
+        "passed_modules": {
+          "available_at": "2023-04-08",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2023-02-07",
+          "value": 6
+        }
+      },
+      "group_id": "group-2023-07",
+      "id": "syn-2023-031",
+      "label": 1,
+      "label_at": "2023-07-07",
+      "learner_id": "learner-2023-031"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-09",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-08",
+          "value": 11
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-09",
+          "value": 3
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-09",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-09",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-09",
+          "value": 2
+        },
+        "passed_modules": {
+          "available_at": "2023-04-09",
+          "value": 1
+        },
+        "practice_completed": {
+          "available_at": "2023-02-08",
+          "value": 4
+        }
+      },
+      "group_id": "group-2023-08",
+      "id": "syn-2023-032",
+      "label": 0,
+      "label_at": "2023-07-08",
+      "learner_id": "learner-2023-032"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-09",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-08",
+          "value": 4
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-09",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-09",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-09",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-09",
+          "value": 6
+        },
+        "passed_modules": {
+          "available_at": "2023-04-09",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2023-02-08",
+          "value": 10
+        }
+      },
+      "group_id": "group-2023-08",
+      "id": "syn-2023-033",
+      "label": 0,
+      "label_at": "2023-07-08",
+      "learner_id": "learner-2023-033"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-09",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-08",
+          "value": null
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-09",
+          "value": 3
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-09",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-09",
+          "value": 0
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-09",
+          "value": 6
+        },
+        "passed_modules": {
+          "available_at": "2023-04-09",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2023-02-08",
+          "value": 9
+        }
+      },
+      "group_id": "group-2023-08",
+      "id": "syn-2023-034",
+      "label": 0,
+      "label_at": "2023-07-08",
+      "learner_id": "learner-2023-034"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-09",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-08",
+          "value": 9
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-09",
+          "value": 3
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-09",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-09",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-09",
+          "value": 4
+        },
+        "passed_modules": {
+          "available_at": "2023-04-09",
+          "value": 0
+        },
+        "practice_completed": {
+          "available_at": "2023-02-08",
+          "value": 4
+        }
+      },
+      "group_id": "group-2023-08",
+      "id": "syn-2023-035",
+      "label": 1,
+      "label_at": "2023-07-08",
+      "learner_id": "learner-2023-035"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-10",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-09",
+          "value": 11
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-10",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-10",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-10",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-10",
+          "value": 3
+        },
+        "passed_modules": {
+          "available_at": "2023-04-10",
+          "value": 4
+        },
+        "practice_completed": {
+          "available_at": "2023-02-09",
+          "value": 2
+        }
+      },
+      "group_id": "group-2023-09",
+      "id": "syn-2023-036",
+      "label": 0,
+      "label_at": "2023-07-09",
+      "learner_id": "learner-2023-036"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-10",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-09",
+          "value": 3
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-10",
+          "value": 3
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-10",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-10",
+          "value": 1
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-10",
+          "value": 7
+        },
+        "passed_modules": {
+          "available_at": "2023-04-10",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2023-02-09",
+          "value": 8
+        }
+      },
+      "group_id": "group-2023-09",
+      "id": "syn-2023-037",
+      "label": 0,
+      "label_at": "2023-07-09",
+      "learner_id": "learner-2023-037"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-10",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-09",
+          "value": 6
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-10",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-10",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-10",
+          "value": 0
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-10",
+          "value": null
+        },
+        "passed_modules": {
+          "available_at": "2023-04-10",
+          "value": 6
+        },
+        "practice_completed": {
+          "available_at": "2023-02-09",
+          "value": 7
+        }
+      },
+      "group_id": "group-2023-09",
+      "id": "syn-2023-038",
+      "label": 1,
+      "label_at": "2023-07-09",
+      "learner_id": "learner-2023-038"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-10",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-09",
+          "value": 17
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-10",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-10",
+          "value": "reviewed"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-10",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-10",
+          "value": 2
+        },
+        "passed_modules": {
+          "available_at": "2023-04-10",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2023-02-09",
+          "value": 3
+        }
+      },
+      "group_id": "group-2023-09",
+      "id": "syn-2023-039",
+      "label": 0,
+      "label_at": "2023-07-09",
+      "learner_id": "learner-2023-039"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-11",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-10",
+          "value": 11
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-11",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-11",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-11",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-11",
+          "value": 3
+        },
+        "passed_modules": {
+          "available_at": "2023-04-11",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2023-02-10",
+          "value": 4
+        }
+      },
+      "group_id": "group-2023-10",
+      "id": "syn-2023-040",
+      "label": 0,
+      "label_at": "2023-07-10",
+      "learner_id": "learner-2023-040"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-11",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-10",
+          "value": 13
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-11",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-11",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-11",
+          "value": 1
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-11",
+          "value": 5
+        },
+        "passed_modules": {
+          "available_at": "2023-04-11",
+          "value": 4
+        },
+        "practice_completed": {
+          "available_at": "2023-02-10",
+          "value": 6
+        }
+      },
+      "group_id": "group-2023-10",
+      "id": "syn-2023-041",
+      "label": 1,
+      "label_at": "2023-07-10",
+      "learner_id": "learner-2023-041"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-11",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-10",
+          "value": 9
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-11",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-11",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-11",
+          "value": 1
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-11",
+          "value": 7
+        },
+        "passed_modules": {
+          "available_at": "2023-04-11",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2023-02-10",
+          "value": 8
+        }
+      },
+      "group_id": "group-2023-10",
+      "id": "syn-2023-042",
+      "label": 0,
+      "label_at": "2023-07-10",
+      "learner_id": "learner-2023-042"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-11",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-10",
+          "value": 19
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-11",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-11",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-11",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-11",
+          "value": 1
+        },
+        "passed_modules": {
+          "available_at": "2023-04-11",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2023-02-10",
+          "value": 4
+        }
+      },
+      "group_id": "group-2023-10",
+      "id": "syn-2023-043",
+      "label": 0,
+      "label_at": "2023-07-10",
+      "learner_id": "learner-2023-043"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-12",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-11",
+          "value": 12
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-12",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-12",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-12",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-12",
+          "value": 1
+        },
+        "passed_modules": {
+          "available_at": "2023-04-12",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2023-02-11",
+          "value": 1
+        }
+      },
+      "group_id": "group-2023-11",
+      "id": "syn-2023-044",
+      "label": 0,
+      "label_at": "2023-07-11",
+      "learner_id": "learner-2023-044"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-12",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-11",
+          "value": 14
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-12",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-12",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-12",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-12",
+          "value": 3
+        },
+        "passed_modules": {
+          "available_at": "2023-04-12",
+          "value": 1
+        },
+        "practice_completed": {
+          "available_at": "2023-02-11",
+          "value": 4
+        }
+      },
+      "group_id": "group-2023-11",
+      "id": "syn-2023-045",
+      "label": 0,
+      "label_at": "2023-07-11",
+      "learner_id": "learner-2023-045"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-12",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-11",
+          "value": 3
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-12",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-12",
+          "value": null
+        },
+        "failed_modules": {
+          "available_at": "2023-04-12",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-12",
+          "value": 6
+        },
+        "passed_modules": {
+          "available_at": "2023-04-12",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2023-02-11",
+          "value": 8
+        }
+      },
+      "group_id": "group-2023-11",
+      "id": "syn-2023-046",
+      "label": 0,
+      "label_at": "2023-07-11",
+      "learner_id": "learner-2023-046"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-12",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-11",
+          "value": 14
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-12",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-12",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-12",
+          "value": 4
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-12",
+          "value": 3
+        },
+        "passed_modules": {
+          "available_at": "2023-04-12",
+          "value": 1
+        },
+        "practice_completed": {
+          "available_at": "2023-02-11",
+          "value": 3
+        }
+      },
+      "group_id": "group-2023-11",
+      "id": "syn-2023-047",
+      "label": 0,
+      "label_at": "2023-07-11",
+      "learner_id": "learner-2023-047"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-13",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-12",
+          "value": 15
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-13",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-13",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-13",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-13",
+          "value": 1
+        },
+        "passed_modules": {
+          "available_at": "2023-04-13",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2023-02-12",
+          "value": 5
+        }
+      },
+      "group_id": "group-2023-12",
+      "id": "syn-2023-048",
+      "label": 0,
+      "label_at": "2023-07-12",
+      "learner_id": "learner-2023-048"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-13",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-12",
+          "value": 12
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-13",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-13",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-13",
+          "value": 4
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-13",
+          "value": 2
+        },
+        "passed_modules": {
+          "available_at": "2023-04-13",
+          "value": 1
+        },
+        "practice_completed": {
+          "available_at": "2023-02-12",
+          "value": 4
+        }
+      },
+      "group_id": "group-2023-12",
+      "id": "syn-2023-049",
+      "label": 0,
+      "label_at": "2023-07-12",
+      "learner_id": "learner-2023-049"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-13",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-12",
+          "value": 9
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-13",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-13",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-13",
+          "value": 1
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-13",
+          "value": 6
+        },
+        "passed_modules": {
+          "available_at": "2023-04-13",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2023-02-12",
+          "value": 5
+        }
+      },
+      "group_id": "group-2023-12",
+      "id": "syn-2023-050",
+      "label": 1,
+      "label_at": "2023-07-12",
+      "learner_id": "learner-2023-050"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-13",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-12",
+          "value": null
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-13",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-13",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-13",
+          "value": 3
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-13",
+          "value": 3
+        },
+        "passed_modules": {
+          "available_at": "2023-04-13",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2023-02-12",
+          "value": 6
+        }
+      },
+      "group_id": "group-2023-12",
+      "id": "syn-2023-051",
+      "label": 1,
+      "label_at": "2023-07-12",
+      "learner_id": "learner-2023-051"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-14",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-13",
+          "value": 11
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-14",
+          "value": 3
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-14",
+          "value": "reviewed"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-14",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-14",
+          "value": 2
+        },
+        "passed_modules": {
+          "available_at": "2023-04-14",
+          "value": 1
+        },
+        "practice_completed": {
+          "available_at": "2023-02-13",
+          "value": 4
+        }
+      },
+      "group_id": "group-2023-13",
+      "id": "syn-2023-052",
+      "label": 0,
+      "label_at": "2023-07-13",
+      "learner_id": "learner-2023-052"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-14",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-13",
+          "value": 10
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-14",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-14",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-14",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-14",
+          "value": 3
+        },
+        "passed_modules": {
+          "available_at": "2023-04-14",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2023-02-13",
+          "value": 3
+        }
+      },
+      "group_id": "group-2023-13",
+      "id": "syn-2023-053",
+      "label": 1,
+      "label_at": "2023-07-13",
+      "learner_id": "learner-2023-053"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-14",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-13",
+          "value": 6
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-14",
+          "value": 3
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-14",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-14",
+          "value": 1
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-14",
+          "value": 5
+        },
+        "passed_modules": {
+          "available_at": "2023-04-14",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2023-02-13",
+          "value": 6
+        }
+      },
+      "group_id": "group-2023-13",
+      "id": "syn-2023-054",
+      "label": 0,
+      "label_at": "2023-07-13",
+      "learner_id": "learner-2023-054"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-14",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-13",
+          "value": 6
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-14",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-14",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-14",
+          "value": 1
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-14",
+          "value": 4
+        },
+        "passed_modules": {
+          "available_at": "2023-04-14",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2023-02-13",
+          "value": 6
+        }
+      },
+      "group_id": "group-2023-13",
+      "id": "syn-2023-055",
+      "label": 1,
+      "label_at": "2023-07-13",
+      "learner_id": "learner-2023-055"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-15",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-14",
+          "value": 10
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-15",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-15",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-15",
+          "value": 1
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-15",
+          "value": 5
+        },
+        "passed_modules": {
+          "available_at": "2023-04-15",
+          "value": 5
+        },
+        "practice_completed": {
+          "available_at": "2023-02-14",
+          "value": 5
+        }
+      },
+      "group_id": "group-2023-14",
+      "id": "syn-2023-056",
+      "label": 0,
+      "label_at": "2023-07-14",
+      "learner_id": "learner-2023-056"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-15",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-14",
+          "value": 7
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-15",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-15",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-15",
+          "value": 1
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-15",
+          "value": null
+        },
+        "passed_modules": {
+          "available_at": "2023-04-15",
+          "value": 5
+        },
+        "practice_completed": {
+          "available_at": "2023-02-14",
+          "value": 8
+        }
+      },
+      "group_id": "group-2023-14",
+      "id": "syn-2023-057",
+      "label": 0,
+      "label_at": "2023-07-14",
+      "learner_id": "learner-2023-057"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-15",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-14",
+          "value": 14
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-15",
+          "value": null
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-15",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-15",
+          "value": null
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-15",
+          "value": 1
+        },
+        "passed_modules": {
+          "available_at": "2023-04-15",
+          "value": null
+        },
+        "practice_completed": {
+          "available_at": "2023-02-14",
+          "value": 2
+        }
+      },
+      "group_id": "group-2023-14",
+      "id": "syn-2023-058",
+      "label": 1,
+      "label_at": "2023-07-14",
+      "learner_id": "learner-2023-058"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-15",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-14",
+          "value": 11
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-15",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-15",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-15",
+          "value": 4
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-15",
+          "value": 1
+        },
+        "passed_modules": {
+          "available_at": "2023-04-15",
+          "value": 1
+        },
+        "practice_completed": {
+          "available_at": "2023-02-14",
+          "value": 3
+        }
+      },
+      "group_id": "group-2023-14",
+      "id": "syn-2023-059",
+      "label": 1,
+      "label_at": "2023-07-14",
+      "learner_id": "learner-2023-059"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-16",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-15",
+          "value": 16
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-16",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-16",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-16",
+          "value": 4
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-16",
+          "value": 2
+        },
+        "passed_modules": {
+          "available_at": "2023-04-16",
+          "value": 0
+        },
+        "practice_completed": {
+          "available_at": "2023-02-15",
+          "value": 3
+        }
+      },
+      "group_id": "group-2023-15",
+      "id": "syn-2023-060",
+      "label": 1,
+      "label_at": "2023-07-15",
+      "learner_id": "learner-2023-060"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-16",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-15",
+          "value": 16
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-16",
+          "value": 4
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-16",
+          "value": "pending"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-16",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-16",
+          "value": 3
+        },
+        "passed_modules": {
+          "available_at": "2023-04-16",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2023-02-15",
+          "value": 4
+        }
+      },
+      "group_id": "group-2023-15",
+      "id": "syn-2023-061",
+      "label": 1,
+      "label_at": "2023-07-15",
+      "learner_id": "learner-2023-061"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-16",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-15",
+          "value": 10
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-16",
+          "value": 5
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-16",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-16",
+          "value": 2
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-16",
+          "value": 5
+        },
+        "passed_modules": {
+          "available_at": "2023-04-16",
+          "value": 3
+        },
+        "practice_completed": {
+          "available_at": "2023-02-15",
+          "value": 6
+        }
+      },
+      "group_id": "group-2023-15",
+      "id": "syn-2023-062",
+      "label": 1,
+      "label_at": "2023-07-15",
+      "learner_id": "learner-2023-062"
+    },
+    {
+      "cohort": "c2023",
+      "enrolled_at": "2023-01-16",
+      "features": {
+        "absence_count": {
+          "available_at": "2023-02-15",
+          "value": 17
+        },
+        "assessed_modules": {
+          "available_at": "2023-04-16",
+          "value": 6
+        },
+        "enrolment_check": {
+          "available_at": "2023-01-16",
+          "value": "complete"
+        },
+        "failed_modules": {
+          "available_at": "2023-04-16",
+          "value": 4
+        },
+        "orientation_tasks": {
+          "available_at": "2023-01-16",
+          "value": 3
+        },
+        "passed_modules": {
+          "available_at": "2023-04-16",
+          "value": 2
+        },
+        "practice_completed": {
+          "available_at": "2023-02-15",
+          "value": 1
+        }
+      },
+      "group_id": "group-2023-15",
+      "id": "syn-2023-063",
+      "label": 0,
+      "label_at": "2023-07-15",
+      "learner_id": "learner-2023-063"
+    }
+  ],
+  "schema": "staged_cohort_v1"
+}

@@ -1,0 +1,9 @@
+{
+  "schema": "dropout_protocol_v1",
+  "cohorts": {"train": ["c2021"], "development": ["c2022"], "evaluation": ["c2023"]},
+  "recall_target": 0.75,
+  "capacity": 0.5,
+  "l2_candidates": [0.0, 0.05, 0.2],
+  "epochs": 160,
+  "learning_rate": 0.1
+}

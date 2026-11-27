@@ -1,0 +1,85 @@
+{
+  "config": {
+    "bytes": 246,
+    "sha256": "c7066770f2cb9efdb42a28516ec03048c3c6c4a908911c59a1286529acb7087c"
+  },
+  "evidence": "synthetic mechanics only",
+  "files": {
+    "config.json": {
+      "bytes": 246,
+      "sha256": "c7066770f2cb9efdb42a28516ec03048c3c6c4a908911c59a1286529acb7087c"
+    },
+    "frozen.json": {
+      "bytes": 13975,
+      "sha256": "4541d01b287a3162a3bd81b2451f73b3a013b7e58e7eedd88ef7fd94cccd4724"
+    },
+    "input.json": {
+      "bytes": 186612,
+      "sha256": "b6d6cdce4a45d477a209bbaea211fafdc227923cb4c5c4b49e8edbe1bc494643"
+    },
+    "predictions.csv": {
+      "bytes": 20844,
+      "sha256": "88cda27700344c59b5318896e2a5ab6ff9215e807575de3715b535945d40ad7d"
+    },
+    "scores.csv": {
+      "bytes": 909,
+      "sha256": "18789948eae3e9a7764deb3e1a579d69dd1128a15d1aa99bb03c16705b8b7b60"
+    },
+    "splits.json": {
+      "bytes": 3905,
+      "sha256": "3a0a418784629e377d882a2c0fc332c8303283bcfba7664bee4414f30f60b93f"
+    }
+  },
+  "frozen_before_evaluation": {
+    "bytes": 13975,
+    "sha256": "4541d01b287a3162a3bd81b2451f73b3a013b7e58e7eedd88ef7fd94cccd4724"
+  },
+  "input": {
+    "bytes": 186612,
+    "sha256": "b6d6cdce4a45d477a209bbaea211fafdc227923cb4c5c4b49e8edbe1bc494643"
+  },
+  "metric": "average precision: noninterpolated recall increments at complete score-tie blocks",
+  "permission_receipt": null,
+  "python": "3.14.0",
+  "schema": "dropout_run_v1",
+  "scope": "public_invented",
+  "source": {
+    "__init__.py": {
+      "bytes": 84,
+      "sha256": "c813548fff24687d8736fd0ed2d6adf069095be9642e0ae25d76761562cce231"
+    },
+    "__main__.py": {
+      "bytes": 5883,
+      "sha256": "af8dafd244441d4d71f24d7a5aaed1bd7ddebff309c0db2e3f929a49190163af"
+    },
+    "adapters.py": {
+      "bytes": 2164,
+      "sha256": "5b3782416429002dcda19ac82407afcabbb88a3aad38399e8398f280f8c70648"
+    },
+    "contract.py": {
+      "bytes": 7039,
+      "sha256": "94538cc910c3c3e3c3946138d38ef3dc6c24b4297f6d4651a17aebd2ab8413fd"
+    },
+    "fixture.py": {
+      "bytes": 2751,
+      "sha256": "b93c218a9fd30c1d3a8d2649b9ba8e069be04a22aa09c48bdfddeb40ddcb92fa"
+    },
+    "metrics.py": {
+      "bytes": 5012,
+      "sha256": "4a180f5abda51199ca2cab7405050288061a9539c7419d15163dbc74095a1eb2"
+    },
+    "models.py": {
+      "bytes": 3719,
+      "sha256": "03a4dff29f96ae35c8417beb1536064896fad49a93dee2b9dfb8491e29cd4c33"
+    },
+    "protocol.py": {
+      "bytes": 3899,
+      "sha256": "c8120a523d3eae276bf8d2b188de94e163bf900a2e5aadddb9468399e0054d5e"
+    },
+    "test_protocol.py": {
+      "bytes": 16629,
+      "sha256": "52620696d09b763a2a6954c5e01db350b8903db50deb075b87f500ae5fa2e466"
+    }
+  },
+  "validation": "fixed retrospective chronological cohort; not prospective validation"
+}
