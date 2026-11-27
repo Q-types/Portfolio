@@ -1,0 +1,307 @@
+{
+  "evidence": "independently invented simulation only",
+  "scenarios": [
+    {
+      "outcome": "unauthorized intake",
+      "rollback": true,
+      "scenario": "unauthorized intake"
+    },
+    {
+      "outcome": "duplicate",
+      "scenario": "same request twice"
+    },
+    {
+      "outcome": "conflicting request",
+      "rollback": true,
+      "scenario": "same key changed request"
+    },
+    {
+      "outcome": "writer conflict",
+      "rollback": true,
+      "scenario": "same scope competing writer"
+    },
+    {
+      "outcome": "independent reviewer required",
+      "rollback": true,
+      "scenario": "self review"
+    },
+    {
+      "outcome": "building; highest verified retained",
+      "scenario": "review rejection"
+    },
+    {
+      "outcome": "invalid transition",
+      "rollback": true,
+      "scenario": "old approval after candidate change"
+    },
+    {
+      "outcome": "missing evidence",
+      "rollback": true,
+      "scenario": "missing publication approval"
+    },
+    {
+      "outcome": "approval stale or mismatched",
+      "rollback": true,
+      "scenario": "stale approval epoch"
+    },
+    {
+      "outcome": "publication intent binding mismatch",
+      "rollback": true,
+      "scenario": "mismatched intent branch"
+    },
+    {
+      "outcome": "writer conflict",
+      "rollback": true,
+      "scenario": "held writer conflict after restart"
+    },
+    {
+      "outcome": "no invocation permission; reconcile",
+      "rollback": true,
+      "scenario": "restart cannot repeat effect"
+    },
+    {
+      "outcome": "simulated_publication_confirmed",
+      "scenario": "lost acknowledgement"
+    },
+    {
+      "outcome": "rival admitted",
+      "scenario": "resolved writer released"
+    },
+    {
+      "outcome": "no invocation permission; reconcile",
+      "rollback": true,
+      "scenario": "intent without readback cannot retry"
+    },
+    {
+      "outcome": "held_unknown",
+      "scenario": "unknown effect after restart"
+    }
+  ],
+  "state": {
+    "records": {
+      "01de0f76ee8c42ff036b0bb073bc51f40b7b19e9c456aca1e8c38ffd11c34488": {
+        "candidate": "5f90a33d31d4536a724241a873ba87c5dea1ed41e39857e78ce68de292aa2f34",
+        "evidence": "d9197acebc44b0f78c2043557bca2ea874465300394fa87c27a3c08488bb5ff5",
+        "kind": "review",
+        "reviewer": "invented-reviewer",
+        "task": "invented-task-blue",
+        "verdict": "pass"
+      },
+      "15a8d1ce5759254a1f8a83cc56908c924900b2a6a677b0affac88feab9af9577": {
+        "candidate": "229020e82fe23590368685f2a972e3ffccaa504f6e476148df6cdc82c60fc45a",
+        "evidence": "e1c6860a01429a3570ecaefef03c99d61e075e00c7df781acba39a8e053e9fb9",
+        "kind": "review",
+        "reviewer": "invented-reviewer",
+        "task": "invented-task-amber",
+        "verdict": "pass"
+      },
+      "229020e82fe23590368685f2a972e3ffccaa504f6e476148df6cdc82c60fc45a": {
+        "base": "invented-base-000",
+        "base_source": "67401edf89150e8c0c80d0d6953a6cc11e858aa00f895852f6d53a8dae5cd91c",
+        "commit": "invented-commit-blue",
+        "generation": 3,
+        "kind": "candidate",
+        "source_sha256": "671a50d8fe8f89bd16b42e0fab11aca23de6e0c91750876e8d8929b3f83fbcf9",
+        "task": "invented-task-amber"
+      },
+      "326cccb35949543a63874c4d0b71f1132ff3ef6d0ee0a11ea6cde0925a815407": {
+        "binding": {
+          "base": "invented-base-000",
+          "branch": "invented/amber",
+          "candidate": "500548f224a21795f982766a464f2123cc4e7615a4d31475134a197e8e204413",
+          "epoch": 7,
+          "evidence": "5861d22f2a0823b53af2380ecfb40d295bc71b0f2217df76fb51b83eeb655823",
+          "review": "6ca794a54e6dcd5a9148cb8aa0fe21922ff14a8073f8884faa2435400fa2de19",
+          "task": "invented-task-amber"
+        },
+        "kind": "publication_approval",
+        "publisher": "invented-publisher"
+      },
+      "500548f224a21795f982766a464f2123cc4e7615a4d31475134a197e8e204413": {
+        "base": "invented-base-000",
+        "base_source": "67401edf89150e8c0c80d0d6953a6cc11e858aa00f895852f6d53a8dae5cd91c",
+        "commit": "invented-commit-amber",
+        "generation": 2,
+        "kind": "candidate",
+        "source_sha256": "e3db5c146b5d26fca24fcb8b974eb0c8351cae4a05735435c89848d9ee9d3909",
+        "task": "invented-task-amber"
+      },
+      "5861d22f2a0823b53af2380ecfb40d295bc71b0f2217df76fb51b83eeb655823": {
+        "candidate": "500548f224a21795f982766a464f2123cc4e7615a4d31475134a197e8e204413",
+        "kind": "checks",
+        "result": "pass"
+      },
+      "5f90a33d31d4536a724241a873ba87c5dea1ed41e39857e78ce68de292aa2f34": {
+        "base": "invented-base-000",
+        "base_source": "67401edf89150e8c0c80d0d6953a6cc11e858aa00f895852f6d53a8dae5cd91c",
+        "commit": "invented-commit-amber",
+        "generation": 1,
+        "kind": "candidate",
+        "source_sha256": "e3db5c146b5d26fca24fcb8b974eb0c8351cae4a05735435c89848d9ee9d3909",
+        "task": "invented-task-blue"
+      },
+      "686973822a6ae897cbf6324570305077e574233b43e6998303e792022a0c10e7": {
+        "approval": "8664989d3daab7499ac3826001ff839d9c2a6b565e20dd4742e01f0568a20b5e",
+        "binding": {
+          "base": "invented-base-000",
+          "branch": "invented/amber",
+          "candidate": "229020e82fe23590368685f2a972e3ffccaa504f6e476148df6cdc82c60fc45a",
+          "epoch": 7,
+          "evidence": "e1c6860a01429a3570ecaefef03c99d61e075e00c7df781acba39a8e053e9fb9",
+          "review": "15a8d1ce5759254a1f8a83cc56908c924900b2a6a677b0affac88feab9af9577",
+          "task": "invented-task-amber"
+        },
+        "kind": "publication_intent"
+      },
+      "6c6392a98dc394e393adc0273a717d059d0f56e598274f6fb3f087eb9156af1f": {
+        "candidate": "9cc56b0283ee99f403bf33439a1f694c3eaba0ad1cbe4e9557b28c20b01d685d",
+        "kind": "checks",
+        "result": "pass"
+      },
+      "6ca794a54e6dcd5a9148cb8aa0fe21922ff14a8073f8884faa2435400fa2de19": {
+        "candidate": "500548f224a21795f982766a464f2123cc4e7615a4d31475134a197e8e204413",
+        "evidence": "5861d22f2a0823b53af2380ecfb40d295bc71b0f2217df76fb51b83eeb655823",
+        "kind": "review",
+        "reviewer": "invented-reviewer",
+        "task": "invented-task-amber",
+        "verdict": "pass"
+      },
+      "8664989d3daab7499ac3826001ff839d9c2a6b565e20dd4742e01f0568a20b5e": {
+        "binding": {
+          "base": "invented-base-000",
+          "branch": "invented/amber",
+          "candidate": "229020e82fe23590368685f2a972e3ffccaa504f6e476148df6cdc82c60fc45a",
+          "epoch": 7,
+          "evidence": "e1c6860a01429a3570ecaefef03c99d61e075e00c7df781acba39a8e053e9fb9",
+          "review": "15a8d1ce5759254a1f8a83cc56908c924900b2a6a677b0affac88feab9af9577",
+          "task": "invented-task-amber"
+        },
+        "kind": "publication_approval",
+        "publisher": "invented-publisher"
+      },
+      "987f8e52cf824a7a4897e0cdb3cf49f3fcde4a207f61115821d291982135feea": {
+        "candidate": "9cc56b0283ee99f403bf33439a1f694c3eaba0ad1cbe4e9557b28c20b01d685d",
+        "evidence": "6c6392a98dc394e393adc0273a717d059d0f56e598274f6fb3f087eb9156af1f",
+        "kind": "review",
+        "reviewer": "invented-reviewer",
+        "task": "invented-task-amber",
+        "verdict": "reject"
+      },
+      "9cc56b0283ee99f403bf33439a1f694c3eaba0ad1cbe4e9557b28c20b01d685d": {
+        "base": "invented-base-000",
+        "base_source": "67401edf89150e8c0c80d0d6953a6cc11e858aa00f895852f6d53a8dae5cd91c",
+        "commit": "invented-commit-amber",
+        "generation": 1,
+        "kind": "candidate",
+        "source_sha256": "e3db5c146b5d26fca24fcb8b974eb0c8351cae4a05735435c89848d9ee9d3909",
+        "task": "invented-task-amber"
+      },
+      "ad68807a1666e3afc719e31528adab9f37149f6adc2875782711add34d29ffdf": {
+        "binding": {
+          "base": "invented-base-000",
+          "branch": "invented/blue",
+          "candidate": "5f90a33d31d4536a724241a873ba87c5dea1ed41e39857e78ce68de292aa2f34",
+          "epoch": 7,
+          "evidence": "d9197acebc44b0f78c2043557bca2ea874465300394fa87c27a3c08488bb5ff5",
+          "review": "01de0f76ee8c42ff036b0bb073bc51f40b7b19e9c456aca1e8c38ffd11c34488",
+          "task": "invented-task-blue"
+        },
+        "kind": "publication_approval",
+        "publisher": "invented-publisher"
+      },
+      "bd198e1e32c0f5da572a34ac1cb6fbd8e8b99df0bb511d527c7d566d942627ab": {
+        "approval": "ad68807a1666e3afc719e31528adab9f37149f6adc2875782711add34d29ffdf",
+        "binding": {
+          "base": "invented-base-000",
+          "branch": "invented/blue",
+          "candidate": "5f90a33d31d4536a724241a873ba87c5dea1ed41e39857e78ce68de292aa2f34",
+          "epoch": 7,
+          "evidence": "d9197acebc44b0f78c2043557bca2ea874465300394fa87c27a3c08488bb5ff5",
+          "review": "01de0f76ee8c42ff036b0bb073bc51f40b7b19e9c456aca1e8c38ffd11c34488",
+          "task": "invented-task-blue"
+        },
+        "kind": "publication_intent"
+      },
+      "d9197acebc44b0f78c2043557bca2ea874465300394fa87c27a3c08488bb5ff5": {
+        "candidate": "5f90a33d31d4536a724241a873ba87c5dea1ed41e39857e78ce68de292aa2f34",
+        "kind": "checks",
+        "result": "pass"
+      },
+      "e1c6860a01429a3570ecaefef03c99d61e075e00c7df781acba39a8e053e9fb9": {
+        "candidate": "229020e82fe23590368685f2a972e3ffccaa504f6e476148df6cdc82c60fc45a",
+        "kind": "checks",
+        "result": "pass"
+      }
+    },
+    "simulated_effect_count": 1,
+    "slots": [
+      {
+        "scope": "invented-project-a",
+        "task": "invented-task-rival"
+      },
+      {
+        "scope": "invented-project-b",
+        "task": "invented-task-blue"
+      }
+    ],
+    "tasks": [
+      {
+        "candidate": "229020e82fe23590368685f2a972e3ffccaa504f6e476148df6cdc82c60fc45a",
+        "evidence": "e1c6860a01429a3570ecaefef03c99d61e075e00c7df781acba39a8e053e9fb9",
+        "generation": 3,
+        "highest": 2,
+        "intent": "686973822a6ae897cbf6324570305077e574233b43e6998303e792022a0c10e7",
+        "key": "invented-task-amber",
+        "request": {
+          "base": "invented-base-000",
+          "branch": "invented/amber",
+          "implementer": "invented-maker",
+          "key": "invented-task-amber",
+          "objective": "demonstrate durable handoff",
+          "scope": "invented-project-a",
+          "source_sha256": "67401edf89150e8c0c80d0d6953a6cc11e858aa00f895852f6d53a8dae5cd91c"
+        },
+        "review": "15a8d1ce5759254a1f8a83cc56908c924900b2a6a677b0affac88feab9af9577",
+        "stage": "published"
+      },
+      {
+        "candidate": "5f90a33d31d4536a724241a873ba87c5dea1ed41e39857e78ce68de292aa2f34",
+        "evidence": "d9197acebc44b0f78c2043557bca2ea874465300394fa87c27a3c08488bb5ff5",
+        "generation": 1,
+        "highest": 1,
+        "intent": "bd198e1e32c0f5da572a34ac1cb6fbd8e8b99df0bb511d527c7d566d942627ab",
+        "key": "invented-task-blue",
+        "request": {
+          "base": "invented-base-000",
+          "branch": "invented/blue",
+          "implementer": "invented-maker",
+          "key": "invented-task-blue",
+          "objective": "demonstrate durable handoff",
+          "scope": "invented-project-b",
+          "source_sha256": "67401edf89150e8c0c80d0d6953a6cc11e858aa00f895852f6d53a8dae5cd91c"
+        },
+        "review": "01de0f76ee8c42ff036b0bb073bc51f40b7b19e9c456aca1e8c38ffd11c34488",
+        "stage": "unknown"
+      },
+      {
+        "candidate": null,
+        "evidence": null,
+        "generation": 0,
+        "highest": 0,
+        "intent": null,
+        "key": "invented-task-rival",
+        "request": {
+          "base": "invented-base-000",
+          "branch": "invented/rival",
+          "implementer": "invented-maker",
+          "key": "invented-task-rival",
+          "objective": "demonstrate durable handoff",
+          "scope": "invented-project-a",
+          "source_sha256": "67401edf89150e8c0c80d0d6953a6cc11e858aa00f895852f6d53a8dae5cd91c"
+        },
+        "review": null,
+        "stage": "building"
+      }
+    ]
+  }
+}

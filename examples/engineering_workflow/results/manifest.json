@@ -1,0 +1,55 @@
+{
+  "evidence": "synthetic local mechanics only",
+  "inputs": {
+    "fixture.json": {
+      "bytes": 1391,
+      "sha256": "8e5a6edffe4e6f09c908f7c668c33026413ccd5e2892d1ee42892bdd6416eeef"
+    },
+    "policy.json": {
+      "bytes": 538,
+      "sha256": "6315ae3baec008ecb4a0d5e5ba4288b09e6d5788d1f90927af731bd26b5dd841"
+    }
+  },
+  "outputs": {
+    "fixture.json": {
+      "bytes": 1391,
+      "sha256": "8e5a6edffe4e6f09c908f7c668c33026413ccd5e2892d1ee42892bdd6416eeef"
+    },
+    "policy.json": {
+      "bytes": 538,
+      "sha256": "6315ae3baec008ecb4a0d5e5ba4288b09e6d5788d1f90927af731bd26b5dd841"
+    },
+    "summary.json": {
+      "bytes": 11968,
+      "sha256": "672a366e3bced9671df7da3153d6ea328b1ba124c146c23e72e8815dd44a6790"
+    }
+  },
+  "runtime_contract": "Python 3.10+ standard library; SQLite transactions",
+  "schema": "invented_workflow_v1",
+  "source": {
+    "__init__.py": {
+      "bytes": 65,
+      "sha256": "29ac1c581a2aaf0a31dfc0b268f41e3f4408d7d7132ac2b20d853edff7c6efa3"
+    },
+    "__main__.py": {
+      "bytes": 1594,
+      "sha256": "05fc2a0aecdaef5da308f2dc8109052eb36d5c10eb84d37bdc63d937aae4886a"
+    },
+    "scenarios.py": {
+      "bytes": 4262,
+      "sha256": "dcbc07cc787411618625877380a62f87aefc916dfbda5495774352ba0380eb8d"
+    },
+    "test_workflow.py": {
+      "bytes": 10388,
+      "sha256": "fad52ce2703be93092b95aeddd0947c674f4751d6f7d135588927b04b5190475"
+    },
+    "verify.py": {
+      "bytes": 1845,
+      "sha256": "f15e3ee31e36e11af0cd1730d013306f31c585ddfd190d0431bff54a710d438d"
+    },
+    "workflow.py": {
+      "bytes": 10230,
+      "sha256": "9d1036322168001cf07043cc43b176201096219a899a22102c35740a1f04145d"
+    }
+  }
+}
