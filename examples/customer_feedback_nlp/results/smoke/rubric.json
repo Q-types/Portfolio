@@ -1,0 +1,164 @@
+{
+  "ambiguity": "ambiguous references excluded from definite recall; ambiguous claims reported separately and get no supported credit",
+  "author": "Codex agent; independently authored for this example; no independent human adjudication",
+  "categories": [
+    "delivery",
+    "damage",
+    "billing",
+    "access",
+    "checkout",
+    "support",
+    "returns"
+  ],
+  "duplicate_policy": "identical same-ID rows collapse; conflicting same-ID rows fail; same text with different IDs retained",
+  "empty_denominator": "null",
+  "language": "en",
+  "locations": [
+    "north",
+    "south"
+  ],
+  "matching": "maximum-cardinality one-to-one matching on authored eligible edges, within review, supported claims only, definite references only; stable ID tie order",
+  "max_negative_rating": 2,
+  "no_issue_ids": [
+    "I04"
+  ],
+  "references": [
+    {
+      "category": "delivery",
+      "id": "F01",
+      "review_id": "I01",
+      "span": {
+        "end": 30,
+        "review_sha256": "b2e6c436e2dc39f77280a65e69dc8f0cd92f4803c20e105d331689ed5c867721",
+        "start": 15,
+        "text": "three days late"
+      },
+      "status": "definite"
+    },
+    {
+      "category": "damage",
+      "id": "F02",
+      "review_id": "I01",
+      "span": {
+        "end": 53,
+        "review_sha256": "b2e6c436e2dc39f77280a65e69dc8f0cd92f4803c20e105d331689ed5c867721",
+        "start": 39,
+        "text": "mug was broken"
+      },
+      "status": "definite"
+    },
+    {
+      "category": "billing",
+      "id": "F03",
+      "review_id": "I02",
+      "span": {
+        "end": 19,
+        "review_sha256": "c01b02a9defc12ced484dbca78d13dabfb230ed3424493659614e4f7cb45449b",
+        "start": 6,
+        "text": "charged twice"
+      },
+      "status": "definite"
+    },
+    {
+      "category": "access",
+      "id": "F04",
+      "review_id": "I03",
+      "span": {
+        "end": 28,
+        "review_sha256": "56328162e16f2cc2ae7fb7b6581467c3777d9e487b00374e068ceb9b7a1b7af1",
+        "start": 4,
+        "text": "access code did not open"
+      },
+      "status": "definite"
+    },
+    {
+      "category": "checkout",
+      "id": "F05",
+      "review_id": "I05",
+      "span": {
+        "end": 58,
+        "review_sha256": "bdfba5a77c9e1353136baa73304d5a40fb80ff9105060cfe818a4c689ed8dd1a",
+        "start": 0,
+        "text": "Checkout froze once, though it may have been my connection"
+      },
+      "status": "ambiguous"
+    },
+    {
+      "category": "support",
+      "id": "F06",
+      "review_id": "I06",
+      "span": {
+        "end": 44,
+        "review_sha256": "9302bf833997a13f7a45147a78f6dc10c7cba1eef390fc323ed1c457e26fced6",
+        "start": 8,
+        "text": "did not answer my email for six days"
+      },
+      "status": "definite"
+    },
+    {
+      "category": "returns",
+      "id": "F07",
+      "review_id": "I07",
+      "span": {
+        "end": 28,
+        "review_sha256": "ee3bc95f115cb24e5ca1925841a50f0450bfc7b337bb996f6be1c1f6c48c08b8",
+        "start": 4,
+        "text": "return label was missing"
+      },
+      "status": "definite"
+    },
+    {
+      "category": "delivery",
+      "id": "F08",
+      "review_id": "I08",
+      "span": {
+        "end": 23,
+        "review_sha256": "526ba1f03e8140d5a6e0669baa57c4e3bb580ce2a5b2ba45a4218ffb5d8d989c",
+        "start": 4,
+        "text": "parcel arrived late"
+      },
+      "status": "definite"
+    },
+    {
+      "category": "delivery",
+      "id": "F09",
+      "review_id": "I09",
+      "span": {
+        "end": 27,
+        "review_sha256": "8791bc839cb65644ff2ec2124850c4022dff210eb6c425add61f6eda49444932",
+        "start": 4,
+        "text": "first delivery was late"
+      },
+      "status": "definite"
+    },
+    {
+      "category": "delivery",
+      "id": "F10",
+      "review_id": "I13",
+      "span": {
+        "end": 23,
+        "review_sha256": "526ba1f03e8140d5a6e0669baa57c4e3bb580ce2a5b2ba45a4218ffb5d8d989c",
+        "start": 4,
+        "text": "parcel arrived late"
+      },
+      "status": "definite"
+    }
+  ],
+  "scope": "public_invented",
+  "sources": [
+    "board",
+    "form"
+  ],
+  "specificity": "authored boolean: retains the actionable object and relevant qualifier without inventing detail",
+  "topic": {
+    "k": [
+      2,
+      3
+    ],
+    "max_features": 120,
+    "max_iter": 8,
+    "seed": 19,
+    "top_words": 5
+  },
+  "version": "invented-issue-rubric-v1"
+}

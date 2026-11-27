@@ -1,0 +1,84 @@
+{
+  "annotation_author": "Codex agent; no independent human adjudication",
+  "files": {
+    "evaluation.json": {
+      "bytes": 8810,
+      "sha256": "0282b870c8b39d92f4d5a983bd7c825945751253e48660616e6b883f8ddd941c"
+    },
+    "mock.json": {
+      "bytes": 7148,
+      "sha256": "c4ecc0e19b5db7cec803414d382120a6a657fd73b25e0c21acc026824400fef5"
+    },
+    "predeclared.json": {
+      "bytes": 537,
+      "sha256": "44ac78d726687f0c6802dbbd01f39781c63f4fc99f562485a94aefba0dd7dd40"
+    },
+    "reviews.json": {
+      "bytes": 2598,
+      "sha256": "b1d8adbc90d2f26a5f2191da03b5a85c51fd9adfc69f4c51e63a81f586a50cc7"
+    },
+    "rubric.json": {
+      "bytes": 4361,
+      "sha256": "3f528708cf2b38a3c936f4cc3e29c032a4c5fd9c04bc699ffc106624a31ab44b"
+    },
+    "topics.json": {
+      "bytes": 230,
+      "sha256": "aa5a86442e0d7e3eec06db512c6749df08566432aac77add6fd28c4c8aac04d8"
+    }
+  },
+  "inputs": {
+    "fixtures/mock.json": {
+      "bytes": 7148,
+      "sha256": "c4ecc0e19b5db7cec803414d382120a6a657fd73b25e0c21acc026824400fef5"
+    },
+    "fixtures/reviews.json": {
+      "bytes": 2598,
+      "sha256": "b1d8adbc90d2f26a5f2191da03b5a85c51fd9adfc69f4c51e63a81f586a50cc7"
+    },
+    "predeclared.json": {
+      "bytes": 537,
+      "sha256": "44ac78d726687f0c6802dbbd01f39781c63f4fc99f562485a94aefba0dd7dd40"
+    },
+    "rubric.json": {
+      "bytes": 4361,
+      "sha256": "3f528708cf2b38a3c936f4cc3e29c032a4c5fd9c04bc699ffc106624a31ab44b"
+    }
+  },
+  "mode": "smoke",
+  "network": "Python audit hook denies socket connection, bind and DNS; no downloads/providers",
+  "run_id": "99e3816bc3959a3beb141b01cf64540021a12056aa4954d4021fec900bd43050",
+  "runtime": {
+    "implementation": "CPython",
+    "machine": "arm64",
+    "packages": {},
+    "python": "3.11.14"
+  },
+  "scope": "public_invented",
+  "source": {
+    "__init__.py": {
+      "bytes": 80,
+      "sha256": "3f5320e3ac0b0a0985e68221693dc095b5b82bf009984a565d04a08b4879c2d6"
+    },
+    "__main__.py": {
+      "bytes": 3837,
+      "sha256": "5a3a864cedaf832764a4e10b32d505f15aafc80d5edf4b86b44776d9d3d6d517"
+    },
+    "evaluation.py": {
+      "bytes": 8519,
+      "sha256": "7a5574988de432cc980f7d2c5e94c5d4ab9d235ef237fec231f190844434e9eb"
+    },
+    "test_evaluation.py": {
+      "bytes": 7545,
+      "sha256": "e4007e104712f8796aa70176fd405bee0f35c1ecd5521da4c658e1fb5a29d67b"
+    },
+    "topics.py": {
+      "bytes": 1959,
+      "sha256": "bbbfb62639a39ee7d18d6f8bd4061b351488c3561018a449bb837625604d568d"
+    },
+    "verify.py": {
+      "bytes": 2534,
+      "sha256": "5cf24a7c52974fa04a7209eb7c047ac106137336c8694b27f26f3ca74860e563"
+    }
+  },
+  "threads": 1
+}

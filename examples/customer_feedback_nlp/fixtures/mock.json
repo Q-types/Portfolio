@@ -1,0 +1,253 @@
+{
+  "annotations": [
+    {
+      "prediction_id": "P01",
+      "prediction_sha256": "30b1c9802239e2c106bfd97d3e4aa56fcff6cdbccd82fe7e1406756342ead819",
+      "reason": "Retains delay duration.",
+      "reference_ids": [
+        "F01"
+      ],
+      "specific": true,
+      "support": "supported"
+    },
+    {
+      "prediction_id": "P02",
+      "prediction_sha256": "4688cbc410dff9bc4f31d84bdef125e93f16e0a754a912fbddea9900bb300465",
+      "reason": "Repeated issue; no second credit.",
+      "reference_ids": [
+        "F01"
+      ],
+      "specific": true,
+      "support": "supported"
+    },
+    {
+      "prediction_id": "P03",
+      "prediction_sha256": "8d480353e3a26bc29f526811cb7d48b4f5e8f807887c1675964d7ccc98410bfe",
+      "reason": "Issue supported; category intentionally wrong.",
+      "reference_ids": [
+        "F03"
+      ],
+      "specific": true,
+      "support": "supported"
+    },
+    {
+      "prediction_id": "P04",
+      "prediction_sha256": "2af6806c7b0c5a94d028211c2a5972bf3ceb78320889868a2384541e73014ac0",
+      "reason": "Access failure does not establish payment theft.",
+      "reference_ids": [],
+      "specific": false,
+      "support": "unsupported"
+    },
+    {
+      "prediction_id": "P05",
+      "prediction_sha256": "5051050009f2f6ff2ef08f46d84e9769341d887a354d965da8a1d52e1245a69f",
+      "reason": "Explicit no-issue control; no refund evidence.",
+      "reference_ids": [],
+      "specific": false,
+      "support": "unsupported"
+    },
+    {
+      "prediction_id": "P06",
+      "prediction_sha256": "c335814a35527bcdbc79f8743cba596102e2158769375806c7812244e8dbd956",
+      "reason": "Cause is uncertain; definite attribution overreaches.",
+      "reference_ids": [],
+      "specific": false,
+      "support": "ambiguous"
+    },
+    {
+      "prediction_id": "P07",
+      "prediction_sha256": "f4195a58b6d17c7a1b2a01aeaa35de60d1249c49e49c502ed75f246190da6c7e",
+      "reason": "Omits email and duration; weak actionable specificity.",
+      "reference_ids": [
+        "F06"
+      ],
+      "specific": false,
+      "support": "supported"
+    },
+    {
+      "prediction_id": "P08",
+      "prediction_sha256": "aca90490fc156da6c7943b803cb4b7b0ded370b35a236cc51836a9047000e840",
+      "reason": "Matches stated issue.",
+      "reference_ids": [
+        "F08"
+      ],
+      "specific": true,
+      "support": "supported"
+    },
+    {
+      "prediction_id": "P09",
+      "prediction_sha256": "f4cec3e94ecdb790a2b98847bc919df059381ca1aec75fdce0ea8335059546b2",
+      "reason": "Preserves first-delivery qualifier.",
+      "reference_ids": [
+        "F09"
+      ],
+      "specific": true,
+      "support": "supported"
+    },
+    {
+      "prediction_id": "P10",
+      "prediction_sha256": "577d142b513184916fbf5ca07cd9a7581e2ee5216a9ead03460119113031242b",
+      "reason": "Contradicts replacement arriving on time.",
+      "reference_ids": [],
+      "specific": false,
+      "support": "unsupported"
+    },
+    {
+      "prediction_id": "P11",
+      "prediction_sha256": "155ef9904faee6f54fd5e5a7af960f203ca0395b7347e9ef7fe2e790d255a480",
+      "reason": "Separate review identity despite same text.",
+      "reference_ids": [
+        "F10"
+      ],
+      "specific": true,
+      "support": "supported"
+    }
+  ],
+  "predictions": [
+    {
+      "category": "delivery",
+      "claim": "Delivery was three days late.",
+      "id": "P01",
+      "review_id": "I01",
+      "span": {
+        "end": 30,
+        "review_sha256": "b2e6c436e2dc39f77280a65e69dc8f0cd92f4803c20e105d331689ed5c867721",
+        "start": 15,
+        "text": "three days late"
+      }
+    },
+    {
+      "category": "delivery",
+      "claim": "The parcel was delayed by three days.",
+      "id": "P02",
+      "review_id": "I01",
+      "span": {
+        "end": 30,
+        "review_sha256": "b2e6c436e2dc39f77280a65e69dc8f0cd92f4803c20e105d331689ed5c867721",
+        "start": 15,
+        "text": "three days late"
+      }
+    },
+    {
+      "category": "delivery",
+      "claim": "There were two charges for one order.",
+      "id": "P03",
+      "review_id": "I02",
+      "span": {
+        "end": 19,
+        "review_sha256": "c01b02a9defc12ced484dbca78d13dabfb230ed3424493659614e4f7cb45449b",
+        "start": 6,
+        "text": "charged twice"
+      }
+    },
+    {
+      "category": "billing",
+      "claim": "The locker stole the payment.",
+      "id": "P04",
+      "review_id": "I03",
+      "span": {
+        "end": 28,
+        "review_sha256": "56328162e16f2cc2ae7fb7b6581467c3777d9e487b00374e068ceb9b7a1b7af1",
+        "start": 4,
+        "text": "access code did not open"
+      }
+    },
+    {
+      "category": "billing",
+      "claim": "A refund was refused.",
+      "id": "P05",
+      "review_id": "I04",
+      "span": {
+        "end": 46,
+        "review_sha256": "78a01b0730d86c2bd94b8bec30d1411fd2f06bfc19d6d2acdc3b29bde9c2d6b0",
+        "start": 29,
+        "text": "everything worked"
+      }
+    },
+    {
+      "category": "checkout",
+      "claim": "The checkout service was defective.",
+      "id": "P06",
+      "review_id": "I05",
+      "span": {
+        "end": 58,
+        "review_sha256": "bdfba5a77c9e1353136baa73304d5a40fb80ff9105060cfe818a4c689ed8dd1a",
+        "start": 0,
+        "text": "Checkout froze once, though it may have been my connection"
+      }
+    },
+    {
+      "category": "support",
+      "claim": "Support had a problem.",
+      "id": "P07",
+      "review_id": "I06",
+      "span": {
+        "end": 44,
+        "review_sha256": "9302bf833997a13f7a45147a78f6dc10c7cba1eef390fc323ed1c457e26fced6",
+        "start": 8,
+        "text": "did not answer my email for six days"
+      }
+    },
+    {
+      "category": "delivery",
+      "claim": "The parcel was late.",
+      "id": "P08",
+      "review_id": "I08",
+      "span": {
+        "end": 23,
+        "review_sha256": "526ba1f03e8140d5a6e0669baa57c4e3bb580ce2a5b2ba45a4218ffb5d8d989c",
+        "start": 4,
+        "text": "parcel arrived late"
+      }
+    },
+    {
+      "category": "delivery",
+      "claim": "The first delivery was late.",
+      "id": "P09",
+      "review_id": "I09",
+      "span": {
+        "end": 27,
+        "review_sha256": "8791bc839cb65644ff2ec2124850c4022dff210eb6c425add61f6eda49444932",
+        "start": 4,
+        "text": "first delivery was late"
+      }
+    },
+    {
+      "category": "delivery",
+      "claim": "Every delivery was late.",
+      "id": "P10",
+      "review_id": "I09",
+      "span": {
+        "end": 60,
+        "review_sha256": "8791bc839cb65644ff2ec2124850c4022dff210eb6c425add61f6eda49444932",
+        "start": 0,
+        "text": "The first delivery was late; the replacement arrived on time"
+      }
+    },
+    {
+      "category": "delivery",
+      "claim": "The parcel was late.",
+      "id": "P11",
+      "review_id": "I13",
+      "span": {
+        "end": 23,
+        "review_sha256": "526ba1f03e8140d5a6e0669baa57c4e3bb580ce2a5b2ba45a4218ffb5d8d989c",
+        "start": 4,
+        "text": "parcel arrived late"
+      }
+    }
+  ],
+  "review_ids": [
+    "I01",
+    "I02",
+    "I03",
+    "I04",
+    "I05",
+    "I06",
+    "I07",
+    "I08",
+    "I09",
+    "I13"
+  ],
+  "scope": "authored_mock_not_model_output"
+}

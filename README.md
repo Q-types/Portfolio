@@ -16,6 +16,8 @@ I completed the University of Cambridge PACE Career Accelerator in Data Science 
 
 [Student dropout](projects/student-dropout/README.md) · [Customer-feedback NLP](projects/customer-feedback-nlp/README.md) · [Customer segmentation](projects/customer-segmentation/README.md) · [Ship-engine anomalies](projects/ship-engine-anomalies/README.md) · [QSol solution finder](projects/qsol-solution-finder/README.md) · [Engineering workflow](projects/engineering-workflow/README.md)
 
+[Customer-feedback evaluation](examples/customer_feedback_nlp/README.md) adds traceable authored issue judgments and an actual offline LDA comparison on independently invented reviews. Original coursework evidence and publication limits remain separate.
+
 The [corrected ship-sensor example](examples/ship_engine_anomalies/README.md) executes statistical rules, SVM, Isolation Forest and target-isolated RF/ridge comparisons on independently invented data. Original coursework remains separate; real-data fault performance is unmeasured.
 
 The completed student-dropout study now has a [runnable staged classification example](examples/student_dropout/README.md): invented data, train-only preprocessing, development-selected thresholds and a retained comparison across three decision times. Its synthetic results are separate from the original study.
